@@ -18,8 +18,7 @@
             <h1 id="titolo"><span xml:lang="en">Bed and Breakfast</span> Boscoverde</h1>
         </div>
 
-        <div id="menu"></div>
-        <script src="menu.js" type="text/javascript"></script>
+        <?php include("menu.php"); ?>
 
         <div class="tutto">
             <img id="imgBeB" src="img/B&B_Nevegal.jpg" alt="B&B Nevegal"/>  <!--IMMAGINE B&B-->
@@ -33,11 +32,11 @@
             </ul>
 
             <p class="testo">
-                Nel nostro B&B ogni camera e' dotata di arredamento completo: letti (possibilità a scelta di letto matrimoniale
+                Nel nostro B&B ogni camera e' dotata di arredamento completo: letti (possibilitÃ  a scelta di letto matrimoniale
                 o di due letti separati), comodini e divano; set di biancheria da camera completo; televisione;
                 fornitura di energia elettrica; riscaldamento; aria condizionata; pulizie quotidiane.
-                Situato sul colle del Nevegal, una delle più affascinanti località del bellunese,
-                meta adatta sia per chi vuole rilassarsi sia a chi preferisce una vacanza più movimentata,divertimento ed
+                Situato sul colle del Nevegal, una delle piÃ¹ affascinanti localitÃ  del bellunese,
+                meta adatta sia per chi vuole rilassarsi sia a chi preferisce una vacanza piÃ¹ movimentata,divertimento ed
                 esplorazione infatti non mancheranno grazie a sentieri di montagna immersi nella natura,
                 pareti di roccia per gli amanti delle scalate, piste da sci e molto altro ancora!
             </p>
