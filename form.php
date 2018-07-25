@@ -20,10 +20,10 @@
 		
 		<?php include("menu.php"); ?>
 	
-		<form id="form" action="esegui.php" method="post" name="datiUtenti">
+		<form id="form" action="manda_mail.php" method="post" name="datiUtenti">
 			Nome : <input type="text" name="nome" /><br/>
 			Cognome : <input type="text" name="cognome"/><br/>
-			E-mail : <input type="text" name="emain" /><br/>
+			E-mail : <input type="text" name="email" /><br/>
 			Telefono : <input type="text" name="telefono"/><br/>
 			Messaggio :</br>
 			<textarea name="testo" cols="40" rows="5"></textarea><br/>

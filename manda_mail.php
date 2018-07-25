@@ -7,7 +7,7 @@
      $messaggio = $_POST['testo'];
      $riceviMail = isset($_POST['mail']) ? $_POST['CONTRATTO'] : 'no';
      
-     $mailTo ='Bed&BrekfastGeG@info.it';
+     $mailTo ='fioresegiulia@hotmail.com';
      $headers = 'from: '.$mailFrom;
      
      mail($mailTo, 'contatti', $message, $headers);
@@ -15,7 +15,7 @@
      if($riceviMail == 'yes')
      mail($mailFrom, 'Copia mail', $message, $headers);
      
-     header('location: contatti.php?mailsend');
+    header("location: form.php");
 
 
 ?>
