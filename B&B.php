@@ -28,7 +28,7 @@
                 <p>
                 Situato a Caviola, a 7 minuti dal impianto di risalita del comprensorio sciistico San Pellegrino
                 la Stella del Viandante offre connessione WiFi e parcheggio privato gratuiti.
-                    <br/><a href="falcade.html" target="_blank">Maggiori informazioni </a>
+                    <br/><a href="falcade.php" target="_blank">Maggiori informazioni </a>
                 </p>
             </div>
             <div class="clr"></div>
@@ -48,7 +48,7 @@
                     Abbiamo tre camere, di cui due con bagno privato interno, la terza con bagno privato esterno alla stanza; ogni
                     camera ha l&apos;impianto
                     di condizionamento e climatizzazione.
-                    <br/><a href="ilBorgo.html" target="_blank">Maggiori informazioni</a>
+                    <br/><a href="ilBorgo.php" target="_blank">Maggiori informazioni</a>
                 </p>
             </div>
             <div class="clr"></div>
@@ -66,7 +66,7 @@
                 <h1>B&B Cadore Haus</h1>
                 <p>
                     Nel cuore delle Dolomiti, la Cadore Haus offre momenti di assoluto relax a contatto con la natura.
-                    <br/><a href="cadorehaus.html" target="_blank">Maggiori informazioni</a>
+                    <br/><a href="cadorehaus.php" target="_blank">Maggiori informazioni</a>
                 </p>
             </div>
             <div class="clr"></div>
@@ -85,7 +85,7 @@
                 <p>
                     Le camere sono climatizzate e includono arredi in stile classico e moderno e un bagno privato.
                     Ogni mattina viene servita una colazione dolce a base di prodotti da forno, marmellate e bevande calde e fredde.
-                    <br/><a href="lacorte.html">Maggiori informazioni</a>
+                    <br/><a href="lacorte.php">Maggiori informazioni</a>
                 </p>
             </div>
             <div class="clr"></div>
@@ -104,7 +104,7 @@
                 <p>
                     Situato a Caviola, a 7 minuti dal impianto di risalita del comprensorio sciistico San Pellegrino
                     il Col Di Neve offre connessione WiFi e parcheggio privato gratuiti.
-                    <br/><a href="nevegal.html">Maggiori informazioni</a>
+                    <br/><a href="nevegal.php">Maggiori informazioni</a>
                 </p>
             </div>
             <div class="clr"></div>
