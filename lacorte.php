@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
         <title>LA CORTE BED & BREAKFAST</title>
         <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
@@ -21,8 +21,7 @@
             </h1>
         </div>
 
-        <div id="menu"></div>
-        <script src="menu.js" type="text/javascript"></script>
+        <?php include("menu.php"); ?>
 
         <div class="tutto">
 
@@ -44,8 +43,8 @@
                 calde e fredde.
                 Nel centro di Rosolina troverete un autobus che conduce alla spiaggia.
                 Le coppie apprezzano molto la posizione: l'hanno valutata 9,1 per un viaggio a due.
-                Questa è anche la struttura con il miglior punteggio per il rapporto qualità-prezzo a Rosolina!
-                Rispetto ad altre strutture di questa città, gli ospiti ottengono di più spendendo meno.
+                Questa Ã¨ anche la struttura con il miglior punteggio per il rapporto qualitÃ -prezzo a Rosolina!
+                Rispetto ad altre strutture di questa cittÃ , gli ospiti ottengono di piÃ¹ spendendo meno.
             </p>
 
             <div id="imgCamere">
