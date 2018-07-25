@@ -21,8 +21,8 @@
 <?php include("menu.php"); ?>
 
 <div class="tutto">
-    <img id="" src="Img/B&B_Falcade.jpg" alt="B&B Falcade"/>  <!--IMMAGINE B&B-->
-    <img id="img/logoB&B_Falcade.jpg" src="" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
+    <img id="imgBeB" src="img/B&B_Falcade.jpg" alt="B&B Falcade"/>  <!--IMMAGINE B&B-->
+    <img id="logoBeB" src="img/logoB&B_Falcade.jpg" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
     <ul id="info">
         <li>Telefono: 00000000 </li>
         <li>Indirizzo: Via Danilo Busin 7, Falcade </li>
@@ -37,6 +37,12 @@
         minibar e, in alcuni casi, di balcone con vista sulle montagne
     </p>
 
+
+    <div id="imgCamere">
+    <img class="camera" src="img/camera_Falcade.jpg" alt="Camera"/>
+    <img class="camera" src="img/camera_Falcade2.jpg" alt="Camera"/>
+
+    </div>
 </div>
 
 </body>
