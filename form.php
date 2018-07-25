@@ -2,18 +2,36 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	<head>
 		<title>BED & BREAKFAST'S's GEG</title>
+		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
+        	<link rel="stylesheet" type="text/css" href="B&B_style.css" media="screen"/>
+        	<link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
 	</head>
-	<body>
-		<form action="esegui.php" method="post" name="datiUtenti">
+	<body id="contatti">
+		<div id="header">
+      		  <div id="logo">
+        	    <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+        	    <div id="testologo">
+                    	Bed & Breakfast
+                    </div>
+                  </div>
+                  <h1  id="titolo"><span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr></h1>
+                </div>
+		
+		<?php include("menu.php"); ?>
+		
+		<form id="form" action="esegui.php" method="post" name="datiUtenti">
 			Nome : <input type="text" name="nome" /><br/>
-			Età : <input type="text" name="eta" /><br/>
-			Genere : <select name="genere">
-						<option value="uomo" selected="selected">uomo</option>
-						<option value="donna">donna</option>
-					</select><br/>
-			Suggerimenti :</br>
+			Cognome : <input type="text" name="cognome"/><br/>
+			E-mail : <input type="text" name="emain" /><br/>
+			Numero : <input type="text" name="telefono"/><br/>
+			Messaggio :</br>
 			<textarea name="testo" cols="40" rows="5"></textarea><br/>
-			<button type="submit">fkjhfduk</button>
+			<label for="Ricevi email">Spunta se vuoi ricevere questo messaggio sulla tua email.</laberl>
+			<input type="checkbox" name="mail" id="action" value="action"/>
+			<button type="submit">Invia</button>
 		</form>
+		
+		<?php include("footer.php"); ?>
 	</body>
 </html>
