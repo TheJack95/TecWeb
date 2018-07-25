@@ -17,8 +17,7 @@
       <h1  id="titolo"><span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr></h1>
     </div>
 
-    <div id="menu"></div>
-    <script src="menu.js" type="text/javascript"></script>
+    <?php include("menu.php"); ?>
 
     <div class="tutto">
       <p class="testo">
