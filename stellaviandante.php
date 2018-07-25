@@ -15,7 +15,7 @@
             Bed & Breakfast
         </div>
     </div>
-    <h1 id="">B&B La Stella del Viandante</h1> 
+    <h1 id="titolo">B&B La Stella del Viandante</h1> 
 </div>
 
 <?php include("menu.php"); ?>

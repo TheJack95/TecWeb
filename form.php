@@ -19,16 +19,16 @@
                 </div>
 		
 		<?php include("menu.php"); ?>
-		
+	
 		<form id="form" action="esegui.php" method="post" name="datiUtenti">
 			Nome : <input type="text" name="nome" /><br/>
 			Cognome : <input type="text" name="cognome"/><br/>
 			E-mail : <input type="text" name="emain" /><br/>
-			Numero : <input type="text" name="telefono"/><br/>
+			Telefono : <input type="text" name="telefono"/><br/>
 			Messaggio :</br>
 			<textarea name="testo" cols="40" rows="5"></textarea><br/>
-			<label for="Ricevi email">Spunta se vuoi ricevere questo messaggio sulla tua email.</laberl>
 			<input type="checkbox" name="mail" id="action" value="action"/>
+			<label for="Ricevi email">Spunta se vuoi ricevere questo messaggio sulla tua email.</label><br/>
 			<button type="submit">Invia</button>
 		</form>
 		
