@@ -1,13 +1,17 @@
-#menu ul {
+#home .home, #BandB .BandB, #pren .pren, #contatti .contatti, #AP .AP
+{
+    background-color: #BD091B;
+    color: white;
+}
+
+#menu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #fffefc;
+    background:none;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 0;
-
+    background-color:black;
+    margin-bottom:0.5em;
 }
 
 #menu li {
@@ -21,28 +25,27 @@
 
 #menu li:last-child {
     float: right;
-    border: 1px solid black;
+    background-color:#BD091B;
 }
+
+#menu li:last-child a{
+    color:white;
+}
+
 
 #menu li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 #menu li a:hover {
-    background-color: black;
-    color: white;
-}
-
-#menu .active {
     background-color: #595857;
     color: white;
 }
 
-#menu {
-    margin:1% 2% 1% 2%;
-    margin-bottom: 1em;
-}
+
+

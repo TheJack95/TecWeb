@@ -12,6 +12,8 @@ html, body {
 	margin: auto;
 }
 
+body {background-color: gray; }
+
 #header{
 	margin:1% 2% 1% 2%;
 	border:1px solid black;
@@ -19,12 +21,17 @@ html, body {
 	-moz-box-shadow:-1px 0px 22px -1px rgba(0,0,0,0.75);
 	box-shadow:-1px 0px 22px -1px rgba(0,0,0,0.75);
 	overflow: auto;
+	background-color:white;
 }
 
 .tutto {
 	overflow: auto;
 	border: 2px solid black;
+	color:black;
+	background-color:white;
 }
+
+
 
 
 /* PARTE  HEADER  */

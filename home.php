@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
   </head>
   
-  <body>
+  <body id="home">
     <div id="header">
       <div id="logo">
         <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>

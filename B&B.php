@@ -8,34 +8,35 @@
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
     </head>
 
-    <body>
-        <div id="header">
-            <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
-                <div id="testologo">
-                    Bed & Breakfast
-                </div>
-            </div>
-            <h1 id="titolo"><span xml:lang="en">BED & BREAKFAST'S <abbr title="Giulia Erik Giacomo">GEG</abbr></span></h1>
+    <body id="BandB">
+     <div id="header">
+      <div id="logo">
+        <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+        <div id="testologo">
+          Bed & Breakfast
         </div>
+      </div>
+      <h1  id="titolo"><span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr></h1>
+    </div>
+
 
         <?php include("menu.php"); ?>
 
         <div class="container">
-            <img src="img/B&B_Nevegal.jpg" alt="B&B Nevegal"/>
+            <img src="img/B&B_Falcade.jpg" alt="B&B Falcede"/>
             <div class="desc">
                 <h1>B&B La Stella del Viandante</h1>
                 <p>
                 Situato a Caviola, a 7 minuti dal impianto di risalita del comprensorio sciistico San Pellegrino
                 la Stella del Viandante offre connessione WiFi e parcheggio privato gratuiti.
-                    <br/><a href="falcade.php" target="_blank">Maggiori informazioni </a>
+                    <br/><a href="stellaviandante.php" target="_blank">Maggiori informazioni </a>
                 </p>
             </div>
             <div class="clr"></div>
             <ul>
                 <li>Telefono: 000000000</li>
-                <li>Indirizzo: Via Visome 211, Belluno</li>
-                <li><a href="https://goo.gl/maps/zkUznEEVUAo" target="_blank">Vedi sulla mappa</a></li>
+                <li>Indirizzo: Via Danilo Busin 7, Falcade </li>
+                <li><a href="https://goo.gl/maps/WKHxmnzboQG2" target="_blank">Vedi sulla mappa</a></li>
             </ul>
 
         </div>
@@ -102,9 +103,8 @@
             <div class="desc">
                 <h1>B&B Boscoverde</h1>
                 <p>
-                    Situato a Caviola, a 7 minuti dal impianto di risalita del comprensorio sciistico San Pellegrino
-                    il Col Di Neve offre connessione WiFi e parcheggio privato gratuiti.
-                    <br/><a href="nevegal.php">Maggiori informazioni</a>
+                    Nel nostro B&B ogni camera e' dotata di arredamento completo: letti (possibilità a scelta di letto matrimoniale o di due letti separati), comodini e divano; set di biancheria da camera completo; televisione; fornitura di energia elettrica; riscaldamento; aria condizionata; pulizie quotidiane.
+                    <br/><a href="boscoverde.php">Maggiori informazioni</a>
                 </p>
             </div>
             <div class="clr"></div>
