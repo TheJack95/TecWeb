@@ -2,8 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	<head>
 		<title>BED & BREAKFAST'S's GEG</title>
+		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
+    		<link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
 	</head>
 	<body>
+		<?php include("menu.php"); ?>
 		<form action="esegui.php" method="post" name="datiUtenti">
 			Nome : <input type="text" name="nome" /><br/>
 			Età : <input type="text" name="eta" /><br/>
