@@ -4,6 +4,7 @@
     <title>BED & BREAKFAST'S's GEG</title>
     <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
   </head>
   
   <body id="home">
@@ -62,5 +63,8 @@
         <li>Servizio taxi da/per la stazione pi&ugrave; vicina</li>
       </ul>
     </div>
+
+    <?php include("footer.php"); ?>
+
   </body>
 </html>
