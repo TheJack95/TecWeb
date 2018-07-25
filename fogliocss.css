@@ -1,0 +1,124 @@
+/* Cadore Haus CSS */
+
+* {
+	padding: 0;
+	margin: auto;
+}
+
+html, body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	max-width: 95%;
+	margin: auto;
+}
+
+#header{
+	margin:1% 2% 1% 2%;
+	border:1px solid black;
+	-webkit-box-shadow:-1px 0px 22px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow:-1px 0px 22px -1px rgba(0,0,0,0.75);
+	box-shadow:-1px 0px 22px -1px rgba(0,0,0,0.75);
+	overflow: auto;
+}
+
+.tutto {
+	overflow: auto;
+	border: 2px solid black;
+}
+
+
+/* PARTE  HEADER  */
+#logo{
+	float:left;
+	width:17%;
+	height:30%;
+	text-align:center;
+}
+
+#logo img{
+	width:50%;
+}
+
+#testologo{
+	font-family:Verdana;
+	font-size:1.5vw;
+	font-style:italic;
+}
+
+#logoBeB {
+	float: right;
+	width: 13vw;
+	padding: 5.2vw;
+}
+
+#titolo {
+	color: #BD091B;
+	font-size: 4.5vw;
+	font-weight: bolder;
+	padding: 0.7vw
+
+}
+
+/* FINE PARTE  HEADER  */
+
+abbr {
+    text-decoration: none;
+}
+
+/* PARTE BODY  */
+
+#imgBeB{
+	float: left;
+	width: 27vw;
+	padding: 1.5vw;
+}
+
+#info {
+	list-style:none;
+	text-align:left;
+	padding: 4vw;
+	margin-left: 27vw;
+	font-size: 1.3vw;
+}
+
+#logoBeB {
+	float: right;
+	width: 15vw;
+	padding-top: 2vw;
+	padding-right: 5.2vw;
+}
+
+.testo {
+	text-align: justify;
+	padding: 1.3vw;
+	font-size: 1.3vw;
+	clear:left;
+}
+
+#imgCamere {
+	margin: 2.7vw;
+	text-align: center;
+}
+
+.camera {
+	margin: 2.7vw;
+	width: 28vw;
+	height: 23vw;
+}
+
+/* FINE PARTE  BODY  */
+
+
+
+/* liste nella home*/
+#lista1 {
+    float: left;
+    margin-left: 5.2vw;
+    padding: 1.5vw;
+}
+
+#lista2 {
+    float:right;
+    margin-right: 5.2vw;
+    padding:1.2vw;
+}
