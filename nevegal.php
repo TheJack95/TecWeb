@@ -3,7 +3,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
         <title>BED & BREAKFAST Boscoverde</title>
-        <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
+        <link rel="icon" href="img/logogeg.jpg"/>
+        <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
     </head>
 
@@ -41,6 +42,12 @@
                 pareti di roccia per gli amanti delle scalate, piste da sci e molto altro ancora!
             </p>
 
+
+
+        <div id="imgCamere">
+            <img class="camera" src="img/camera_Nevegal.jpg" alt="Camera"/>
+            <img class="camera" src="img/camera_Nevegal2.jpg" alt="Camera"/>
+        </div>
         </div>
 
     </body>
