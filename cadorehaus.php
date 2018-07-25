@@ -24,8 +24,7 @@
 			</h1>
 		</div>
 
-		<div id="menu"></div>
-		<script src="menu.js" type="text/javascript"></script>
+		<?php include("menu.php"); ?>
 
 		<div class="tutto">
 
