@@ -19,7 +19,7 @@
             <h1 id="titolo"><span xml:lang="en">BED & BREAKFAST'S <abbr title="Giulia Erik Giacomo">GEG</abbr></span></h1>
         </div>
 
-        <?php include("menu.html"); ?>
+        <?php include("menu.php"); ?>
 
         <div class="container">
             <img src="img/B&B_Nevegal.jpg" alt="B&B Nevegal"/>
