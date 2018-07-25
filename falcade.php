@@ -18,8 +18,7 @@
     <h1 id="">B&B La Stella del Viandante</h1> <--NOME B&B-->
 </div>
 
-<div id="menu"></div>
-<script src="menu.js" type="text/javascript"></script>
+<?php include("menu.php"); ?>
 
 <div class="tutto">
     <img id="" src="Img/B&B_Falcade.jpg" alt="B&B Falcade"/>  <!--IMMAGINE B&B-->
