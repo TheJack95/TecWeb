@@ -7,31 +7,24 @@
 #menu {
     list-style-type: none;
     overflow: hidden;
-    background:none;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    background-color:black;
     margin-bottom:0.5em;
+    background-color:black;
 }
 
 #menu li {
     float: left;
-    border-right: 1px solid black;
-}
-
-#menu li:nth-child(4) {
-    border-right: none;
 }
 
 #menu li:last-child {
     float: right;
-    background-color:#BD091B;
+    background-color: #BD091B;
 }
 
 #menu li:last-child a{
     color:white;
 }
-
 
 #menu li a {
     display: block;
@@ -40,6 +33,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
+    margin:0;
 }
 
 #menu li a:hover {
