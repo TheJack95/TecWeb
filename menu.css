@@ -5,8 +5,8 @@
 }
 
 #menu {
-    list-style-type: none;
     overflow: hidden;
+    list-style-type: none;
     margin-bottom:0.5em;
     background-color:black;
 }
@@ -14,6 +14,7 @@
 #menu ul {
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    top: 0;
 }
 
 #menu li {
@@ -44,5 +45,24 @@
     color: white;
 }
 
+#dropdown {
+    list-style-type: none;
+    margin-bottom:0.5em;
+    background-color:black;
+    display:none;
+}
 
+#dropdown li {
+    float: none;
+}
+
+
+#dropdown li:last-child {
+    float: none;
+    background-color: black;
+}
+
+#menu li:hover #dropdown {
+    display: block;
+}
 
