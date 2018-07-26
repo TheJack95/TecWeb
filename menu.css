@@ -7,10 +7,13 @@
 #menu {
     list-style-type: none;
     overflow: hidden;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
     margin-bottom:0.5em;
     background-color:black;
+}
+
+#menu ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
 }
 
 #menu li {
