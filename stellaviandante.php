@@ -13,10 +13,10 @@
     <div id="logo">
         <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
         <div id="testologo">
-            Bed & Breakfast's GEG
+            Bed & Breakfast
         </div>
     </div>
-    <h1 id="">B&B La Stella del Viandante</h1> <--NOME B&B-->
+    <h1 id="titolo">B&B La Stella del Viandante</h1>
 </div>
 
 <?php include("menu.php"); ?>
