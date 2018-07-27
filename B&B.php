@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="B&B_style.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
     </head>
 
     <body id="BandB">
@@ -23,16 +24,16 @@
         <?php include("menu.php"); ?>
 
         <div class="container">
-            <img src="img/B&B_Falcade.jpg" alt="B&B Falcede"/>
             <div class="desc">
                 <h1>B&B La Stella del Viandante</h1>
+		<img src="img/B&B_Falcade.jpg" alt="B&B Falcede"/>
                 <p>
                 Situato a Caviola, a 7 minuti dal impianto di risalita del comprensorio sciistico San Pellegrino
                 la Stella del Viandante offre connessione WiFi e parcheggio privato gratuiti.
                     <br/><a href="stellaviandante.php" target="_blank">Maggiori informazioni </a>
                 </p>
             </div>
-            <div class="clr"></div>
+            
             <ul>
                 <li>Telefono: 000000000</li>
                 <li>Indirizzo: Via Danilo Busin 7, Falcade </li>
@@ -42,9 +43,9 @@
         </div>
 
         <div class="container">
-            <img src="img/ilborgo.jpg" alt="B&B Al Borgo"/>
             <div class="desc">
                 <h1>B&B Al Borgo</h1>
+		<img src="img/ilborgo.jpg" alt="B&B Al Borgo"/>
                 <p>
                     Abbiamo tre camere, di cui due con bagno privato interno, la terza con bagno privato esterno alla stanza; ogni
                     camera ha l&apos;impianto
@@ -52,7 +53,7 @@
                     <br/><a href="ilBorgo.php" target="_blank">Maggiori informazioni</a>
                 </p>
             </div>
-            <div class="clr"></div>
+            
             <ul>
                 <li>Telefono: 000000000</li>
                 <li>Indirizzo: Via Ventolone, 435032 Arqu&agrave; Petrarca (PD)</li>
@@ -62,15 +63,15 @@
         </div>
 
         <div class="container">
-            <img src="img/cadore.jpg" alt="B&B Cadore Haus"/>
             <div class="desc">
                 <h1>B&B Cadore Haus</h1>
+		<img src="img/cadore.jpg" alt="B&B Cadore Haus"/>
                 <p>
-                    Nel cuore delle Dolomiti, la Cadore Haus offre momenti di assoluto relax a contatto con la natura.
+                    Nel cuore delle Dolomiti, la Cadore Haus offre momenti di assoluto relax a contatto con la natura. Ricavato dall'antica dependance dell'Albergo Cadore, la casa vanta stanze accoglienti e curate. La costruzione si trova nel centro del paese, a pochi passi dalla chiesa di San Lucano, nella frazione di Villapiccola.
                     <br/><a href="cadorehaus.php" target="_blank">Maggiori informazioni</a>
                 </p>
             </div>
-            <div class="clr"></div>
+           
             <ul>
                 <li>Telefono: 000000000</li>
                 <li>Indirizzo: Via Saletta, 30, 32041 Auronzo di Cadore (BL)</li>
@@ -80,16 +81,16 @@
         </div>
 
         <div class="container">
-            <img src="img/Rosolina1.jpg" alt="B&B La Corte"/>
             <div class="desc">
                 <h1>B&B La Corte</h1>
+		<img src="img/Rosolina1.jpg" alt="B&B La Corte"/>
                 <p>
                     Le camere sono climatizzate e includono arredi in stile classico e moderno e un bagno privato.
                     Ogni mattina viene servita una colazione dolce a base di prodotti da forno, marmellate e bevande calde e fredde.
                     <br/><a href="lacorte.php">Maggiori informazioni</a>
                 </p>
             </div>
-            <div class="clr"></div>
+            
             <ul>
                 <li>Telefono: 000000000</li>
                 <li>Indirizzo: Via Bassafonda 46, 45010 Rosolina (RO)</li>
@@ -99,15 +100,15 @@
         </div>
 
         <div class="container">
-            <img src="img/B&B_Nevegal.jpg" alt="B&B Nevegal"/>
             <div class="desc">
                 <h1>B&B Boscoverde</h1>
+   		<img src="img/B&B_Nevegal.jpg" alt="B&B Nevegal"/>
                 <p>
                     Nel nostro B&B ogni camera e' dotata di arredamento completo: letti (possibilità a scelta di letto matrimoniale o di due letti separati), comodini e divano; set di biancheria da camera completo; televisione; fornitura di energia elettrica; riscaldamento; aria condizionata; pulizie quotidiane.
                     <br/><a href="boscoverde.php">Maggiori informazioni</a>
                 </p>
             </div>
-            <div class="clr"></div>
+            
             <ul>
                 <li>Telefono: 000000000</li>
                 <li>Indirizzo: Via Visome 211, Belluno</li>
@@ -115,7 +116,7 @@
             </ul>
 
         </div>
-
+    <?php include("footer.php"); ?>
     </body>
 
 </html>

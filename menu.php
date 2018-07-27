@@ -1,5 +1,5 @@
-<div id="nav">
-  <ul id="menu">
+<div id="menu">
+  <ul>
     <li><a class="home" href="home.php">Home</a></li>
     <li><a class="BandB" href="B&B.php">Bed & Breakfast</a>
       <ul id="dropdown">

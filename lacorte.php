@@ -6,6 +6,7 @@
         <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/> 
     </head>
 
     <body>
@@ -53,7 +54,7 @@
             </div>
 
         </div>
-
+    <?php include("footer.php"); ?>
     </body>
 
 </html>

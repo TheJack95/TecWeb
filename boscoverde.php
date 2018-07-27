@@ -44,12 +44,12 @@
             </p>
 
 
-
         <div id="imgCamere">
             <img class="camera" src="img/camera_Nevegal.jpg" alt="Camera"/>
             <img class="camera" src="img/camera_Nevegal2.jpg" alt="Camera"/>
         </div>
-        </div>
+
+      </div>
        <?php include("footer.php"); ?>
     </body>
 
