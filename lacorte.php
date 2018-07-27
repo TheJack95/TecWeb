@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-        <title>LA CORTE BED & BREAKFAST</title>
+        <title>B&B La Corte</title>
         <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -22,7 +22,9 @@
             </h1>
         </div>
 
-        <?php include("menu.php"); ?>
+        <div class="menu">
+		<?php include("menu.php"); ?>
+	</div>
 
         <div class="tutto">
 

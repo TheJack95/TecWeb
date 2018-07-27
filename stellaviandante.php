@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
-    <title>BED & BREAKFAST Col Di Neve</title>
+    <title>B&B La Stella del Viandante</title>
     <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
@@ -19,7 +19,9 @@
     <h1 id="titolo">B&B La Stella del Viandante</h1>
 </div>
 
-<?php include("menu.php"); ?>
+<div class="menu">
+		<?php include("menu.php"); ?>
+	</div>
 
 <div class="tutto">
     <img id="imgBeB" src="img/B&B_Falcade.jpg" alt="B&B Falcade"/>  <!--IMMAGINE B&B-->

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
-        <title>BED & BREAKFAST IL BORGO</title>
+        <title>B&B Al Borgo</title>
         <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -22,7 +22,9 @@
             </h1>
         </div>
 
-        <?php include("menu.php"); ?>
+        <div class="menu">
+		<?php include("menu.php"); ?>
+	</div>
 
         <div class="tutto">
 

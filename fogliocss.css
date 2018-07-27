@@ -10,41 +10,43 @@ html, body {
 	margin: auto;
 }
 
-body {background-color: gray; }
+body {
+	background-color: gray;
+}
 
-#header{
-	margin:1% 2% 1% 2%;
-	border:1px solid black;
+#header {
+	margin: 1% 2% 1% 2%;
+	border: 1px solid black;
 	-webkit-box-shadow:-1px 0px 22px -1px rgba(0,0,0,0.75);
 	-moz-box-shadow:-1px 0px 22px -1px rgba(0,0,0,0.75);
 	box-shadow:-1px 0px 22px -1px rgba(0,0,0,0.75);
 	overflow: auto;
-	background-color:white;
+	background-color: white;
 }
 
 .tutto {
 	overflow: auto;
 	border: 2px solid black;
-	color:black;
-	background-color:white;
+	color: black;
+	background-color: white;
 }
 
 /* PARTE  HEADER  */
-#logo{
-	float:left;
-	width:17%;
-	height:30%;
-	text-align:center;
+#logo {
+	float: left;
+	width: 17%;
+	height: 30%;
+	text-align: center;
 }
 
-#logo img{
-	width:50%;
+#logo img {
+	width: 50%;
 }
 
-#testologo{
-	font-family:Verdana;
-	font-size:1.5vw;
-	font-style:italic;
+#testologo {
+	font-family: Verdana;
+	font-size: 1.5vw;
+	font-style: italic;
 }
 
 #logoBeB {
@@ -69,15 +71,15 @@ abbr {
 
 /* PARTE BODY  */
 
-#imgBeB{
+#imgBeB {
 	float: left;
 	width: 27vw;
 	padding: 1.5vw;
 }
 
 #info {
-	list-style:none;
-	text-align:left;
+	list-style: none;
+	text-align: left;
 	padding: 4vw;
 	margin-left: 27vw;
 	font-size: 1.3vw;
@@ -94,7 +96,7 @@ abbr {
 	text-align: justify;
 	padding: 1.3vw;
 	font-size: 1.3vw;
-	clear:both;
+	clear: both;
 }
 
 #imgCamere {
@@ -120,7 +122,11 @@ abbr {
 }
 
 #lista2 {
-    float:right;
+    float: right;
     margin-right: 5.2vw;
-    padding:1.2vw;
+    padding: 1.2vw;
+}
+
+.menu {
+	height: 5em;
 }

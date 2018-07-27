@@ -9,10 +9,10 @@
 }
 
 #footer ul li {
-   display:inline;
+   display: inline;
    font-style: italic;
-   color:white;
-   text-align:center;
-   line-height:1.5em;
-   padding:1.5rem;
+   color: white;
+   text-align: center;
+   line-height: 1.5em;
+   padding: 1.5em;
 }
