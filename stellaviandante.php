@@ -13,10 +13,10 @@
     <div id="logo">
         <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
         <div id="testologo">
-            Bed & Breakfast
+            Bed & Breakfast's GEG
         </div>
     </div>
-    <h1 id="titolo">B&B La Stella del Viandante</h1>
+    <h1 id="">B&B La Stella del Viandante</h1> <--NOME B&B-->
 </div>
 
 <?php include("menu.php"); ?>
@@ -32,8 +32,14 @@
     </ul>
 
     <p class="testo" style="clear:left">
-        Situato a Caviola, a 7 minuti dal impianto di risalita del comprensorio sciistico San Pellegrino
-        il Boscoverde offre connessione WiFi e parcheggio privato gratuiti. Arredate in stile alpino,
+        Il nostro grazioso Bed&Breakfast nasce con la passione per la montagna e la natura,
+	scegliendo il paesino di Caviola (frazione di Falcade) caratteristico paese di montagna. Passeggiando
+	si possono osservare i Tabià tipici fienili e il torrente Biois circondato da
+	cime incontaminate come il gruppo del Focobon, Pale di San Martino, Marmolada e il Civetta.
+	La nostra struttura con 10 stanze, è collocata in una delle Valli più belle e suggestive
+	delle Dolomiti Bellunesi dichiarate Patrimonio Unesco.<br/>
+	Situato a 7 minuti dal impianto di risalita del comprensorio sciistico San Pellegrino,
+	la Stella del Viandante offre connessione WiFi e parcheggio privato gratuiti. Arredate in stile alpino,
         tutte le camere sono dotate di bagno privato fornito di doccia e set cortesia, TV a schermo piatto,
         minibar e, in alcuni casi, di balcone con vista sulle montagne
     </p>
