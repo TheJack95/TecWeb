@@ -7,7 +7,7 @@
 				<li><a href="boscoverde.php">B&B Boscoverde</a></li>
 				<li><a href="cadorehaus.php">B&B Cadore Haus</a></li>
 				<li><a href="lacorte.php">B&B La Corte</a></li>
-				<li><a href="stellaviandante.php">B&B La Stella del Viandante</a></li>
+				<li class="last"><a href="stellaviandante.php">B&B La Stella del Viandante</a></li>
 			</ul>
 		</li>
 		<li><a class="pren" href="">Prenotazioni</a></li>

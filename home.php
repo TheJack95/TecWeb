@@ -18,9 +18,7 @@
       <h1  id="titolo"><span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr></h1>
     </div>
 
-	<div class="menu">
-		<?php include("menu.php"); ?>
-	</div>
+    <?php include("menu.php"); ?>
 
     <div class="tutto">
       <p class="testo">
@@ -46,7 +44,8 @@
         Se vuoi informazioni pi&ugrave; precise contattaci o richiedi un preventivo
         per un soggiorno in una delle nostre strutture. Siamo a tua disposizione!
       </p>
-
+      
+      <div id="servizi">
       <ul id="lista1">
         <h3>I servizi compresi:</h3>
         <li><span xml:lang="en">Check-in</span> e <span xml:lang="en">check-out</span> alle 8 alle 20</li>
@@ -64,7 +63,14 @@
         <li>Noleggio sci e scarponi (solo nelle strutture bellunesi)</li>
         <li>Servizio taxi da/per la stazione pi&ugrave; vicina</li>
       </ul>
-    </div>
+     </div>
+
+     <div id="imgCamere">
+ 	<img class="camera" src="img/homeborgo.jpg" alt="Borgo" />
+	<img class="camera" src="img/homedolomiti.jpg" alt="Dolomiti" />
+     </div>
+
+    </div> <-- fine class tutto -->
 
     <?php include("footer.php"); ?>
 

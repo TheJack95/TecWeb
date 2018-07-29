@@ -22,10 +22,11 @@ body {
 	box-shadow:-1px 0px 22px -1px rgba(0,0,0,0.75);
 	overflow: auto;
 	background-color: white;
+	
 }
 
 .tutto {
-	overflow: auto;
+        clear:both;
 	border: 2px solid black;
 	color: black;
 	background-color: white;
@@ -73,7 +74,8 @@ abbr {
 
 #imgBeB {
 	float: left;
-	width: 27vw;
+	width:350px; 
+        height:250px;
 	padding: 1.5vw;
 }
 
@@ -100,21 +102,29 @@ abbr {
 }
 
 #imgCamere {
-	margin: 2.7vw;
+	margin: 2.5em;
 	text-align: center;
 }
 
 .camera {
-	margin: 2.7vw;
-	width: 28vw;
-	height: 23vw;
+	margin: 2.5em;
+	margin-top: 0;
+	width: 400px;
+        height: 300px;
 }
+
 
 /* FINE PARTE  BODY  */
 
 
 
 /* liste nella home*/
+
+#servizi {
+    margin: 2.5em;
+    overflow:hidden;
+}
+
 #lista1 {
     float: left;
     margin-left: 5.2vw;
@@ -127,6 +137,3 @@ abbr {
     padding: 1.2vw;
 }
 
-.menu {
-	height: 5em;
-}

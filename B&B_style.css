@@ -7,7 +7,7 @@
     margin:auto;
     margin-bottom:5em;
     box-shadow:10px 10px 10px lightgray;
-    overflow: hidden;
+    clear:both;
 }
 
 .desc {

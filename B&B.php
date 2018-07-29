@@ -20,9 +20,7 @@
 			<h1 id="titolo"><span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr></h1>
 		</div>
 		
-		<div class="menu">
-			<?php include("menu.php"); ?>
-		</div>
+		<?php include("menu.php"); ?>
 		
 		<div class="container">
 			<div class="desc">
