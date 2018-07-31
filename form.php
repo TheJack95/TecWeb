@@ -22,37 +22,29 @@
         </div>
 
         <?php include("menu.php"); ?>
-        
-	<div class="tutto">
-            <p class="testo">
-		Per qualsiasi informazione o reclamo, in questa pagina trovi il form per contattare la direzione di 
-		<abbr title="Giulia Erik Giacomo">GEG</abbr>.
-	    </p>
 
-        </div>
-		<form id="contact" method="post" action="manda_mail.php" name="datiUtenti">
-			<div>
-				<label class="label-cont" for="nome">Nome</label>
-				<input class="prova" type="text" id="nome" name="nome"><br/>
 
-				<label class="label-cont" for="cognome">Cognome</label>
-				<input class="prova" type="text" id="cognome" name="cognome">
+        <form id="contact" method="post" action="invioform.php" name="datiUtenti">
+            <div>
+                <label class="label-cont" for="nome">Nome</label>
+                <input class="prova" type="text" id="nome" name="nome"><br/>
 
-				<label class="label-cont" for="email">E-Mail</label>
-				<input class="prova" type="text" id="email" name="email">
+                <label class="label-cont" for="cognome">Cognome</label>
+                <input class="prova" type="text" id="cognome" name="cognome">
 
-				<label class="label-cont" for="telefono">Telefono</label>
-				<input class="prova" type="text" id="telefono" name="telefono">
+                <label class="label-cont" for="email">E-Mail</label>
+                <input class="prova" type="text" id="email" name="email">
 
-				<label class="label-cont" for="message">Messaggio</label>
-				<textarea class="txt" id="message" name="message" placeholder="Scrivi qui la tua richiesta..."></textarea>
+                <label class="label-cont" for="telefono">Telefono</label>
+                <input class="prova" type="text" id="telefono" name="telefono">
 
-				<input type="checkbox" name="mail" id="action" value="action"/>
-				<label for="ricevuta">Contrassegna se vuoi ricevere questo messaggio sulla tua cassella di posta</label><br/>
+                <label class="label-cont" for="message">Messaggio</label>
+                <textarea class="txt" id="message" name="message" placeholder="Scrivi qui la tua richiesta..."></textarea>
 
-				<button class="go" type="submit" value="invia">Invia</button>
-			</div>
-		</form>
+                <button class="go" type="submit" value="invia">Invia</button>
+            </div>
+        </form>
+
 
         <?php include("footer.php"); ?>
 	</body>
