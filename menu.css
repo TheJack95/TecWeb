@@ -60,8 +60,8 @@
 }
 
 #menu ul li {
-	float: left;
-	position: relative;
+    float: left;
+    position: relative;
 }
 
 #dropdown {
@@ -70,12 +70,12 @@
 }
 
 #menu ul li:last-child {
-	float: right;
-	background-color: #0066ff;
+    float: right;
+    background-color: #0066ff;
 }
 
 #menu ul ul li:last-child {
-	float: left;
-	background-color: black;
+    float: left;
+    background-color: black;
 }
 

@@ -29,27 +29,27 @@
 			<?php include("menu.php"); ?>
 		</div>
 
-		<div class="tutto">
+        <div class="tutto">
 
-			<img id="imgBeB" src="img/cadore.jpg" alt="Ecco come si presenta la Cadore Haus, con i suoi splendidi balconi in legno adornati di fiori."/>
-			<img id="logoBeB" src="img/logocadore.png" alt="Logo Cadore Haus"/>
+            <img id="imgBeB" src="img/cadore.jpg" alt="Ecco come si presenta la Cadore Haus, con i suoi splendidi balconi in legno adornati di fiori."/>
+            <img id="logoBeB" src="img/logocadore.png" alt="Logo Cadore Haus"/>
 
-			<ul id="info">
-				<li>Telefono: 0000000000</li>
-				<li>Indirizzo: Via Saletta, 30, 32041 Auronzo di Cadore BL</li>
-				<li><a href="https://goo.gl/maps/RNhypTnWjv92" target="_blank">Vedi sulla mappa</a></li>
-				<li><a href="">Prenota o richiendi maggiori informazioni</a></li>
-			</ul>
+            <ul id="info">
+                <li>Telefono: 0000000000</li>
+                <li>Indirizzo: Via Saletta, 30, 32041 Auronzo di Cadore BL</li>
+                <li><a href="https://goo.gl/maps/RNhypTnWjv92" target="_blank">Vedi sulla mappa</a></li>
+                <li><a href="">Prenota o richiendi maggiori informazioni</a></li>
+            </ul>
 
-			<p class="testo">Nel cuore delle Dolomiti, la Cadore Haus offre momenti di assoluto relax a contatto con la natura.
-				Ricavato dall'antica dependance dell'Albergo Cadore, la casa vanta stanze accoglienti e curate. La costruzione si trova nel centro del paese, a pochi passi dalla chiesa di San Lucano, nella frazione di Villapiccola. Costruita nel 1904 e convertita in attivit&agrave; ricettiva nel 2006, la Cadore Haus vanta una grande attenzione ai dettagli e uno spiccato senso dello stile. Gli interni sono rivestiti da boiserie in legno progettate e realizzate da abili artigiani della zona. Ogni particolare &egrave; stato scelto per creare un'atmosfera di familiarit&agrave; e assoluta eleganza. La casa trae ispirazione dagli alberghi di inizio secolo: le pareti in legno, i ricchi tendaggi e i pregevoli mobili d'antiquariato che la arredano ne fanno un luogo ideale per trascorrere dei momenti indimenticabili tra le Alpi. La struttura si articola su due piani: al piano terra si trova la reception, una piccola hall e la sala dove viene servita la colazione. Al primo piano si trovano le camere, ciascuna dotata di bagno autonomo.</p>
+            <p class="testo">Nel cuore delle Dolomiti, la Cadore Haus offre momenti di assoluto relax a contatto con la natura.
+                Ricavato dall'antica dependance dell'Albergo Cadore, la casa vanta stanze accoglienti e curate. La costruzione si trova nel centro del paese, a pochi passi dalla chiesa di San Lucano, nella frazione di Villapiccola. Costruita nel 1904 e convertita in attivit&agrave; ricettiva nel 2006, la Cadore Haus vanta una grande attenzione ai dettagli e uno spiccato senso dello stile. Gli interni sono rivestiti da boiserie in legno progettate e realizzate da abili artigiani della zona. Ogni particolare &egrave; stato scelto per creare un'atmosfera di familiarit&agrave; e assoluta eleganza. La casa trae ispirazione dagli alberghi di inizio secolo: le pareti in legno, i ricchi tendaggi e i pregevoli mobili d'antiquariato che la arredano ne fanno un luogo ideale per trascorrere dei momenti indimenticabili tra le Alpi. La struttura si articola su due piani: al piano terra si trova la reception, una piccola hall e la sala dove viene servita la colazione. Al primo piano si trovano le camere, ciascuna dotata di bagno autonomo.</p>
 
 
-			<div id="imgCamere">
-				<img class="camera" src="img/cadoremobilio.jpg" alt="Camera" width="350" height="250"/>
-				<img class="camera" src="img/cadorecamere.jpg" alt="Camera" width="350" height="250"/>
-			</div>
-		</div>
+            <div id="imgCamere">
+                <img class="camera" src="img/cadoremobilio.jpg" alt="Camera" width="350" height="250"/>
+                <img class="camera" src="img/cadorecamere.jpg" alt="Camera" width="350" height="250"/>
+            </div>
+        </div>
         <?php include("footer.php"); ?>
 	</body>
 
