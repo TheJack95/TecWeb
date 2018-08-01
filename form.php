@@ -24,7 +24,7 @@
         <?php include("menu.php"); ?>
 
 
-        <form id="contact" method="post" action="invioform.php" name="datiUtenti">
+        <form id="contact" method="post" action="invioContatto.php" name="datiUtenti">
             <div>
                 <label class="label-cont" for="nome">Nome</label>
                 <input class="prova" type="text" id="nome" name="nome"><br/>
