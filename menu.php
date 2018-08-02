@@ -1,4 +1,4 @@
-<div id="menu">
+<div class="menu">
     <ul>
         <li><a class="home" href="home.php">Home</a></li>
         <li class="dropdown">

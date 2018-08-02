@@ -4,14 +4,14 @@
     color: white;
 }
 
-#menu {
+.menu {
     clear:both;
     position:sticky;
     position: -webkit-sticky;
     top:0;
 }
 
-#menu ul {
+.menu ul {
     list-style-type: none;
     margin-bottom: 0.5em;
     padding: 0;
@@ -19,11 +19,11 @@
     background-color: #272727;
 }
 
-#menu li {
+.menu li {
     float: left;
 }
 
-li a, .BandB {
+.menu a, .BandB {
     display: inline-block;
     color: white;
     text-align: center;
@@ -32,11 +32,11 @@ li a, .BandB {
     font-weight: bold
 }
 
-li a:hover, .dropdown:hover .BandB {
+.menu li a:hover, .dropdown:hover .BandB {
     background-color: #333;
 }
 
-li.dropdown {
+.menu li.dropdown {
     display: inline-block;
 }
 
@@ -61,7 +61,7 @@ li.dropdown {
     display: block;
 }
 
-#menu ul li:last-child {
+.menu ul li:last-child {
     float: right;
     background-color: #0066ff;
 }

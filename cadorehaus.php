@@ -25,9 +25,8 @@
 			</h1>
 		</div>
 
-		<div class="menu">
-			<?php include("menu.php"); ?>
-		</div>
+		<?php include("menu.php"); ?>
+
 
         <div class="tutto">
 

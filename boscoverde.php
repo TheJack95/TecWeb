@@ -20,9 +20,7 @@
             <h1 id="titolo"><span xml:lang="en">Bed and Breakfast</span> Boscoverde</h1>
         </div>
 
-        <div class="menu">
 		<?php include("menu.php"); ?>
-	</div>
 
         <div class="tutto">
             <img id="imgBeB" src="img/B&B_Nevegal.jpg" alt="B&B Nevegal"/>  <!--IMMAGINE B&B-->
