@@ -5,77 +5,63 @@
 }
 
 #menu {
-    background-color: black;
     clear:both;
     position:sticky;
     position: -webkit-sticky;
     top:0;
-    height: 3.1em;
-    margin-bottom:0.5em;
 }
 
 #menu ul {
-    margin-bottom: 0.5em;
-    font-weight: bold;
-    text-align: center;
     list-style-type: none;
+    margin-bottom: 0.5em;
+    padding: 0;
+    overflow: hidden;
+    background-color: #272727;
 }
 
-#menu ul li{
-    background-color: black;
-    border-bottom: none;
-    border-top: none;
+#menu li {
+    float: left;
+}
+
+li a, .BandB {
     display: inline-block;
-    text-decoration: none;
-}
-
-#menu ul li a {
-    display: block;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 14px 16px;
     text-decoration: none;
-    font-weight: bold;
-    margin:0;
+    font-weight: bold
 }
 
-#menu ul li a:hover{
-    background-color: #595857;
-    color: white;
+li a:hover, .dropdown:hover .BandB {
+    background-color: #333;
 }
 
-#dropdown {
-    list-style-type: none;
-    margin-bottom: 0.5em;
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
+    background-color: #272727;
+    min-width: 160px;
 }
 
-#dropdown li {
-    width: 250px;
-}
-
-#menu ul li:hover > #dropdown {
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
+    text-align: left;
 }
 
-#menu ul li {
-    float: left;
-    position: relative;
-}
+.dropdown-content a:hover {background-color: #333}
 
-#dropdown {
-    position: absolute;
-    left: 0;
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 #menu ul li:last-child {
     float: right;
     background-color: #0066ff;
 }
-
-#menu ul ul li:last-child {
-    float: left;
-    background-color: black;
-}
-

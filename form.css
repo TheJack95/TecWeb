@@ -1,38 +1,47 @@
 #contact {
-width: 46vw;
+    width: 46vw;
+    clear:both;
 }
 
 .label-cont {
-width: 10vw;
-float: left;
-margin-top: 0.5vw;
+    width: 10vw;
+    float: left;
+    margin-top: 0.5vw;
 }
 
 .prova {
-float: left;
-width: 35vw;
-height: 1.5vw;
-margin-top: 0.5vw;
+    float: left;
+    width: 35vw;
+    height: 1.5vw;
+    margin-top: 0.5vw;
+}
+
+select {
+    clear: both;
 }
 
 .txt {
-float: left;
-width: 35vw;
-height: 10vw;
-margin-top: 0.5vw;
+    float: left;
+    width: 35vw;
+    height: 10vw;
+    margin-top: 0.5vw;
 }
 
 #action {
-width: 15px;
-height: 15px;
-margin-top:0.5vw;
+    width: 15px;
+    height: 15px;
+    margin-top:0.5vw;
 }
 
 .go {
-font-size: 1.5vw;
-color: blue;
-padding: 0.5vw;
-margin: 1vw;
-float: right;
-width: 15vw;
+    font-size: 1.5vw;
+    color: blue;
+    padding: 0.5vw;
+    margin: 1vw;
+    float: right;
+    width: 15vw;
+}
+
+.error {
+    color: #BD091B;
 }

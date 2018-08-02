@@ -29,7 +29,7 @@
             <ul id="info">
                 <li>Telefono: 00000000 </li>
                 <li>Indirizzo: Via Danilo Busin 7, Falcade </li>
-                <li><a href= "https://goo.gl/maps/e6JwcoXmWN12" target="_blank">Vedi sulla mappa</a></li>
+                <li><a href="https://goo.gl/maps/e6JwcoXmWN12" target="_blank">Vedi sulla mappa</a></li>
                 <li><a href="">Prenota o richiendi maggiori informazioni</a></li>
             </ul>
 

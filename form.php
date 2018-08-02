@@ -17,35 +17,40 @@
                 </div>
             </div>
             <h1  id="titolo">
-		<span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
-	    </h1>
+                <span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
+            </h1>
         </div>
 
         <?php include("menu.php"); ?>
 
-
-        <form id="contact" method="post" action="invioContatto.php" name="datiUtenti">
+      
+        <form id="contact" method="post" action="robaForm/formvalid.php" name="datiUtenti">
             <div>
-                <label class="label-cont" for="nome">Nome</label>
+                <p><span class="error"><?php echo $OK;?></span></p>
+
+                <label class="label-cont" for="nome">Nome <span class="error">*</span> </label>
                 <input class="prova" type="text" id="nome" name="nome"><br/>
 
-                <label class="label-cont" for="cognome">Cognome</label>
+                <label class="label-cont" for="cognome">Cognome <span class="error">*</span></label>
                 <input class="prova" type="text" id="cognome" name="cognome">
 
-                <label class="label-cont" for="email">E-Mail</label>
+
+                <label class="label-cont" for="email">E-Mail <span class="error">*</span></label>
                 <input class="prova" type="text" id="email" name="email">
+
 
                 <label class="label-cont" for="telefono">Telefono</label>
                 <input class="prova" type="text" id="telefono" name="telefono">
 
-                <label class="label-cont" for="message">Messaggio</label>
-                <textarea class="txt" id="message" name="message" placeholder="Scrivi qui la tua richiesta..."></textarea>
+                <label class="label-cont" for="messaggio">Messaggio <span class="error">*</span></label>
+                <textarea class="txt" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
 
-                <button class="go" type="submit" value="invia">Invia</button>
+                <button class="go"  type="submit" value="invia">Invia</button>
+                <?php echo $txtOK;?>
             </div>
         </form>
 
 
         <?php include("footer.php"); ?>
-	</body>
+    </body>
 </html>
