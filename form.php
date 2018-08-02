@@ -23,7 +23,6 @@
 
         <?php include("menu.php"); ?>
 
-      
         <form id="contact" method="post" action="robaForm/formvalid.php" name="datiUtenti">
             <div>
                 <p><span class="error"><?php echo $OK;?></span></p>
