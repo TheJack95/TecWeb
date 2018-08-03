@@ -30,7 +30,7 @@
             Buona permanenza da tutto lo staff!
         </p>
 
-        <form id="contact" method="post" action="robaForm/formvalid.php" name="datiUtenti">
+        <form id="contact" method="post" action="formvalid.php">
             <div>
                 <p><span class="error"><?php echo $OK;?></span></p>
 
