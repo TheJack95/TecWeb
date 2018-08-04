@@ -1,19 +1,29 @@
 #contact {
-    width: 46vw;
+    width: 45vw;
     clear:both;
+}
+
+#input_rule{
+	width:100%;
+	margin:10px;
+	position: relative;
+	display: inline-block;
+}
+
+#button_rule{
+	
 }
 
 .label-cont {
     width: 10vw;
-    float: left;
-    margin-top: 0.5vw;
+    font-size:1.2vw;
 }
 
-.prova {
-    float: left;
+.input_text {
     width: 35vw;
-    height: 1.5vw;
-    margin-top: 0.5vw;
+    height: 2.5vw;
+    float:right;
+    font-size:1.2vw;
 }
 
 select {
@@ -21,10 +31,9 @@ select {
 }
 
 .txt {
-    float: left;
     width: 35vw;
     height: 10vw;
-    margin-top: 0.5vw;
+    float: right;
 }
 
 #action {
@@ -34,7 +43,7 @@ select {
 }
 
 .go {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color: blue;
     padding: 0.5vw;
     margin: 1vw;
@@ -42,6 +51,17 @@ select {
     width: 15vw;
 }
 
-.error {
+.important {
     color: #BD091B;
+}
+
+.error{
+	color: #BD091B;
+	float: right;
+	font-size: 1.2vw;
+}
+
+.submit_button{
+	padding: 10px 55px;
+    font-size: 1.2vw;
 }

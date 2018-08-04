@@ -70,7 +70,7 @@
                 <img class="camera" src="img/homedolomiti.jpg" alt="Dolomiti" />
             </div>
 
-        </div> <-- fine class tutto -->
+        </div> <!-- fine class tutto -->
 
         <?php include("footer.php"); ?>
 

@@ -6,14 +6,15 @@
 
 .menu {
     clear:both;
-    position:sticky;
-    position: -webkit-sticky;
+    position:relative;
+    font-size: 1.2vw;
     top:0;
+    margin-bottom: 0.5em;
+    border: 1px solid white;
 }
 
 .menu ul {
     list-style-type: none;
-    margin-bottom: 0.5em;
     padding: 0;
     overflow: hidden;
     background-color: #272727;

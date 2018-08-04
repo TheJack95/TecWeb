@@ -77,29 +77,30 @@
 
             
         <form id="contact" method="post" action="" name="datiUtenti">
-            <div>
-				
-                <label class="label-cont" for="nome">Nome <span class="error">*</span> </label>
-                <input class="prova" type="text" id="nome" name="nome"><?php echo $val_name?>
-
-                <label class="label-cont" for="cognome">Cognome <span class="error">*</span></label>
-                <input class="prova" type="text" id="cognome" name="cognome"><?php echo $val_surname?>
-
-
-                <label class="label-cont" for="email">E-Mail <span class="error">*</span></label>
-                <input class="prova" type="text" id="email" name="email"><?php echo $val_email?>
-
-
-                <label class="label-cont" for="telefono">Telefono</label>
-                <input class="prova" type="text" id="telefono" name="telefono">
-
-                <label class="label-cont" for="messaggio">Messaggio <span class="error">*</span></label>
-                <textarea class="txt" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
-                <?php echo $val_mex?>
-				<br><br>
-                <input type="submit" name="submit" value="Submit"> 
-                
-            </div>
+				<div id="input_rule">
+					<label class="label-cont" for="nome">Nome <span class="important">*</span> </label>
+					<input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_name?></div>
+				</div>
+				<div id="input_rule">
+					<label class="label-cont" for="cognome">Cognome <span class="important">*</span></label>
+					<input class="input_text" type="text" id="cognome" name="cognome"><div class="error"><?php echo $val_surname?></div>
+				</div>
+				<div id="input_rule">
+					<label class="label-cont" for="email">E-Mail <span class="important">*</span></label>
+					<input class="input_text" type="text" id="email" name="email"><div class="error"><?php echo $val_email?></div>
+				</div>
+				<div id="input_rule">
+					<label class="label-cont" for="telefono">Telefono</label>
+					<input class="input_text" type="text" id="telefono" name="telefono">
+				</div>
+				<div id="input_rule">
+					<label class="label-cont" for="messaggio">Messaggio <span class="important">*</span></label>
+					<textarea class="txt" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
+					<div class="error"><?php echo $val_mex?></div>
+				</div>
+				<div id="button_rule">
+					<input class="submit_button" type="submit" name="submit" value="Invia la tua richiesta"> 
+				</div>
         </form>
 
 		<?php
