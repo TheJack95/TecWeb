@@ -1,9 +1,9 @@
 #contact {
-    width: 45vw;
+    width: 40rem;
     clear:both;
 }
 
-#input_rule{
+.input_rule{
 	width:100%;
 	margin:10px;
 	position: relative;
@@ -15,40 +15,36 @@
 }
 
 .label-cont {
-    width: 10vw;
-    font-size:1.2vw;
+    width: 8rem;
+    font-size:1rem;
 }
 
 .input_text {
-    width: 35vw;
-    height: 2.5vw;
+    width: 30rem;
+    height: 2rem;
     float:right;
-    font-size:1.2vw;
-}
-
-select {
-    clear: both;
+    font-size:1.2rem;
 }
 
 .txt {
-    width: 35vw;
-    height: 10vw;
+    width: 30rem;
+    height: 8rem;
     float: right;
 }
 
 #action {
     width: 15px;
     height: 15px;
-    margin-top:0.5vw;
+    margin-top:0.3rem;
 }
 
 .go {
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     color: blue;
-    padding: 0.5vw;
-    margin: 1vw;
+    padding: 0.5rem;
+    margin: 1rem;
     float: right;
-    width: 15vw;
+    width: 15rem;
 }
 
 .important {
@@ -58,10 +54,21 @@ select {
 .error{
 	color: #BD091B;
 	float: right;
-	font-size: 1.2vw;
+	font-size: 1.2rem;
 }
 
 .submit_button{
 	padding: 10px 55px;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
+}
+
+.sel {
+    text-align: center;
+}
+
+.boh {
+    width: auto;
+    font-size:1rem;
+    padding:0.3rem;
+    margin:0.1em;
 }

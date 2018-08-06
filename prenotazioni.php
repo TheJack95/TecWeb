@@ -29,44 +29,61 @@
             spazio, verrai contattato il prima possibile.
             Buona permanenza da tutto lo staff!
         </p>
+        <?php include("formvalid.php"); ?>
 
-        <form id="contact" method="post" action="formvalid.php">
-            <div>
-                <p><span class="error"><?php echo $OK;?></span></p>
+        <div class="sel">
+            <select class="boh" name="BeB"> <div class="error"><?php echo $val_name?></div>
+                <option value="sel">Seleziona il Bed and Breakfast</option>
+                <option value="AlBorgo">Al Borgo</option>
+                <option value="CadoreHaus">Cadore Hause</option>
+                <option value="StelladelViandante">Stella del Viandante</option>
+                <option value="Boscoverde">Boscoverde</option>
+                <option value="LaCorte">La Corte</option>
+            </select>
+            <input class="boh" type="txt" name="Check-in" placeholder="Check-in" onfocus="(this.type='date')" id="Checkin"/><div class="error"> <?php echo $val_name?></div>
+            <input class="boh"type="txt" name="Check-out" placeholder="Check-out" onfocus="(this.type='date')" id="Checkout"/><div class="error"> <?php echo $val_name?></div>
+            <select class="boh" id="sel1" name="Persone"><?php echo $val_name?>
+                <option>Seleziona il numero di persone</option><div class="error"><?php echo $val_name?></div>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </div>
 
-                <label  for="BeB">Seleziona il Bed and Breakfast</label>
-                <select class="prova" name="BeB">
-                    <option value="AlBorgo">Al Borgo</option>
-                    <option value="CadoreHaus">Cadore Hause</option>
-                    <option value="StelladelViandante">Stella del Viandante</option>
-                    <option value="Boscoverde">Boscoverde</option>
-                    <option value="LaCorte">La Corte</option>
-                </select>
+        <form id="contact" method="post" action="" name="datiUtenti">
 
-                <label class="label-cont" for="nome">Nome <span class="error">*</span> </label>
-                <input class="prova" type="text" id="nome" name="nome"><br/>
-
-                <label class="label-cont" for="cognome">Cognome <span class="error">*</span></label>
-                <input class="prova" type="text" id="cognome" name="cognome">
-
-
-                <label class="label-cont" for="email">E-Mail <span class="error">*</span></label>
-                <input class="prova" type="text" id="email" name="email">
-
-
-                <label class="label-cont" for="telefono">Telefono</label>
-                <input class="prova" type="text" id="telefono" name="telefono">
-
-                <label class="label-cont" for="messaggio">Messaggio</label>
-                <textarea class="txt" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
-
-
-
-                <button class="go"  type="submit" value="invia">Invia</button>
-                <?php echo $txtOK;?>
+            <div class="input_rule">
+                <label class="label-cont" for="nome">Nome <span class="important">*</span> </label>
+                <input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_name?></div>
             </div>
-        </form>
 
+            <div class="input_rule">
+                <label class="label-cont" for="cognome">Cognome <span class="important">*</span></label>
+                <input class="input_text" type="text" id="cognome" name="cognome"><div class="error"><?php echo $val_surname?></div>
+            </div>
+
+            <div class="input_rule">
+                <label class="label-cont" for="email">E-Mail <span class="important">*</span></label>
+                <input class="input_text" type="text" id="email" name="email"><div class="error"><?php echo $val_email?></div>
+            </div>
+
+            <div class="input_rule">
+                <label class="label-cont" for="telefono">Telefono</label>
+                <input class="input_text" type="text" id="telefono" name="telefono">
+            </div>
+
+            <div class="input_rule">
+                <label class="label-cont" for="messaggio">Messaggio <span class="important">*</span></label>
+                <textarea class="txt" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
+                <div class="error"><?php echo $val_mex?></div>
+            </div>
+
+            <div id="button_rule">
+                <input class="submit_button" type="submit" name="submit" value="Prenotazione">
+            </div>
+
+        </form>
 
         <?php include("footer.php"); ?>
     </body>
