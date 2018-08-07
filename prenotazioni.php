@@ -29,29 +29,32 @@
             spazio, verrai contattato il prima possibile.
             Buona permanenza da tutto lo staff!
         </p>
+
         <?php include("formvalid.php"); ?>
 
-        <div class="sel">
-            <select class="boh" name="BeB">
-                <option value="sel">Seleziona il Bed and Breakfast</option>
-                <option value="AlBorgo">Al Borgo</option>
-                <option value="CadoreHaus">Cadore Hause</option>
-                <option value="StelladelViandante">Stella del Viandante</option>
-                <option value="Boscoverde">Boscoverde</option>
-                <option value="LaCorte">La Corte</option>
-            </select>
-            <input class="boh" type="txt" name="Check-in" placeholder="Check-in" onfocus="(this.type='date')" id="Check"/>
-            <input class="boh"type="txt" name="Check-out" placeholder="Check-out" onfocus="(this.type='date')" id="Check"/>
-            <select class="boh" id="sel1" name="Persone">
-                <option>Seleziona il numero di persone</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-            </select>
-        </div>
+
 
         <form id="contact" method="post" action="" name="datiUtenti">
+
+            <div class="sel">
+                <select class="boh" name="BeB">
+                    <option value="sel">Seleziona il Bed and Breakfast</option>
+                    <option value="AlBorgo">Al Borgo</option>
+                    <option value="CadoreHaus">Cadore Hause</option>
+                    <option value="StelladelViandante">Stella del Viandante</option>
+                    <option value="Boscoverde">Boscoverde</option>
+                    <option value="LaCorte">La Corte</option>
+                </select>
+                <input class="boh" type="txt" name="Checkin" placeholder="Check-in" onfocus="(this.type='date')" id="Check"/>
+                <input class="boh"type="txt" name="Checkout" placeholder="Check-out" onfocus="(this.type='date')" id="Check"/>
+                <select class="boh" id="sel1" name="Persone">
+                    <option>Seleziona il numero di persone</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
 
             <div class="input_rule">
                 <label class="label-cont" for="nome">Nome <span class="important">*</span> </label>
@@ -84,6 +87,7 @@
             </div>
 
         </form>
+        <?php include("invioPrenotazione.php"); ?>
 
         <?php include("footer.php"); ?>
     </body>
