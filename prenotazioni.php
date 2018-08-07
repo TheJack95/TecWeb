@@ -32,7 +32,7 @@
         <?php include("formvalid.php"); ?>
 
         <div class="sel">
-            <select class="boh" name="BeB"> <div class="error"><?php echo $val_name?></div>
+            <select class="boh" name="BeB">
                 <option value="sel">Seleziona il Bed and Breakfast</option>
                 <option value="AlBorgo">Al Borgo</option>
                 <option value="CadoreHaus">Cadore Hause</option>
@@ -40,10 +40,10 @@
                 <option value="Boscoverde">Boscoverde</option>
                 <option value="LaCorte">La Corte</option>
             </select>
-            <input class="boh" type="txt" name="Check-in" placeholder="Check-in" onfocus="(this.type='date')" id="Checkin"/><div class="error"> <?php echo $val_name?></div>
-            <input class="boh"type="txt" name="Check-out" placeholder="Check-out" onfocus="(this.type='date')" id="Checkout"/><div class="error"> <?php echo $val_name?></div>
-            <select class="boh" id="sel1" name="Persone"><?php echo $val_name?>
-                <option>Seleziona il numero di persone</option><div class="error"><?php echo $val_name?></div>
+            <input class="boh" type="txt" name="Check-in" placeholder="Check-in" onfocus="(this.type='date')" id="Check"/>
+            <input class="boh"type="txt" name="Check-out" placeholder="Check-out" onfocus="(this.type='date')" id="Check"/>
+            <select class="boh" id="sel1" name="Persone">
+                <option>Seleziona il numero di persone</option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
