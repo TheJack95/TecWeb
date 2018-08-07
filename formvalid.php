@@ -1,19 +1,21 @@
 <?php
 
 // define variables and set to empty values
-$OK= "* campo obbligatorio";
-$txtOK = "";
-$nome = $cognome  = $email = $telefono = $messaggio = "";
+$val_name = $val_surname = $val_email = $val_mex = "";
+$nome = $cognome  = $email = $telefono = $messaggio = $Checkin = $Checkout = $BeB = "";
+$all_values_ok = true;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["nome"])) {
-        $OK = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+        $val_name = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+        $all_values_ok = false;
     } else {
         $nome = test_input($_POST["nome"]);
     }
 
     if (empty($_POST["cognome"])) {
-        $OK = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+        $val_surname = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+        $all_values_ok = false;
     } else {
         $cognome= test_input($_POST["cognome"]);
     }
@@ -21,7 +23,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $telefono = $_POST["telefono"];
 
     if (empty($_POST["email"])) {
-        $OK = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+        $val_email = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+        $all_values_ok = false;
     } else {
         $email = test_input($_POST["email"]);
         // controllo su email
@@ -31,11 +34,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (empty($_POST["messaggio"])) {
-        $OK = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+        $all_values_ok = false;
+        $val_mex = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
     } else {
         $messaggio = test_input($_POST["messaggio"]);
     }
 
+    $Checkin = $_POST["Checkin"];
+    $Checkout = $_POST["Checkout"];
+    $BeB =$_POST["BeB"];
 }
 
 function test_input($data) {
