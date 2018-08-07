@@ -16,7 +16,9 @@
                     Bed & Breakfast
                 </div>
             </div>
-            <h1 id="titolo">B&B La Stella del Viandante</h1>
+            <h1 id="titoloBeB">
+               <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> La Stella del Viandante
+            </h1>
         </div>
 
 
@@ -29,7 +31,7 @@
                 <li>Telefono: 00000000 </li>
                 <li>Indirizzo: Via Danilo Busin 7, Falcade </li>
                 <li><a href="https://goo.gl/maps/e6JwcoXmWN12" target="_blank">Vedi sulla mappa</a></li>
-                <li><a href="">Prenota o richiendi maggiori informazioni</a></li>
+                <li><a href="prenotazioni.php">Prenota o richiendi maggiori informazioni</a></li>
             </ul>
 
             <p class="testo" style="clear:left">

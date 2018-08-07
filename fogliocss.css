@@ -18,12 +18,11 @@ body {
 #header {
 	margin: 1% 2% 1% 2%;
 	border: 1px solid black;
-	-webkit-box-shadow:-1px 0px 15px -1px black;
-	-moz-box-shadow:-1px 0px 15px -1px black;
-	box-shadow:-1px 0px 15px -1px black;
+	-webkit-box-shadow:-1px 0 15px -1px black;
+	-moz-box-shadow:-1px 0 15px -1px black;
+	box-shadow:-1px 0 15px -1px black;
 	overflow: auto;
 	background-color: white;
-
 }
 
 .tutto {
@@ -43,26 +42,39 @@ body {
 
 #logo img {
 	width: 50%;
+
 }
 
 #testologo {
 	font-family: Verdana;
-	font-size: 1.5vw;
+	font-size: 1.2rem;
 	font-style: italic;
 }
 
 #logoBeB {
 	float: right;
-	width: 13vw;
-	padding: 5.2vw;
+	width: 10rem;
+	padding: 4rem;
 }
 
 #titolo {
 	color: #BD091B;
-	font-size: 4.5vw;
+	font-size: 3.5rem;
 	font-weight: bolder;
-	padding: 0.7vw
+	padding: 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+}
 
+#titoloBeB {
+    color: #BD091B;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* FINE PARTE  HEADER  */
@@ -77,43 +89,49 @@ abbr {
 	float: left;
 	width:350px;
 	height:250px;
-	padding: 1.5vw;
+	padding: 1.5em;
 }
 
 #info {
 	list-style: none;
 	text-align: left;
-	padding: 4vw;
-	margin-left: 27vw;
-	font-size: 1.3vw;
+	padding: 2rem;
+	margin-left: 22rem;
+	font-size: 1.1rem;
 }
 
 #logoBeB {
 	float: right;
-	width: 15vw;
-	padding-top: 2vw;
-	padding-right: 5.2vw;
+	width: 10rem;
+	padding-top: 1.5rem;
+	padding-right: 3.5rem;
 }
 
 .testo {
 	text-align: justify;
-	padding: 1.3vw;
-	font-size: 1.3vw;
+	padding: 1.5rem;
+	font-size: 1.1rem;
 	clear: both;
 }
 
 #imgCamere {
-	margin: 2.5em;
+	margin: 2rem;
 	text-align: center;
 }
 
 .camera {
-	margin: 2.5em;
+	margin: 1.5rem;
 	margin-top: 0;
 	width: 400px;
 	height: 300px;
 }
 
+#homerosolina {
+    float:left;
+    width: 300px;
+    height: 200px;
+    margin-right: 1rem;
+}
 
 /* FINE PARTE  BODY  */
 
@@ -122,19 +140,19 @@ abbr {
 /* liste nella home*/
 
 #servizi {
-	margin: 2.5em;
+	margin: 2em;
 	overflow:hidden;
 }
 
 #lista1 {
 	float: left;
-	margin-left: 5.2vw;
-	padding: 1.5vw;
+	margin-left: 5rem;
+	padding: 1.2rem;
 }
 
 #lista2 {
 	float: right;
-	margin-right: 5.2vw;
-	padding: 1.2vw;
+	margin-right: 5rem;
+	padding: 1.2rem;
 }
 

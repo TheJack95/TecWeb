@@ -22,6 +22,7 @@
 
         <div class="tutto">
             <p class="testo">
+                <img id="homerosolina" src="img/homerosolina.jpg" alt="Rosolina" />
                 <span xml:lang="en">Bed & Breakfast's</span>  <abbr title="Giulia Erik Giacomo">G.E.G.</abbr> nasce nel 2017 dall'idea di tre
                 giovani imprenditori con l'intenzione di valorizzare delle strutture gi&agrave; esistenti, ma troppo piccole
                 per essere competitive singolarmente, creando una catena, senza per&ograv uniformarle.

@@ -7,12 +7,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $guid = GUID();
 
             // nome di host
-            $host = "";
+            $host = "localhost";
             // username dell'utente in connessione
-            $user = "";
+            $user = "root";
             // password dell'utente
-            $password = "";
-            $dbname = "";
+            $password = "giacomo";
+            $dbname = "prenotazioni";
 
 
 
@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $connessione = new mysqli($host, $user, $password, $dbname);
 
 
-            $sql = "INSERT INTO nometabella (id, nome, cognome, telefono, email, messaggio, Checkin, Checkout, BeB)
+            $sql = "INSERT INTO pren (id, nome, cognome, telefono, email, messaggio, Checkin, Checkout, BeB)
 								VALUES ('$guid','$nome','$cognome','$telefono','$email','$messaggio','$Checkin', '$Checkout', '$BeB' )";
 
             if ($connessione->query($sql) === TRUE) {

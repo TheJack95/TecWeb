@@ -4,27 +4,27 @@
     background-size:cover;
     width: 80%;
     margin:auto;
-    margin-bottom:5em;
+    margin-bottom:5rem;
     box-shadow:10px 10px 10px lightgray;
     clear:both;
 }
 
 .desc {
     float:left;
-    padding:0.8em;
-    margin-top: 1em;
+    padding:0.8rem;
+    margin-top: 1rem;
 }
 
 .desc img {
     width:350px;
     height:250px;
-    margin:1em;
+    margin:1rem;
     float:left;
     box-shadow: 10px 10px 10px gray;
 }
 
 .container p {
-    margin:1em;
+    margin:1rem;
     line-height:30px;
     font-family: Arial;
     font-size:16px;
@@ -32,8 +32,8 @@
 }
 
 .container ul {
-    margin:2em;
-    font-size:16px;
+    margin:2rem;
+    font-size:11rem;
     width:100%;
     list-style: none;
     text-align:center;
@@ -42,7 +42,7 @@
 
 .container li {
     display:inline;
-    margin:1.5em;
+    margin:1.5rem;
 }
 
 .desc h1{

@@ -17,8 +17,8 @@
                     Bed & Breakfast
                 </div>
             </div>
-            <h1 id="titolo">
-                <span xml:lang="en">Bed and Breakfast</span> Al Borgo
+            <h1 id="titoloBeB">
+                <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> Al Borgo
             </h1>
         </div>
 
@@ -33,7 +33,7 @@
                 <li>Telefono: 0000000000</li>
                 <li>Indirizzo: Via Ventolone, 435032 Arqu&agrave; Petrarca (PD)</li>
                 <li><a href="https://goo.gl/maps/9VnRUVpRX7C2" target="_blank">Vedi sulla mappa</a></li>
-                <li><a href="">Prenota o richiendi maggiori informazioni</a></li>
+                <li><a href="prenotazioni.php">Prenota o richiendi maggiori informazioni</a></li>
             </ul>
 
             <p class="testo">

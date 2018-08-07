@@ -17,8 +17,8 @@
                     Bed & Breakfast
                 </div>
             </div>
-            <h1 id="titolo">
-                <span xml:lang="en">Bed and Breakfast</span> La Corte
+            <h1 id="titoloBeB">
+                <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> La Corte
             </h1>
         </div>
 
@@ -33,7 +33,7 @@
                 <li>Telefono: +39 0000 000000</li>
                 <li>Indirizzo: Via Bassafonda 46, 45010 Rosolina (RO)</li>
                 <li><a href="https://goo.gl/maps/R8aMwSJQsUs" target="_blank">Vedi sulla mappa</a></li>
-                <li><a href="">Prenota o richiendi maggiori informazioni</a></li>
+                <li><a href="prenotazioni.php">Prenota o richiendi maggiori informazioni</a></li>
             </ul>
 
             <p class="testo">

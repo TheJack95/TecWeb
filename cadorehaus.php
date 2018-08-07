@@ -20,8 +20,8 @@
 					Bed & Breakfast
 				</div>
 			</div>
-			<h1 id="titolo">
-				<span xml:lang="en">Bed and Breakfast</span> Cadore Haus
+			<h1 id="titoloBeB">
+                <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> Cadore Haus
 			</h1>
 		</div>
 
@@ -37,7 +37,7 @@
                 <li>Telefono: 0000000000</li>
                 <li>Indirizzo: Via Saletta, 30, 32041 Auronzo di Cadore BL</li>
                 <li><a href="https://goo.gl/maps/RNhypTnWjv92" target="_blank">Vedi sulla mappa</a></li>
-                <li><a href="">Prenota o richiendi maggiori informazioni</a></li>
+                <li><a href="prenotazioni.php">Prenota o richiendi maggiori informazioni</a></li>
             </ul>
 
             <p class="testo">Nel cuore delle Dolomiti, la Cadore Haus offre momenti di assoluto relax a contatto con la natura.

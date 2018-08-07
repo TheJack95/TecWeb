@@ -1,15 +1,46 @@
 <?php
-    $conn = new mysqli('localhost', 'root', 'giacomo', 'form');
-    if($conn->connect_error)
-        die($conn->connect_error);
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $nome = $_POST['nome'];
-    $cognome = $_POST['cognome'];
-    $telefono = $_POST['telefono'];
-    $mailFrom = $_POST['email'];
-    $messaggio = $_POST['messaggio'];
+    if (isset($_POST['submit'])) {
+        if($all_values_ok)
+        {
+            $guid = GUID();
 
-    $query = "INSERT INTO Contatto VALUES('0','$nome','$cognome','$telefono','$mailFrom','$messaggio')";
-    
-    $conn->query($query);
-?>
+            // nome di host
+            $host = "localhost";
+            // username dell'utente in connessione
+            $user = "root";
+            // password dell'utente
+            $password = "giacomo";
+            $dbname = "form";
+
+
+
+            // stringa di connessione al DBMS
+            $connessione = new mysqli($host, $user, $password, $dbname);
+
+
+            $sql = "INSERT INTO Contatto (id, nome, cognome, telefono, email, messaggio)
+								VALUES ('$guid','$nome','$cognome','$telefono','$email', '$messaggio')";
+
+            if ($connessione->query($sql) === TRUE) {
+                echo "Messaggio inviato con successo";
+            } else {
+                echo "Errore: messaggio non inviato. Riprovare";
+            }
+
+
+            // chiusura della connessione
+            $connessione->close();
+        }
+    }
+}
+function GUID()
+{
+    /*if (function_exists('com_create_guid') === true)
+    {
+        return trim(com_create_guid(), '{}');
+    }*/
+
+    return sprintf('%04X%04X', mt_rand(0, 65535), mt_rand(0, 65535));
+}

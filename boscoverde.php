@@ -17,7 +17,9 @@
                     Bed & Breakfast
                 </div>
             </div>
-            <h1 id="titolo"><span xml:lang="en">Bed and Breakfast</span> Boscoverde</h1>
+            <h1 id="titoloBeB">
+                <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> Boscoverde
+            </h1>
         </div>
 
 		<?php include("menu.php"); ?>
@@ -30,7 +32,7 @@
                 <li>Telefono: 00000000 </li>
                 <li>Indirizzo: Via Visome 211, Belluno </li>
                 <li><a href= "https://goo.gl/maps/zkUznEEVUAo" target="_blank">Vedi sulla mappa</a></li>
-                <li><a href="">Prenota o richiendi maggiori informazioni</a></li>
+                <li><a href="prenotazioni.php">Prenota o richiendi maggiori informazioni</a></li>
             </ul>
 
             <p class="testo">

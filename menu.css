@@ -12,6 +12,7 @@
     top:0;
     margin-bottom: 0.5rem;
     border: 1px solid white;
+    z-index: 1;
 }
 
 .menu ul {
@@ -47,6 +48,7 @@
     position: absolute;
     background-color: #272727;
     min-width: 160px;
+
 }
 
 .dropdown-content a {
