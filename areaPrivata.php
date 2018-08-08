@@ -6,8 +6,9 @@
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="login.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="areaPrivata.css" media="screen"/>
     </head>
-
+<div class="container">
     <body id="AP">
         <div id="header">
             <div id="logo">
@@ -23,9 +24,11 @@
 
         <?php include("menu.php"); ?>
         
-        <?php include("leggiDatabase.php")?>
-        
-        <?php include("footer.php"); ?>
+        <?php include("leggiDatabase.php");?>
 
-</body>
+    </body>
+
+    <?php include("footer.php"); ?>
+</div>
+
 </html>
