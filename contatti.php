@@ -3,7 +3,7 @@
     <head>
         <title>Contatti</title>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="form.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="contatti.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
     </head>
@@ -22,7 +22,13 @@
         </div>
 
         <?php include("menu.php"); ?>
-
+        <p class="testo">
+            In questa pagina puoi contattare il nostro la sede di <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr>
+            <abbr title="Giulia Erik Giacomo">GEG</abbr>; entro qualche ora ti garantiamo che riceverai una risposta.
+            Per qualunque informazione puoi lasciare un messaggio nell'apposito spazio, verrai contattato il prima possibile.
+            <strong>Puoi utilizzare questo form per iscriverti al nostro sito, scrivendo nella casella messaggio "ISCRIZIONE".</strong>
+            Riceverai delle credenziali d'accesso temporanee via email.
+        </p>
         <?php include("formvalid.php"); ?>
         <form id="contact" method="post" action="" name="datiUtenti">
 				<div class="input_rule">

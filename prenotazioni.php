@@ -3,7 +3,7 @@
     <head>
         <title>Prenotazioni</title>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="form.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="contatti.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
     </head>
@@ -86,7 +86,7 @@
                     <input class="submit_button" type="submit" name="submit" value="Prenotazione">
                 </div>
             </div>
-            
+
         </form>
         <?php include("invioPrenotazione.php"); ?>
 

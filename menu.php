@@ -12,7 +12,7 @@
             </div>
         </li>
         <li><a class="pren" href="prenotazioni.php">Prenotazioni</a></li>
-        <li><a class="contatti" href="form.php">Contatti</a></li>
+        <li><a class="contatti" href="contatti.php">Contatti</a></li>
         <li><a class="AP" href="login.php">Area Personale</a></li>
     </ul>
 

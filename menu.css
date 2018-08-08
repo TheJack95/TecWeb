@@ -68,4 +68,5 @@
 .menu ul li:last-child {
     float: right;
     background-color: #0066ff;
+    border-left: 1px solid white;
 }
