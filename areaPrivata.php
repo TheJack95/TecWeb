@@ -22,7 +22,9 @@
         </div>
 
         <?php include("menu.php"); ?>
+        
         <?php include("leggiDatabase.php")?>
+        
         <?php include("footer.php"); ?>
 
 </body>
