@@ -34,7 +34,7 @@
 
 
 
-        <form id="contact" method="post" action="" name="datiUtenti">
+        <form  method="post" action="" name="datiUtenti">
 
             <div class="sel">
                 <select class="boh" name="BeB">
@@ -55,37 +55,38 @@
                     <option>4</option>
                 </select>
             </div>
+            <div id="contact">
+                <div class="input_rule">
+                    <label class="label-cont" for="nome">Nome <span class="important">*</span> </label>
+                    <input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_name?></div>
+                </div>
 
-            <div class="input_rule">
-                <label class="label-cont" for="nome">Nome <span class="important">*</span> </label>
-                <input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_name?></div>
+                <div class="input_rule">
+                    <label class="label-cont" for="cognome">Cognome <span class="important">*</span></label>
+                    <input class="input_text" type="text" id="cognome" name="cognome"><div class="error"><?php echo $val_surname?></div>
+                </div>
+
+                <div class="input_rule">
+                    <label class="label-cont" for="email">E-Mail <span class="important">*</span></label>
+                    <input class="input_text" type="text" id="email" name="email"><div class="error"><?php echo $val_email?></div>
+                </div>
+
+                <div class="input_rule">
+                    <label class="label-cont" for="telefono">Telefono</label>
+                    <input class="input_text" type="text" id="telefono" name="telefono">
+                </div>
+
+                <div class="input_rule">
+                    <label class="label-cont" for="messaggio">Messaggio <span class="important">*</span></label>
+                    <textarea class="txt" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
+                    <div class="error"><?php echo $val_mex?></div>
+                </div>
+
+                <div id="button_rule">
+                    <input class="submit_button" type="submit" name="submit" value="Prenotazione">
+                </div>
             </div>
-
-            <div class="input_rule">
-                <label class="label-cont" for="cognome">Cognome <span class="important">*</span></label>
-                <input class="input_text" type="text" id="cognome" name="cognome"><div class="error"><?php echo $val_surname?></div>
-            </div>
-
-            <div class="input_rule">
-                <label class="label-cont" for="email">E-Mail <span class="important">*</span></label>
-                <input class="input_text" type="text" id="email" name="email"><div class="error"><?php echo $val_email?></div>
-            </div>
-
-            <div class="input_rule">
-                <label class="label-cont" for="telefono">Telefono</label>
-                <input class="input_text" type="text" id="telefono" name="telefono">
-            </div>
-
-            <div class="input_rule">
-                <label class="label-cont" for="messaggio">Messaggio <span class="important">*</span></label>
-                <textarea class="txt" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
-                <div class="error"><?php echo $val_mex?></div>
-            </div>
-
-            <div id="button_rule">
-                <input class="submit_button" type="submit" name="submit" value="Prenotazione">
-            </div>
-
+            
         </form>
         <?php include("invioPrenotazione.php"); ?>
 
