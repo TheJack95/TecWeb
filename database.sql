@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS Contatto(
+CREATE TABLE IF NOT EXISTS Prenotazione(
   ID varchar(10) PRIMARY KEY,
   Nome varchar(30) NOT NULL,
   Cognome varchar(30) NOT NULL,
