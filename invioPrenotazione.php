@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $user = "root";
             // password dell'utente
             $password = "giacomo";
-            $dbname = "prenotazioni";
+            $dbname = "sito";
 
 
 
@@ -20,8 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $connessione = new mysqli($host, $user, $password, $dbname);
 
 
-            $sql = "INSERT INTO pren (id, nome, cognome, telefono, email, messaggio, Checkin, Checkout, BeB)
-								VALUES ('$guid','$nome','$cognome','$telefono','$email','$messaggio','$Checkin', '$Checkout', '$BeB' )";
+            $sql = "INSERT INTO Prenotazione (id, nome, cognome, telefono, email, messaggio, Checkin, Checkout, BeB, Persone)
+								VALUES ('$guid','$nome','$cognome','$telefono','$email','$messaggio','$Checkin', '$Checkout', '$BeB', '$nPers' )";
 
             if ($connessione->query($sql) === TRUE) {
                 echo "Messaggio inviato con successo";

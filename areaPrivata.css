@@ -1,5 +1,17 @@
-table{margin-left:0; margin-bottom:20px; border-collapse: collapse}
+table {
+    margin-left:0;
+    margin-bottom:20px;
+    border-collapse: collapse;
+}
 
-td, th{border:1px solid black; text-align: center; padding:10px}
+td, th {
+    border:1px solid black;
+    text-align: center;
+    padding:10px;
+}
 
-
+h2 {
+    text-align: justify;
+    padding: 1.5rem;
+    clear: both;
+}

@@ -43,6 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $Checkin = $_POST["Checkin"];
     $Checkout = $_POST["Checkout"];
     $BeB =$_POST["BeB"];
+    $nPers=$_POST["Persone"];
 }
 
 function test_input($data) {

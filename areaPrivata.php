@@ -23,8 +23,11 @@
         </div>
 
         <?php include("menu.php"); ?>
-        
-        <?php include("leggiDatabase.php");?>
+
+        <div class="tutto">
+            <?php include("leggiDatabase.php");?>
+        </div>
+
 
     </body>
 
