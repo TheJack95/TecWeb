@@ -23,7 +23,7 @@
                     Bed & Breakfast
                 </div>
             </div>
-            <h1 id="titoloBeB">
+            <h1 id="titolo">
                 <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> Boscoverde
             </h1>
         </div>

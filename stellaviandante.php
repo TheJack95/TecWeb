@@ -31,7 +31,7 @@
             <h1  id="titolo">
                 <span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
             </h1>
-            <h1 id="titoloBeB">
+            <h1 id="titolo">
                <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> La Stella del Viandante
             </h1>
         </div>

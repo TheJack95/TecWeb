@@ -60,7 +60,6 @@ body {
 	float: right;
 	width: 10rem;
 	padding: 4rem;
-	clear: both;
 }
 
 #titolo {
@@ -69,18 +68,9 @@ body {
 	font-weight: bolder;
 	margin: 0.5rem;
     display: block;
+    text-align: center;
 }
 
-#titoloBeB {
-    color: #BD091B;
-    font-size: 3.5rem;
-    font-weight: bolder;
-    padding: 0.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-	clear: both;
-}
 
 /* FINE PARTE  HEADER  */
 
@@ -101,7 +91,6 @@ abbr {
 	list-style: none;
 	text-align: left;
 	padding: 2rem;
-	margin-left: 22rem;
 	font-size: 1.1rem;
 }
 
