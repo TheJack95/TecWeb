@@ -17,6 +17,12 @@
                     Bed & Breakfast
                 </div>
             </div>
+            <div id="logo2">
+                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <div id="testologo">
+                    Bed & Breakfast
+                </div>
+            </div>
             <h1 id="titoloBeB">
                 <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> Al Borgo
             </h1>

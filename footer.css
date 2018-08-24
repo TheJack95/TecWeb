@@ -1,20 +1,19 @@
 #footer {
-   position: static;
-   width: 100%;
-   background-color: black;
-   color: white;
-   text-align: center;
-   padding:0;
-   margin-top:10px;
-   border: 1px solid white;
+    position: static;
+    width: 100%;
+    background-color: black;
+    padding:0;
+    margin-top:10px;
+    text-align: center;
+}
+
+#footer ul {
+    padding: 0.3rem;
 }
 
 #footer ul li {
-   display: inline;
-   font-style: italic;
-   color: white;
-   text-align: center;
-   line-height: 1.2rem;
-   padding: 1.2rem;
-   font-size: 1rem;
+    display: inline;
+    font-style: italic;
+    color: white;
+    font-size: 1.1rem;
 }

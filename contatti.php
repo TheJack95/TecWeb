@@ -16,6 +16,12 @@
                     Bed & Breakfast
                 </div>
             </div>
+            <div id="logo2">
+                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <div id="testologo">
+                    Bed & Breakfast
+                </div>
+            </div>
             <h1  id="titolo">
                 <span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
             </h1>
@@ -30,6 +36,7 @@
             Riceverai delle credenziali d'accesso temporanee via email.
         </p>
         <?php include("formvalid.php"); ?>
+
         <form id="contact" method="post" action="" name="datiUtenti">
 				<div class="input_rule">
 					<label class="label-cont" for="nome">Nome<span class="important">*</span> </label>

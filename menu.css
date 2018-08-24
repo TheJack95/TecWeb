@@ -11,11 +11,11 @@
     font-size: 1.2rem;
     top:0;
     margin-bottom: 0.5rem;
-    border: 1px solid white;
     z-index: 1;
 }
 
 .menu ul {
+    border: 1px solid white;
     list-style-type: none;
     padding: 0;
     overflow: hidden;

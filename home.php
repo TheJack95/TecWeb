@@ -15,7 +15,16 @@
                     Bed & Breakfast
                 </div>
             </div>
+
+            <div id="logo2">
+                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <div id="testologo">
+                    Bed & Breakfast
+                </div>
+            </div>
+
             <h1  id="titolo"><span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr></h1>
+
         </div>
 
         <?php include("menu.php"); ?>

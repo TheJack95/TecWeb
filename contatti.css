@@ -4,14 +4,14 @@
 }
 
 .input_rule{
-	width:100%;
-	margin:10px;
-	position: relative;
-	display: inline-block;
+    width:100%;
+    margin:10px;
+    position: relative;
+    display: inline-block;
 }
 
 #button_rule{
-	
+
 }
 
 .label-cont {
@@ -52,13 +52,13 @@
 }
 
 .error{
-	color: #BD091B;
-	float: right;
-	font-size: 1.2rem;
+    color: #BD091B;
+    float: right;
+    font-size: 1.2rem;
 }
 
 .submit_button{
-	padding: 10px 55px;
+    padding: 10px 55px;
     font-size: 1.2rem;
 }
 

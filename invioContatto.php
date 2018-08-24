@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $user = "root";
             // password dell'utente
             $password = "giacomo";
-            $dbname = "form";
+            $dbname = "sito";
 
 
 
