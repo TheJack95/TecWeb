@@ -4,8 +4,7 @@
     background-size:cover;
     width: 80%;
     margin:auto;
-    margin-bottom:5rem;
-    box-shadow:10px 10px 10px lightgray;
+    box-shadow: 10px 10px 10px lightgray;
     clear:both;
 }
 
@@ -32,21 +31,17 @@
 }
 
 .container ul {
-    margin:2rem;
     font-size:1.1rem;
     width:100%;
     list-style: none;
     text-align:center;
-    clear:both;
 }
 
 .container li {
     display:inline;
-    margin:1.5rem;
 }
 
-.desc h1{
-    padding-top: 1;
+.desc h1 {
     text-align:center;
 }
 

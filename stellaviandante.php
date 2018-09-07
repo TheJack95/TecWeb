@@ -16,23 +16,14 @@
                     Bed & Breakfast
                 </div>
             </div>
-            <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
-                <div id="testologo">
-                    Bed & Breakfast
-                </div>
-            </div>
             <div id="logo2">
                 <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
                 <div id="testologo">
                     Bed & Breakfast
                 </div>
             </div>
-            <h1  id="titolo">
-                <span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
-            </h1>
             <h1 id="titolo">
-               <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> La Stella del Viandante
+               <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> Stella del Viandante
             </h1>
         </div>
 

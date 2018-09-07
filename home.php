@@ -56,8 +56,8 @@
             </p>
 
             <div id="servizi">
-                <ul id="lista1">
-                    <h3>I servizi compresi:</h3>
+                <ul class="lista">
+                    <li><h3>I servizi compresi:</h3></li>
                     <li><span xml:lang="en">Check-in</span> e <span xml:lang="en">check-out</span> alle 8 alle 20</li>
                     <li>Colazione internazionale a <span xml:lang="fr">buffet</span></li>
                     <li>Posto auto e/o posto bici</li>
@@ -65,9 +65,8 @@
                     <li>Connessione <span xml:lang="en">Wi-Fi</span> nelle camere</li>
                 </ul>
 
-
-                <ul id="lista2">
-                    <h3>I servizi disponibili a pagamento:</h3>
+                <ul class="lista">
+                    <li><h3>I servizi disponibili a pagamento:</h3></li>
                     <li>Pranzo al sacco (pane fresco, frutta, affettati e formaggi del luogo)</li>
                     <li>Noleggio biciclette</li>
                     <li>Noleggio sci e scarponi (solo nelle strutture bellunesi)</li>

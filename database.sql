@@ -1,3 +1,9 @@
+CREATE TABLE if NOT EXISTS  Cliente(
+  ID varchar(10) PRIMARY KEY,
+  Login varchar(10),
+  Password varchar(10)
+);
+
 CREATE TABLE IF NOT EXISTS Prenotazione(
   ID varchar(10) PRIMARY KEY, -- ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
   Nome varchar(30) NOT NULL,
@@ -8,7 +14,8 @@ CREATE TABLE IF NOT EXISTS Prenotazione(
   Checkin DATE NOT NULL,
   Checkout DATE NOT NULL,
   BeB  varchar(40) NOT NULL,
-  Persone int NOT NULL
+  Persone int NOT NULL,
+  FOREIGN KEY (ID) references Cliente(ID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 

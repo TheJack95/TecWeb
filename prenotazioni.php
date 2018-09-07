@@ -34,6 +34,7 @@
             In questa pagina puoi prenotare la tua stanza presso uno dei nostri B&B. Entro qualche ora ti verrà inviata
             una mail di conferma dell'avvenuta prenotazione. Per qualunque informazione puoi lasciare un messaggio nell'apposito
             spazio, verrai contattato il prima possibile.
+            <br/><strong>Ricordati di iscriverti <a rel="login" href="areaPrivata.php">qui</a> prima di effettuare una prenotazione.</strong><br>
             Buona permanenza da tutto lo staff!
         </p>
 
