@@ -29,6 +29,7 @@ body {
     border: 2px solid black;
     color: black;
     background-color: white;
+    width: 100%;
 }
 
 /* PARTE  HEADER  */
@@ -111,6 +112,7 @@ abbr {
 #imgCamere {
     margin: 2rem;
     text-align: center;
+    clear: both;
 }
 
 .camera {
@@ -118,6 +120,8 @@ abbr {
     width: 400px;
     height: 300px;
 }
+
+
 
 #homerosolina {
     float:left;
@@ -128,11 +132,20 @@ abbr {
 
 /* FINE PARTE  BODY  */
 
-
+#servizi  {
+    display: table;
+    clear: both;
+}
 
 /* liste nella home*/
+.lista, .lista2 {
+    margin: 0 4rem;
+    padding: 0;
+    list-style: none;
+    float: left;
+    alignment: center;
+}
 
- .lista {
-     list-style: none;
- }
-
+.lista {
+    margin-bottom: 1.2rem;
+}

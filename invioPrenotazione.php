@@ -21,7 +21,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
             $sql = "INSERT INTO Prenotazione (id, nome, cognome, telefono, email, messaggio, Checkin, Checkout, BeB, Persone)
-								VALUES ('$guid','$nome','$cognome','$telefono','$email','$messaggio','$Checkin', '$Checkout', '$BeB', '$nPers' )";
+								VALUES ('','$nome','$cognome','$telefono','$email','$messaggio','$Checkin', '$Checkout', '$BeB', '$nPers' )";
+
+            $boh = "";
 
             if ($connessione->query($sql) === TRUE) {
                 echo "Messaggio inviato con successo";
@@ -37,10 +39,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 function GUID()
 {
-    /*if (function_exists('com_create_guid') === true)
+    if (function_exists('com_create_guid') === true)
     {
         return trim(com_create_guid(), '{}');
-    }*/
+    }
 
     return sprintf('%04X%04X', mt_rand(0, 65535), mt_rand(0, 65535));
 }

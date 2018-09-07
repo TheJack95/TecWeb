@@ -4,41 +4,36 @@
         <title>Area Personale</title>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="login.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="areaPrivata.css" media="screen"/>
     </head>
-<div class="container">
     <body id="AP">
-        <div id="header">
-            <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
-                <div id="testologo">
-                    Bed & Breakfast
+            <div id="header">
+                <div id="logo">
+                    <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                    <div id="testologo">
+                        Bed & Breakfast
+                    </div>
                 </div>
+
+                <div id="logo2">
+                    <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                    <div id="testologo">
+                        Bed & Breakfast
+                    </div>
+                </div>
+
+                <h1  id="titolo"><span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr></h1>
+
             </div>
 
-            <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
-                <div id="testologo">
-                    Bed & Breakfast
-                </div>
+            <?php include("menu.php"); ?>
+
+            <div class="tutto">
+                <?php include("leggiDatabase.php"); ?>
             </div>
 
-            <h1  id="titolo"><span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr></h1>
-
-        </div>
-
-        <?php include("menu.php"); ?>
-
-        <div class="tutto">
-            <?php include("leggiDatabase.php");?>
-        </div>
-
-
+        <?php include("footer.php"); ?>
     </body>
-
-    <?php include("footer.php"); ?>
-</div>
 
 </html>

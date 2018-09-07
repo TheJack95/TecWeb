@@ -65,9 +65,9 @@
                     <li>Connessione <span xml:lang="en">Wi-Fi</span> nelle camere</li>
                 </ul>
 
-                <ul class="lista">
+                <ul class="lista2">
                     <li><h3>I servizi disponibili a pagamento:</h3></li>
-                    <li>Pranzo al sacco (pane fresco, frutta, affettati e formaggi del luogo)</li>
+                    <li>Pranzo al sacco </li>
                     <li>Noleggio biciclette</li>
                     <li>Noleggio sci e scarponi (solo nelle strutture bellunesi)</li>
                     <li>Servizio taxi da/per la stazione pi&ugrave; vicina</li>

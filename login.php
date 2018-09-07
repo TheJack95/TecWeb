@@ -29,7 +29,7 @@
 		
 		<?php include("menu.php"); ?>
 		
-		<form id="login" action="action_page.php" method="post">
+		<form id="login" action="areaPrivata.php" method="post">
 			
 			<div class="nome">
                 <label for="user">Username <span class="error">*</span></label><br/>
@@ -44,7 +44,7 @@
 			<button class="go" type="submit">Login</button>
 			
 			<div class="aiuto">
-				<span>Se non sei ancora registrato, <a href="form.php">contattaci</a>!</span>
+				<span>Se non sei ancora registrato, <a href="contatti.php">contattaci</a>!</span>
 			</div>
 		</form>
 		

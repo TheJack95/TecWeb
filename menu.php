@@ -11,7 +11,6 @@
                 <a class="last" href="stellaviandante.php">B&B Stella del Viandante</a>
             </div>
         </li>
-        <li><a class="pren" href="prenotazioni.php">Prenotazioni</a></li>
         <li><a class="contatti" href="contatti.php">Contatti</a></li>
         <li><a class="AP" href="login.php">Area Personale</a></li>
     </ul>
