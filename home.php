@@ -32,27 +32,9 @@
         <div class="tutto">
             <p class="testo">
                 <img id="homerosolina" src="img/homerosolina.jpg" alt="Rosolina" />
-                <span xml:lang="en">Bed & Breakfast's</span>  <abbr title="Giulia Erik Giacomo">G.E.G.</abbr> nasce nel 2017 dall'idea di tre
-                giovani imprenditori con l'intenzione di valorizzare delle strutture gi&agrave; esistenti, ma troppo piccole
-                per essere competitive singolarmente, creando una catena, senza per&ograv uniformarle.
-                <br/>
-                L'idea &egrave; quella di permettere ai viaggiatori di conoscere le bellezze del luogo
-                in cui si trovano e ci&ograve; &egrave; possibile solamente grazie al nostro impegno costante
-                per la manutenzione delle caratteristiche delle singole strutture.
-                <br/>
-                Le localit&agrave; dove sono collocati i <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr>
-                sono molto diverse tra loro: Falcade, Nevegal e Auronzo di Cadore (tutte situate in provincia Belluno)
-                si trovano immerse nelle stupende Dolomiti Venete, mentre le strutture di Arqu&agrave; Petrarca(PD) e Rosolina(RO)
-                si trovano nella Pianura Padana Veneta.
-                <br/>
-                Le nostre strutture dispongono tutte di ampie camere con due o quattro posti
-                letto, bagno privato, un piccolo angolo cottura e un tavolo da pranzo.
-                Le camere sono affittabili da &euro; 15 a &euro; 30 a persona a notte nel periodo di
-                bassa stagione e da &euro; 20 a &euro; 40 a persona a notte nel periodo di alta stagione.
-                La tassa di soggiorno &egrave; esclusa e varia in base alla localit&agrave;.
-                <br/>
-                Se vuoi informazioni pi&ugrave; precise contattaci o richiedi un preventivo
-                per un soggiorno in una delle nostre strutture. Siamo a tua disposizione!
+                <span xml:lang="en">Bed & Breakfast's</span> <abbr title="Giulia Erik Giacomo">G.E.G.</abbr> nasce nel 2017 dall'idea di tre
+                giovani imprenditori con l'intenzione di valorizzare delle strutture gi&agrave; esistenti, ma troppo piccole per essere 		competitive singolarmente, creando una catena, senza per&ograve; uniformarle. L'idea &egrave; quella di permettere ai 			viaggiatori di conoscere le bellezze del luogo  in cui si trovano e ci&ograve; &egrave; possibile solamente grazie al nostro 			impegno costante per la manutenzione delle caratteristiche delle singole strutture. Le localit&agrave; dove sono collocati i 			<abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> sono molto diverse tra loro: Falcade, Nevegal e Auronzo di Cadore 			(tutte situate in provincia Belluno) si trovano immerse nelle stupende Dolomiti Venete, mentre le strutture di Arqu&agrave; 			Petrarca (PD) e Rosolina (RO) si trovano nella Pianura Padana Veneta. Le nostre strutture dispongono tutte di ampie camere con 			due o quattro posti letto, bagno privato, un piccolo angolo cottura e un tavolo da pranzo.<br/><br/><br/>
+                Se vuoi informazioni pi&ugrave; precise contattaci o richiedi un preventivo per un soggiorno in una delle nostre strutture. 			Siamo a tua disposizione!<br/><br/>
             </p>
 
             <div id="servizi">
