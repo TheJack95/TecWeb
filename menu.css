@@ -1,46 +1,50 @@
-#home .home, #BandB .BandB, #pren .pren, #contatti .contatti, #AP .AP
+#home .home, #pren .pren, #contatti .contatti, #AP .AP
 {
     background-color: #BD091B;
     color: white;
 }
 
 .menu {
-    clear: both;
-    position: -webkit-sticky;
-    position: sticky;
-    font-size: 1.2rem;
-    top:0;
-    margin-bottom: 0.5rem;
-    z-index: 1;
-}
-
-.menu ul {
-    border: 1px solid white;
-    list-style-type: none;
-    padding: 0;
     overflow: hidden;
-    background-color: #272727;
+    background-color: #333;
+    margin-bottom: 1.5rem;
 }
 
-.menu li {
+.menu a {
     float: left;
-}
-
-.menu a, .BandB {
-    display: inline-block;
-    color: white;
+    display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-weight: bold
+    font-size: 17px;
+    color: white;;
+    font-weight: bold;
 }
 
-.menu li a:hover, .dropdown:hover .BandB {
+
+.menu .icon {
+    display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.menu a:hover {
     background-color: #525252;
 }
 
-.menu li.dropdown {
-    display: inline-block;
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-weight: bold;
 }
 
 .dropdown-content {
@@ -48,10 +52,11 @@
     position: absolute;
     background-color: #272727;
     min-width: 160px;
-
+    z-index: 1;
 }
 
 .dropdown-content a {
+    float: none;
     color: white;
     padding: 12px 16px;
     text-decoration: none;
@@ -59,14 +64,50 @@
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #333}
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.menu ul li:last-child {
+.menu li:last-child {
     float: right;
     background-color: #0066ff;
-    border-left: 1px solid white;
 }
+.menu li:last-child:hover {
+    background-color: #004ab4;
+}
+
+
+/*  MENU MOBILE  */
+
+@media screen and (max-width: 600px) {
+    .menu a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+    }
+    .menu a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu.responsive {position: relative;}
+    .menu.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .menu.responsive .dropdown {float: none;}
+    .menu.responsive .dropdown-content {position: relative;}
+    .menu.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+

@@ -29,7 +29,6 @@ body {
     border: 2px solid black;
     color: black;
     background-color: white;
-    width: 100%;
 }
 
 /* PARTE  HEADER  */
@@ -149,3 +148,5 @@ abbr {
 .lista {
     margin-bottom: 1.2rem;
 }
+
+

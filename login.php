@@ -2,10 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	<head>
 		<title>Area Personale</title>
-		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
-		<link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
-		<link rel="stylesheet" type="text/css" href="login.css" media="screen"/>
-		<link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="login.css" />
+		<link rel="stylesheet" type="text/css" href="fogliocss.css"/>
+		<link rel="stylesheet" type="text/css" href="menu.css" />
+		<link rel="stylesheet" type="text/css" href="footer.css"/>
 	</head>
 	
 	<body id="AP">
