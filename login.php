@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="fogliocss.css"/>
 		<link rel="stylesheet" type="text/css" href="menu.css" />
 		<link rel="stylesheet" type="text/css" href="footer.css"/>
+        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
 	</head>
 	
 	<body id="AP">
@@ -32,7 +33,7 @@
 		<form id="login" action="areaPrivata.php" method="post">
 			
 			<div class="nome">
-                <label for="user">Username <span class="error">*</span></label><br/>
+                <label for="username">Username<span class="error">*</span></label><br/>
                 <input class="cella" type="text" id="user" name="user" placeholder="Inserisci lo username"><br/>
 			</div>
 			
