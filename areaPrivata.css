@@ -1,17 +1,16 @@
-table {
-    margin-left:0;
-    margin-bottom:20px;
-    border-collapse: collapse;
+#pren {
+    padding:1.2rem;
+    text-align: center;
 }
 
-td, th {
-    border:1px solid black;
-    text-align: center;
-    padding:10px;
-}
 
 h2 {
-    text-align: justify;
+    text-align: center;
     padding: 1.5rem;
     clear: both;
+}
+
+.btnP {
+    padding: 10px 55px;
+    font-size: 1.2rem;
 }

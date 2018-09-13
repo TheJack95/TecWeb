@@ -6,36 +6,83 @@ $user = "root";
 // password dell'utente
 $password = "giacomo";
 $dbname = "sito";
+
 // stringa di connessione al DBMS
 $conn = new mysqli($host, $user, $password, $dbname);
-if($conn->connect_error) die($conn->connect_error);
-$sqlP = "SELECT * FROM Prenotazione";
-$sqlC = "SELECT * FROM Contatto";
-$r1 = $conn->query($sqlC);
+//$username=$_POST['username'];
+
+
+$pass=$_POST['pass'];
+if($conn->connect_error)
+    die($conn->connect_error);
+
+$username=$_POST['user'];
+
+if($username === 'admin') {
+
+    echo "<h2>Prenotazione dei Clienti</h2>";
+
+    $sqlP = "SELECT * FROM Prenotazione ";
+    $result = mysqli_query($conn, $sqlP);
+
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo "<div id='pren'>" . " - Nome: " . $row["Nome"] . "<br>" .
+            " - Cognome: " . $row["Cognome"] . "<br>" .
+            " - Telefono: " . $row["Telefono"] . "<br>" .
+            " - E-mail: " . $row["Email"] . "<br>" .
+            " - Messaggio: " . $row["Messaggio"] . "<br>" .
+            " - Check-in: " . $row["Checkin"] . "<br>" .
+            " - Check-out: " . $row["Checkout"] . "<br>" .
+            " - Struttura: " . $row["BeB"] . "<br>" .
+            " - N. Persone: " . $row["Persone"] . "<br>" .
+            "<br>" . "</div>";
+    }
+
+    echo "<h2>Messaggi dai Clienti</h2>";
+
+    $sqlC = "SELECT * FROM Contatto ";
+    $result = mysqli_query($conn, $sqlC);
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo "<div id='pren'>" . " - Nome: " . $row["Nome"] . "<br>" .
+            " - Cognome: " . $row["Cognome"] . "<br>" .
+            " - Telefono: " . $row["Telefono"] . "<br>" .
+            " - E-mail: " . $row["Email"] . "<br>" .
+            " - Messaggio: " . $row["Messaggio"] . "<br>" .
+            "<br>" . "</div>";
+    }
+}
+else
+{
+    echo "<h2>La tua prenotazione</h2>";
+
+    $sqlP = "SELECT * FROM Prenotazione WHERE Username = '$username' ";
+
+    $result = mysqli_query($conn, $sqlP);
+    while($row = mysqli_fetch_assoc($result)) {
+        echo "<div id='pren'>" . " - Nome: " . $row["Nome"] . "<br>" .
+            " - Cognome: " . $row["Cognome"]."<br>" .
+            " - Telefono: " . $row["Telefono"]."<br>" .
+            " - E-mail: " . $row["Email"]."<br>" .
+            " - Messaggio: " . $row["Messaggio"]."<br>" .
+            " - Check-in: " . $row["Checkin"]."<br>" .
+            " - Check-out: " . $row["Checkout"]."<br>" .
+            " - Struttura: " . $row["BeB"]."<br>" .
+            " - N. Persone: " . $row["Persone"]."<br>" .
+            "<br>";
+    }
+
+    echo "<form action=\"prenotazioni.php\" >
+        <button class='btnP' type=\"submit\">Effettua una prenotazione</button>
+        </form>";
+
+    echo "</div>";
+}
+
 $r2 = $conn->query($sqlP);
-if(!$r1 && !$r2) die($conn->error);
-$row1 = $r1->num_rows;
-$row2 = $r2->num_rows;
-echo "<table><tr> <th>Id</th> <th>Nome</th> <th>Cognome</th> <th>Telefono</th> <th>Email</th> <th>Messaggio</th></tr>";
-for($i=0; $i<$r1; ++$i)
-{
-    $r1->data_seek($i);
-    $row1 = $r1->fetch_array(MYSQLI_NUM);
-    echo "</tr>";
-    for($k=0; $k<6; ++$k) echo "<td>$row1[$k]</td>";
-    echo "</tr>";
-}
-echo "</table>";
-echo "<table><tr> <th>Id</th> <th>Nome</th> <th>Cognome</th> <th>Telefono</th> <th>Email</th> <th>Messaggio</th><th>Check-in</th> <th>Check-out</th> <th>Nome B&B</th></tr>";
-for($j=0; $j<$r2; ++$j)
-{
-    $r2->data_seek($j);
-    $row2 = $r2->fetch_array(MYSQLI_NUM);
-    echo "</tr>";
-    for($k=0; $k<9; ++$k) echo "<td>$row2[$k]</td>";
-    echo "</tr>";
-}
-echo "</table>";
+echo $r2;
+
+
+
 // chiusura della connessione
 $conn->close();
 

@@ -33,13 +33,13 @@
 		<form id="login" action="areaPrivata.php" method="post">
 			
 			<div class="nome">
-                <label for="username">Username<span class="error">*</span></label><br/>
-                <input class="cella" type="text" id="user" name="user" placeholder="Inserisci lo username"><br/>
+                <label for="user">Username<span class="error">*</span></label><br/>
+                <input class="cella" type="text" id="user" name="user" ><br/>
 			</div>
 			
 			<div class="nome">
                 <label for="pass">Password <span class="error">*</span></label><br/>
-                <input class="cella" type="text" id="pass" name="pass" placeholder="Inserisci la password"><br/>
+                <input class="cella" type="text" id="pass" name="pass"><br/>
 			</div>
 			
 			<button class="go" type="submit">Login</button>
