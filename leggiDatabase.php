@@ -4,8 +4,8 @@ $host = "localhost";
 // username dell'utente in connessione
 $user = "root";
 // password dell'utente
-$password = "giacomo";
-$dbname = "sito";
+$password = "giuli95";
+$dbname = "TecWeb";
 
 // stringa di connessione al DBMS
 $conn = new mysqli($host, $user, $password, $dbname);
@@ -85,7 +85,7 @@ echo $r2;
 
 // chiusura della connessione
 $conn->close();
-
+ ?>
 
 
 
