@@ -1,11 +1,11 @@
-CREATE TABLE if NOT EXISTS  Cliente(
+CREATE TABLE if NOT EXISTS  Utente(
   Login varchar(10) PRIMARY KEY,
-  Password varchar(20),
-  FOREIGN KEY (Login) references Prenotazione(Username) ON DELETE CASCADE ON UPDATE CASCADE
+  Password varchar(20)
 );
 
 CREATE TABLE IF NOT EXISTS Prenotazione(
-  Username varchar(10) PRIMARY KEY, -- ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  Id int AUTO_INCREMENT PRIMARY KEY,
+  Username varchar(10),
   Nome varchar(30) NOT NULL,
   Cognome varchar(30) NOT NULL,
   Telefono varchar(13) DEFAULT NULL,
@@ -15,16 +15,18 @@ CREATE TABLE IF NOT EXISTS Prenotazione(
   Checkout DATE NOT NULL,
   BeB  varchar(40) NOT NULL,
   Persone int NOT NULL,
-  FOREIGN KEY (ID) references Cliente(ID) ON DELETE CASCADE ON UPDATE CASCADE
+  FOREIGN KEY (Username) references Utente(Login) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 
 CREATE TABLE IF NOT EXISTS Contatto (
-  ID varchar(10) PRIMARY KEY, -- ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  ID int(11) AUTO_INCREMENT, 
   Nome varchar(30) NOT NULL,
   Cognome varchar(30) NOT NULL,
   Telefono varchar(13) DEFAULT NULL,
   Email varchar(50) NOT NULL,
-  Messaggio text NOT NULL
+  Messaggio text NOT NULL,
+  PRIMARY KEY(ID)
   );
--- se id è auto_increment il valore da inserire è NULL
+
+
