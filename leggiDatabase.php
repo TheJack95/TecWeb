@@ -2,10 +2,10 @@
 // nome di host
 $host = "localhost";
 // username dell'utente in connessione
-$user = "root";
+$user = "gfiorese";
 // password dell'utente
-$password = "giuli95";
-$dbname = "TecWeb";
+$password = "sheelahJie2ieKoi";
+$dbname = "gfiorese";
 
 // stringa di connessione al DBMS
 $conn = new mysqli($host, $user, $password, $dbname);
@@ -16,9 +16,15 @@ $pass=$_POST['pass'];
 if($conn->connect_error)
     die($conn->connect_error);
 
-$username=$_POST['user'];
 
-if($username === 'admin') {
+$username=$pss="";
+
+$username=$_POST['user']; 
+$pass=$_POST['pass'];
+
+if($username=="" && $pass=="")
+ header("location:login.php?err=Campo vuoto o errato");
+elseif($username == 'admin') {
 
     echo "<h2>Prenotazione dei Clienti</h2>";
 
@@ -78,14 +84,11 @@ else
     echo "</div>";
 }
 
-$r2 = $conn->query($sqlP);
-echo $r2;
-
 
 
 // chiusura della connessione
 $conn->close();
- ?>
+
 
 
 

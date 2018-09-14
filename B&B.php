@@ -3,11 +3,11 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
 		<title>Bed & Breakfast</title>
-        <link rel="stylesheet" media="handheld, screen and (max-width:600px), only screen and (max-device-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="handheld, screen" />
 		<link rel="stylesheet" type="text/css" href="B&B_style.css" media="handheld, screen"/>
 		<link rel="stylesheet" type="text/css" href="menu.css" media="handheld, screen"/>
 		<link rel="stylesheet" type="text/css" href="footer.css" media="handheld, screen"/>
+        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
 	</head>
 	
 	<body id="BandB">

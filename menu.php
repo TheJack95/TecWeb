@@ -1,5 +1,5 @@
 <div class="menu" id="myTopnav">
-    <a href="home.php" class="home">Home</a>
+    <a href="index.php" class="home">Home</a>
     <div class="dropdown">
         <button class="dropbtn">Bed & Breakfast
             <i class="fa fa-caret-down"></i>
@@ -13,9 +13,11 @@
             <a href="stellaviandante.php">B&B Stella del Viandante</a>
         </div>
     </div>
+    <a class="BeB" href="B&B.php">Bed & Breakfast</a>
     <a class="contatti"  href="contatti.php">Contatti</a>
-    <a class="AP" href="login.php">Area Personale</a>
     <a href="javascript:void(0);"  class="icon" onclick="myFunction()">&#9776;</a>
+    <a class="AP" href="login.php">Area Personale</a>
+
 </div>
 
 <script>

@@ -37,7 +37,7 @@
         </p>
         <?php include("formvalid.php"); ?>
 
-        <form id="contact" method="post" action="" name="datiUtenti">
+        <form id="contact" method="post" name="datiUtenti">
 				<div class="input_rule">
 					<label class="label-cont" for="nome">Nome<span class="important">*</span> </label>
 					<input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_name?></div>

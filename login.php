@@ -28,18 +28,18 @@
 			</h1>
 		</div>
 		
-		<?php include("menu.php"); ?>
+		<?php error_reporting(0); include("menu.php"); ?>
 		
 		<form id="login" action="areaPrivata.php" method="post">
 			
 			<div class="nome">
                 <label for="user">Username<span class="error">*</span></label><br/>
-                <input class="cella" type="text" id="user" name="user" ><br/>
+                <input class="cella" type="text" id="user" name="user" ><?php echo $_GET['err'] ?></div><br/>
 			</div>
 			
 			<div class="nome">
                 <label for="pass">Password <span class="error">*</span></label><br/>
-                <input class="cella" type="text" id="pass" name="pass"><br/>
+                <input class="cella" type="text" id="pass" name="pass"><?php echo $_GET['err'] ?></div><br/>
 			</div>
 			
 			<button class="go" type="submit">Login</button>

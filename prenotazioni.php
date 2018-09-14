@@ -64,6 +64,11 @@
                 </select>
             </div>
             <div id="contact">
+		<div class="input_rule">
+                    <label class="label-cont" for="username">Username<span class="important">*</span> </label>
+                    <input class="input_text" type="text" id="username" name="username"><div class="error"><?php echo $val_name?></div>
+                </div>
+
                 <div class="input_rule">
                     <label class="label-cont" for="nome">Nome <span class="important">*</span> </label>
                     <input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_name?></div>
@@ -89,6 +94,7 @@
                     <textarea class="txt" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
                     <div class="error"><?php echo $val_mex?></div>
                 </div>
+
 
                 <div id="button_rule">
                     <input class="submit_button" type="submit" name="submit" value="Prenotazione">

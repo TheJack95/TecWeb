@@ -1,8 +1,10 @@
 <?php
 
+error_reporting(0);
+
 // define variables and set to empty values
 $val_name = $val_surname = $val_email = $val_mex = "";
-$nome = $cognome  = $email = $telefono = $messaggio = $Checkin = $Checkout = $BeB = "";
+$username = $nome = $cognome  = $email = $telefono = $messaggio = $Checkin = $Checkout = $BeB = $nPers = "";
 $all_values_ok = true;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -39,12 +41,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $messaggio = test_input($_POST["messaggio"]);
     }
+    
 
     $Checkin = $_POST["Checkin"];
     $Checkout = $_POST["Checkout"];
-    $BeB =$_POST["BeB"];
-    $nPers=$_POST["Persone"];
-}
+    $BeB = $_POST["BeB"];
+    $nPers = $_POST["Persone"];
+    $username = $_POST["username"];
+ }
 
 function test_input($data) {
     $data = trim($data);
