@@ -1,0 +1,16 @@
+VALIDARE HTML
+CODIFICA accenti e boiate varie
+Controllare id
+Elimnare </br>, rimpiazzando con paragrafi
+Toglire JS da codice HTML
+
+MIGLIORARE accessibilità
+Javascript
+Migliorare controllo form
+
+VALIDARE CSS
+Eliminare pixel
+CSS mobile da migliorare
+CSS stampa da fare
+
+RELAZIONE più dettagliata
