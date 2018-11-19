@@ -4,13 +4,13 @@ Controllare id
 Elimnare </br>, rimpiazzando con paragrafi
 Toglire JS da codice HTML
 
-MIGLIORARE accessibilità
-Javascript
-Migliorare controllo form
+MIGLIORARE accessibilita'
+Aggiungere Javascript
+Migliorare form
 
 VALIDARE CSS
 Eliminare pixel
 CSS mobile da migliorare
 CSS stampa da fare
 
-RELAZIONE più dettagliata
+RELAZIONE piu' dettagliata
