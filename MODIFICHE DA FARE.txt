@@ -10,7 +10,7 @@ Migliorare form
 
 VALIDARE CSS
 Eliminare pixel
-CSS mobile da migliorare
+CSS mobile NON VA
 CSS stampa da fare
 
 RELAZIONE piu' dettagliata
