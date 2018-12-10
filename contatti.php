@@ -12,15 +12,15 @@
     <body id="contatti">
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
                 <div id="testologo">
-                    Bed &amp; Breakfast
+                    Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
                 <div id="testologo">
-                    Bed &amp; Breakfast
+                    Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <h1  id="titolo">
@@ -30,10 +30,10 @@
 
         <?php include("menu.php"); ?>
         <p class="testo">
-            In questa pagina puoi contattare lo staff di <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr>
-            <abbr title="Giulia Erik Giacomo">GEG</abbr>.<br/>Per qualunque informazione puoi lasciare un messaggio nell&rsquo;apposito spazio
+            In questa pagina puoi contattare lo staff di <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B&rsquo;s </abbr>
+            <abbr title="Giulia Erik Giacomo">GEG</abbr>.<br/>Per qualunque informazione puoi lasciare un messaggio nell'apposito spazio
             e verrai ricontattato entro qualche ora.<br/><br/><strong>Puoi utilizzare questo form per registrarti al nostro sito</strong>:
-            scrivi nella casella messaggio <strong>"ISCRIZIONE"</strong><br/>e riceverai delle credenziali d&rsquo;accesso temporanee via email.
+            scrivi nella casella messaggio <strong>"ISCRIZIONE"</strong><br/>e riceverai delle credenziali d'accesso temporanee via email.
         </p>
         <?php include("formvalid.php"); ?>
 

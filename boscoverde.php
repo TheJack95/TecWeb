@@ -13,15 +13,15 @@
     <body>
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logo.png" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div id="testologo">
-                    Bed &amp; Breakfast
+                    Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logo.png" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div id="testologo">
-                    Bed &amp; Breakfast
+                    Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <h1 id="titolo">
@@ -32,22 +32,22 @@
 		<?php include("menu.php"); ?>
 
         <div class="tutto">
-            <img id="imgBeB" src="img/B&B_Nevegal.jpg" alt="B&amp;B Nevegal"/>  <!--IMMAGINE B&B-->
-            <img id="logoBeB" src="img/logoB&B_Nevegal.png" alt="Logo Boscoverde"/>	<!--LOGO B&B-->
+            <img id="imgBeB" src="img/boscoverde.png" alt="B&amp;B Boscoverde"/>  <!--IMMAGINE B&B-->
+            <img id="logoBeB" src="img/logoBoscoverde.png" alt="Logo Boscoverde"/>	<!--LOGO B&B-->
 
             <ul id="info">
-                <li>Telefono: 00000000 </li>
-                <li>Indirizzo: Via Visome 211, Belluno </li>
+                <li>Telefono: +39 0000 000000</li>
+                <li>Indirizzo: via Visome 211, 32100 Belluno</li>
                 <li><a href= "https://goo.gl/maps/zkUznEEVUAo" target="_blank">Vedi sulla mappa</a></li>
-                <li><a href="prenotazioni.php">Prenota o richiendi maggiori informazioni</a></li>
+                <li><a href="prenotazioni.php">Prenota o richiedi maggiori informazioni</a></li>
             </ul>
 
             <p class="testo">
                 Nel nostro B&amp;B ogni camera &egrave; dotata di arredamento completo: letti (possibilità a scelta di letto matrimoniale
-                o di due letti separati), comodini e divano; set di biancheria da camera completo; televisione;
-                fornitura di energia elettrica; riscaldamento; aria condizionata; pulizie quotidiane.
-                Situato sul colle del Nevegal, una delle più affascinanti località del bellunese,
-                meta adatta sia per chi vuole rilassarsi sia a chi preferisce una vacanza più movimentata,divertimento ed
+                o di due letti separati), comodini, un comodo divano, set di biancheria da camera completo, televisore,
+                fornitura di energia elettrica, riscaldamento, aria condizionata e servizio di pulizie quotidiane.
+                Situato sul colle del Monte Nevegal, una delle più affascinanti località del bellunese,
+                meta adatta sia per chi vuole rilassarsi sia a chi preferisce una vacanza più movimentata, divertimento ed
                 esplorazione infatti non mancheranno grazie a sentieri di montagna immersi nella natura,
                 pareti di roccia per gli amanti delle scalate, piste da sci e molto altro ancora!
             </p>

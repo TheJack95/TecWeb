@@ -12,15 +12,15 @@
     <body>
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
                 <div id="testologo">
-                    Bed &amp; Breakfast
+                    Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
                 <div id="testologo">
-                    Bed &amp; Breakfast
+                    Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <h1 id="titolo">
@@ -43,9 +43,9 @@
 
             <p class="testo" style="clear:left">
                 Situato a Caviola, a 7 minuti dal impianto di risalita del comprensorio sciistico San Pellegrino
-                il Boscoverde offre connessione WiFi e parcheggio privato gratuiti. Arredate in stile alpino,
+                il Boscoverde offre connessione Wi&ndash;Fi e parcheggio privato gratuiti. Arredate in stile alpino,
                 tutte le camere sono dotate di bagno privato fornito di doccia e set cortesia, TV a schermo piatto,
-                minibar e, in alcuni casi, di balcone con vista sulle montagne
+                minibar e, in alcuni casi, di balcone con vista sulle montagne.
             </p>
 
             <div id="imgCamere">

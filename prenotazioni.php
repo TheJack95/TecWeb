@@ -14,17 +14,17 @@
             <div id="logo">
                 <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
                 <div id="testologo">
-                    Bed & Breakfast
+                    Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
                 <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
                 <div id="testologo">
-                    Bed & Breakfast
+                    Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <h1  id="titolo">
-                <span xml:lang="en">BED & BREAKFAST'S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
+                <span xml:lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
             </h1>
 
         </div>
@@ -32,11 +32,15 @@
         <?php include("menu.php"); ?>
 
         <p class="testo">
-            In questa pagina puoi prenotare la tua stanza presso uno dei nostri B&B. Entro qualche ora ti verrà inviata
+            In questa pagina puoi prenotare la tua stanza presso uno dei nostri B&amp;B. Entro qualche ora ti verrà inviata
             una mail di conferma dell'avvenuta prenotazione. Per qualunque informazione puoi lasciare un messaggio nell'apposito
             spazio, verrai contattato il prima possibile.
-            <br/><strong>Ricordati di iscriverti <a rel="login" href="contatti.php">qui</a> prima di effettuare una prenotazione.</strong><br>
-            Buona permanenza da tutto lo staff!
+	</p>
+	<p class="testo">
+	    <strong>Ricordati di iscriverti <a rel="login" href="contatti.php">qui</a> prima di effettuare una prenotazione.</strong>
+	</p>
+	<p class="testo">
+	     Buona permanenza da tutto lo staff!
         </p>
 
         <?php include("formvalid.php"); ?>
@@ -47,7 +51,7 @@
 
             <div class="sel">
                 <select class="boh" name="BeB">
-                    <option value="" disabled selected>Seleziona il Bed and Breakfast</option>
+                    <option value="" disabled selected>Seleziona il Bed &amp; Breakfast</option>
                     <option value="AlBorgo">Al Borgo</option>
                     <option value="CadoreHaus">Cadore Hause</option>
                     <option value="StelladelViandante">Stella del Viandante</option>

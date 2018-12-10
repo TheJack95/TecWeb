@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
         <title>B&amp;B La Corte</title>
-        <link rel="icon" href="img/logogeg.jpg"/>
+        <link rel="icon" href="img/logoLacorte.png"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -13,15 +13,15 @@
     <body>
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
-                    Bed &amp; Breakfast
+                    Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
-                    Bed &amp; Breakfast
+                    Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <h1 id="titolo">
@@ -34,7 +34,7 @@
 
         <div class="tutto">
 
-            <img id="imgBeB" src="img/Rosolina1.jpg" alt="Immagine La Corte B&amp;B"/>
+            <img id="imgBeB" src="img/.jpg" alt="Immagine La Corte B&amp;B"/>
             <img id="logoBeB" src="img/logolacorte.png" alt="logo La Corte B&amp;B"/>
             <ul id="info">
                 <li>Telefono: +39 0000 000000</li>
@@ -51,7 +51,7 @@
                 Ogni mattina viene servita una colazione dolce a base di prodotti da forno, marmellate e bevande
                 calde e fredde.
                 Nel centro di Rosolina troverete un autobus che conduce alla spiaggia.
-                Le coppie apprezzano molto la posizione: l&rsquo;hanno valutata 9,1 per un viaggio a due.
+                Le coppie apprezzano molto la posizione: l'hanno valutata 9,1 per un viaggio a due.
                 Questa è anche la struttura con il miglior punteggio per il rapporto qualità-prezzo a Rosolina!
                 Rispetto ad altre strutture di questa città, gli ospiti ottengono di più spendendo meno.
             </p>
