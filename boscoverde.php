@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+        <meta charset="utf-8"/>
         <title>B&amp;B Boscoverde</title>
         <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
@@ -14,18 +14,18 @@
         <div id="header">
             <div id="logo">
                 <img src="img/logo.png" alt="logo Bed &amp; Breakfast's GEG"/>
-                <div id="testologo">
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
                 <img src="img/logo.png" alt="logo Bed &amp; Breakfast's GEG"/>
-                <div id="testologo">
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <h1 id="titolo">
-                <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> Boscoverde
+                <abbr title="Bed and Breakfast" lang="en">B&amp;B</abbr> Boscoverde
             </h1>
         </div>
 

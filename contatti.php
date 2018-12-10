@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
+        <meta charset="utf-8"/>
         <title>Contatti</title>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
@@ -13,24 +14,24 @@
         <div id="header">
             <div id="logo">
                 <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
-                <div id="testologo">
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
                 <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
-                <div id="testologo">
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <h1  id="titolo">
-                <span xml:lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
+                <span lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
             </h1>
         </div>
 
         <?php include("menu.php"); ?>
         <p class="testo">
-            In questa pagina puoi contattare lo staff di <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B&rsquo;s </abbr>
+            In questa pagina puoi contattare lo staff di <abbr title="Bed and Breakfast" lang="en">B&amp;B&rsquo;s </abbr>
             <abbr title="Giulia Erik Giacomo">GEG</abbr>.<br/>Per qualunque informazione puoi lasciare un messaggio nell'apposito spazio
             e verrai ricontattato entro qualche ora.<br/><br/><strong>Puoi utilizzare questo form per registrarti al nostro sito</strong>:
             scrivi nella casella messaggio <strong>"ISCRIZIONE"</strong><br/>e riceverai delle credenziali d'accesso temporanee via email.

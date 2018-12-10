@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	
 	<head>
-		<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+        <meta charset="utf-8"/>
 		<title>B&amp;B Cadore Haus</title>
 		<link rel="icon" href="img/logoCadorehaus.png"/>
 		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
@@ -15,18 +15,18 @@
 		<div id="header">
 			<div id="logo">
 				<img src="img/logo.png" alt="logo Bed & Breakfast's GEG"/>
-				<div id="testologo">
+				<div class="testologo">
 					Bed &amp; Breakfast&rsquo;s
 				</div>
 			</div>
             <div id="logo2">
                 <img src="img/logo.png" alt="logo Bed & Breakfast's GEG"/>
-                <div id="testologo">
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
 			<h1 id="titolo">
-                <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> Cadore Haus
+                <abbr title="Bed and Breakfast" lang="en">B&amp;B</abbr> Cadore Haus
 			</h1>
 		</div>
 
