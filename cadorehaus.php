@@ -16,19 +16,19 @@
 	<body>
 		<div id="header">
 			<div id="logo">
-				<img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+				<img src="img/logogeg.jpg" alt="logo Bed & Breakfast&rsquo;s GEG"/>
 				<div id="testologo">
-					Bed & Breakfast
+					Bed &amp; Breakfast
 				</div>
 			</div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
-                    Bed & Breakfast
+                    Bed &amp; Breakfast
                 </div>
             </div>
 			<h1 id="titolo">
-                <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> Cadore Haus
+                <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> Cadore Haus
 			</h1>
 		</div>
 
@@ -48,7 +48,7 @@
             </ul>
 
             <p class="testo">Nel cuore delle Dolomiti, la Cadore Haus offre momenti di assoluto relax a contatto con la natura.
-                Ricavato dall'antica dependance dell'Albergo Cadore, la casa vanta stanze accoglienti e curate. La costruzione si trova nel centro del paese, a pochi passi dalla chiesa di San Lucano, nella frazione di Villapiccola. Costruita nel 1904 e convertita in attivit&agrave; ricettiva nel 2006, la Cadore Haus vanta una grande attenzione ai dettagli e uno spiccato senso dello stile. Gli interni sono rivestiti da boiserie in legno progettate e realizzate da abili artigiani della zona. Ogni particolare &egrave; stato scelto per creare un'atmosfera di familiarit&agrave; e assoluta eleganza. La casa trae ispirazione dagli alberghi di inizio secolo: le pareti in legno, i ricchi tendaggi e i pregevoli mobili d'antiquariato che la arredano ne fanno un luogo ideale per trascorrere dei momenti indimenticabili tra le Alpi. La struttura si articola su due piani: al piano terra si trova la reception, una piccola hall e la sala dove viene servita la colazione. Al primo piano si trovano le camere, ciascuna dotata di bagno autonomo.</p>
+                Ricavato dall&rsquo;antica dependance dell&rsquo;Albergo Cadore, la casa vanta stanze accoglienti e curate. La costruzione si trova nel centro del paese, a pochi passi dalla chiesa di San Lucano, nella frazione di Villapiccola. Costruita nel 1904 e convertita in attivit&agrave; ricettiva nel 2006, la Cadore Haus vanta una grande attenzione ai dettagli e uno spiccato senso dello stile. Gli interni sono rivestiti da boiserie in legno progettate e realizzate da abili artigiani della zona. Ogni particolare &egrave; stato scelto per creare un&rsquo;atmosfera di familiarit&agrave; e assoluta eleganza. La casa trae ispirazione dagli alberghi di inizio secolo: le pareti in legno, i ricchi tendaggi e i pregevoli mobili d&rsquo;antiquariato che la arredano ne fanno un luogo ideale per trascorrere dei momenti indimenticabili tra le Alpi. La struttura si articola su due piani: al piano terra si trova la reception, una piccola hall e la sala dove viene servita la colazione. Al primo piano si trovano le camere, ciascuna dotata di bagno autonomo.</p>
 
 
             <div id="imgCamere">

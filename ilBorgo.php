@@ -13,19 +13,19 @@
     <body>
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
-                    Bed & Breakfast
+                    Bed &amp; Breakfast
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
-                    Bed & Breakfast
+                    Bed &amp; Breakfast
                 </div>
             </div>
             <h1 id="titolo">
-                <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> Al Borgo
+                <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> Al Borgo
             </h1>
         </div>
 

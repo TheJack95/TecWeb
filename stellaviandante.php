@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
-        <title>B&B La Stella del Viandante</title>
+        <title>B&amp;B La Stella del Viandante</title>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -12,19 +12,19 @@
     <body>
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
-                    Bed & Breakfast
+                    Bed &amp; Breakfast
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
-                    Bed & Breakfast
+                    Bed &amp; Breakfast
                 </div>
             </div>
             <h1 id="titolo">
-               <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> Stella del Viandante
+               <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> Stella del Viandante
             </h1>
         </div>
 
@@ -32,7 +32,7 @@
         <?php include("menu.php"); ?>
 
         <div class="tutto">
-            <img id="imgBeB" src="img/B&B_Falcade.jpg" alt="B&B Falcade"/>  <!--IMMAGINE B&B-->
+            <img id="imgBeB" src="img/B&B_Falcade.jpg" alt="B&amp;B Falcade"/>  <!--IMMAGINE B&B-->
             <img id="logoBeB" src="img/logoB&B_Falcade.jpg" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
             <ul id="info">
                 <li>Telefono: 00000000 </li>

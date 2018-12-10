@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
-        <title>B&B Boscoverde</title>
+        <title>B&amp;B Boscoverde</title>
         <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
@@ -13,26 +13,26 @@
     <body>
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
-                    Bed & Breakfast
+                    Bed &amp; Breakfast
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
-                    Bed & Breakfast
+                    Bed &amp; Breakfast
                 </div>
             </div>
             <h1 id="titolo">
-                <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> Boscoverde
+                <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> Boscoverde
             </h1>
         </div>
 
 		<?php include("menu.php"); ?>
 
         <div class="tutto">
-            <img id="imgBeB" src="img/B&B_Nevegal.jpg" alt="B&B Nevegal"/>  <!--IMMAGINE B&B-->
+            <img id="imgBeB" src="img/B&B_Nevegal.jpg" alt="B&amp;B Nevegal"/>  <!--IMMAGINE B&B-->
             <img id="logoBeB" src="img/logoB&B_Nevegal.png" alt="Logo Boscoverde"/>	<!--LOGO B&B-->
 
             <ul id="info">
@@ -43,7 +43,7 @@
             </ul>
 
             <p class="testo">
-                Nel nostro B&B ogni camera e' dotata di arredamento completo: letti (possibilità a scelta di letto matrimoniale
+                Nel nostro B&amp;B ogni camera &egrave; dotata di arredamento completo: letti (possibilità a scelta di letto matrimoniale
                 o di due letti separati), comodini e divano; set di biancheria da camera completo; televisione;
                 fornitura di energia elettrica; riscaldamento; aria condizionata; pulizie quotidiane.
                 Situato sul colle del Nevegal, una delle più affascinanti località del bellunese,
