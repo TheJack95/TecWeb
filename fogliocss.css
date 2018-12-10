@@ -50,7 +50,7 @@ body {
     width: 50%;
 }
 
-#testologo {
+.testologo {
     font-family: Verdana;
     font-size: 1.2rem;
     font-style: italic;
@@ -106,14 +106,6 @@ abbr {
     padding: 1.5rem;
     font-size: 1.1rem;
     clear: both;
-}
-
-.testo a {
-text-decoration: none;
-}
-
-.testo a:hover {
-text-decoration: underline;
 }
 
 #imgCamere {
