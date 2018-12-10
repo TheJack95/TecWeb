@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
     <title>Area Personale</title>
+    <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="login.css" media="screen"/>
@@ -13,14 +14,14 @@
     <div id="header">
         <div id="logo">
             <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-            <div id="testologo">
+            <div class="testologo">
                 Bed &amp; Breakfast
             </div>
         </div>
 
         <div id="logo2">
             <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-            <div id="testologo">
+            <div class="testologo">
                 Bed &amp; Breakfast
             </div>
         </div>

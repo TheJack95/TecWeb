@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+        <meta charset="utf-8"/>
 		<title>Bed &amp; Breakfast&rsquo;s</title>
-        	<link rel="stylesheet" type="text/css" href="fogliocss.css" media="handheld, screen" />
+        <link rel="stylesheet" type="text/css" href="fogliocss.css" media="handheld, screen" />
 		<link rel="stylesheet" type="text/css" href="B&B_style.css" media="handheld, screen"/>
 		<link rel="stylesheet" type="text/css" href="menu.css" media="handheld, screen"/>
 		<link rel="stylesheet" type="text/css" href="footer.css" media="handheld, screen"/>
@@ -14,19 +14,19 @@
         <div id="header">
             <div id="logo">
                 <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div id="testologo">
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
 
             <div id="logo2">
                 <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div id="testologo">
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
 
-            <h1  id="titolo"><span xml:lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr></h1>
+            <h1  id="titolo"><span lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr></h1>
 
         </div>
 
