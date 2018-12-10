@@ -3,10 +3,10 @@
     <head>
         <title>Prenotazioni</title>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
+        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="contatti.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
-        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
     </head>
 
     <body id="pren">

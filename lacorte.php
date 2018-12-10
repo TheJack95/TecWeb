@@ -5,9 +5,9 @@
         <title>B&B La Corte</title>
         <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
+        <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/> 
     </head>
 
     <body>

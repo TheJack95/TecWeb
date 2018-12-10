@@ -2,10 +2,10 @@
 // nome di host
 $host = "localhost";
 // username dell'utente in connessione
-$user = "root";
+$user = "gfiorese";
 // password dell'utente
-$password = "giacomo";
-$dbname = "sito";
+$password = "sheelahJie2ieKoi";
+$dbname = "gfiorese";
 
 // stringa di connessione al DBMS
 $conn = new mysqli($host, $user, $password, $dbname);
@@ -28,11 +28,13 @@ elseif($username == 'admin') {
 
     echo "<h2>Prenotazione dei Clienti</h2>";
 
+    echo "<div id='pren'>";
+
     $sqlP = "SELECT * FROM Prenotazione ";
     $result = mysqli_query($conn, $sqlP);
 
     while ($row = mysqli_fetch_assoc($result)) {
-        echo "<div id='pren'>" . " - Nome: " . $row["Nome"] . "<br>" .
+        echo " - Nome: " . $row["Nome"] . "<br>" .
             " - Cognome: " . $row["Cognome"] . "<br>" .
             " - Telefono: " . $row["Telefono"] . "<br>" .
             " - E-mail: " . $row["Email"] . "<br>" .

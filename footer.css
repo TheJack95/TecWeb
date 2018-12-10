@@ -13,6 +13,8 @@
 }
 
 #footer ul li {
+    margin:1rem;
+    text-align: justify;
     display: inline;
     font-style: italic;
     color: white;

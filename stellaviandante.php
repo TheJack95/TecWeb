@@ -4,9 +4,9 @@
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
         <title>B&B La Stella del Viandante</title>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
+        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
-        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
     </head>
 
     <body>
