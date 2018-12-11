@@ -1,6 +1,12 @@
 VALIDARE HTML
+Pagine valiate: 
+	- areaPrivata
+	- areaUtente
+	- B&B
+	- boscoverde
+	- cadorehaus
 Controllare id
-Eliminare link circolari da menù
+Eliminare link circolari da menù FATTO
 
 MIGLIORARE accessibilita'
 Aggiungere Javascript
