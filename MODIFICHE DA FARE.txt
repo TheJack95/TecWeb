@@ -1,16 +1,14 @@
 VALIDARE HTML
-CODIFICA accenti e boiate varie FATTO
 Controllare id
-Elimnare </br>, rimpiazzando con paragrafi FATTO
-Toglire JS da codice HTML FATTO
+Eliminare link circolari da menù
 
 MIGLIORARE accessibilita'
 Aggiungere Javascript
-Migliorare form
+Migliorare form (meglio usare PHP)
 
 VALIDARE CSS
-Eliminare pixel
-CSS mobile NON VA
+Eliminare pixel FATTO(??)
+CSS mobile NON VA (DOVREBBE ANDARE)
 CSS stampa da fare
 
 RELAZIONE piu' dettagliata
