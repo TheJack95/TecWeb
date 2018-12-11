@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
 	</head>
 	
-	<body>
+	<body id="CadoreHause">
 		<div id="header">
 			<div id="logo">
 				<img src="img/logo.png" alt="logo Bed & Breakfast's GEG"/>

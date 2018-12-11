@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/> 
     </head>
 
-    <body>
+    <body id="LaCorte">
         <div id="header">
             <div id="logo">
                 <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>

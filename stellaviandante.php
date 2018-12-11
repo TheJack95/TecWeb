@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
     </head>
 
-    <body>
+    <body id="StellaViandate">
         <div id="header">
             <div id="logo">
                 <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>

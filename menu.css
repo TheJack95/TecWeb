@@ -1,7 +1,11 @@
-#home .home, #pren .pren, #contatti .contatti, #AP .AP
+#home .home, #contatti .contatti, #AP .AP, #BandB .BandB,
+    #BoscoVerde .BoscoVerde, #CadoreHause .CadoreHause, #Borgo .Borgo, #LaCorte .LaCorte, #StellaViandate .StellaViandante
 {
     background-color: #BD091B;
     color: white;
+    cursor: not-allowed;
+    text-decoration: none;
+    pointer-events: none;
 }
 
 .menu {

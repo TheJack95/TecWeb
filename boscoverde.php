@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
     </head>
 
-    <body>
+    <body id="BoscoVerde">
         <div id="header">
             <div id="logo">
                 <img src="img/logo.png" alt="logo Bed &amp; Breakfast's GEG"/>
