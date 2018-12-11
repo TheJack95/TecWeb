@@ -2,10 +2,10 @@
 // nome di host
 $host = "localhost";
 // username dell'utente in connessione
-$user = "gfiorese";
+$user = "";
 // password dell'utente
-$password = "sheelahJie2ieKoi";
-$dbname = "gfiorese";
+$password = "";
+$dbname = "";
 
 // stringa di connessione al DBMS
 $conn = new mysqli($host, $user, $password, $dbname);
