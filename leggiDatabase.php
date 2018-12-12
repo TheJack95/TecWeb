@@ -1,10 +1,11 @@
 <?php
 // nome di host
-$host = "localhost";
+$host = "";
 // username dell'utente in connessione
 $user = "";
 // password dell'utente
 $password = "";
+//nome database da usare
 $dbname = "";
 
 // stringa di connessione al DBMS

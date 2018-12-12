@@ -108,6 +108,14 @@ abbr {
     clear: both;
 }
 
+.testo a {
+text-decoration: none;
+}
+
+.testo a:hover {
+text-decoration: underline;
+}
+
 #imgCamere {
     margin: 2em;
     text-align: center;

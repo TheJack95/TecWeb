@@ -1,11 +1,22 @@
 VALIDARE HTML
-Pagine valiate: 
+Pagine valiate: TUTTE
 	- areaPrivata
 	- areaUtente
 	- B&B
 	- boscoverde
 	- cadorehaus
-Controllare id
+	- contatti (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
+	- footer
+	- il borgo
+	- index
+	- lacorte
+	- login (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
+	- menu
+	- prenotazioni (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
+	- stelladelviandante
+
+Controllare id FATTO
+
 Eliminare link circolari da menù FATTO
 
 MIGLIORARE accessibilita'
@@ -13,8 +24,10 @@ Aggiungere Javascript
 Migliorare form (meglio usare PHP)
 
 VALIDARE CSS
-Eliminare pixel FATTO(??)
-CSS mobile NON VA (DOVREBBE ANDARE)
+sistemare css titolo (vedi b&b la stella del viandante)
+Eliminare pixel
 CSS stampa da fare
 
-RELAZIONE piu' dettagliata
+MENU' MOBILE
+
+RELAZIONE piu' dettagliata (me ne occupo io, Giulia)

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>B&amp;B Boscoverde</title>
-        <link rel="icon" href="img/logogeg.jpg"/>
+        <link rel="icon" href="img/boscoverdeLogo.png"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -13,13 +13,13 @@
     <body id="BoscoVerde">
         <div id="header">
             <div id="logo">
-                <img src="img/logo.png" alt="logo Bed &amp; Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logo.png" alt="logo Bed &amp; Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
@@ -33,7 +33,7 @@
 
         <div class="tutto">
             <img id="imgBeB" src="img/boscoverde.png" alt="B&amp;B Boscoverde"/>  <!--IMMAGINE B&B-->
-            <img id="logoBeB" src="img/logoBoscoverde.png" alt="Logo Boscoverde"/>	<!--LOGO B&B-->
+            <img id="logoBeB" src="img/boscoverdeLogo.png" alt="Logo Boscoverde"/>	<!--LOGO B&B-->
 
             <ul id="info">
                 <li>Telefono: +39 0000 000000</li>
@@ -54,8 +54,8 @@
 
 
         <div id="imgCamere">
-            <img class="camera" src="img/camera_Nevegal.jpg" alt="Camera"/>
-            <img class="camera" src="img/camera_Nevegal2.jpg" alt="Camera"/>
+            <img class="camera" src="img/boscoverdeCamera1.jpg" alt="Camera"/>
+            <img class="camera" src="img/boscoverdeCamera2.jpg" alt="Camera"/>
         </div>
 
       </div>

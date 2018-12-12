@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Contatti</title>
+	    <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="contatti.css" media="screen"/>
@@ -13,13 +14,13 @@
     <body id="contatti">
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
@@ -31,16 +32,14 @@
 
         <?php include("menu.php"); ?>
         <p class="testo">
-            In questa pagina puoi contattare lo staff di <abbr title="Bed and Breakfast" lang="en">B&amp;B&rsquo;s </abbr>
-            <abbr title="Giulia Erik Giacomo">GEG</abbr>.<br/>Per qualunque informazione puoi lasciare un messaggio nell'apposito spazio
-            e verrai ricontattato entro qualche ora.<br/><br/><strong>Puoi utilizzare questo form per registrarti al nostro sito</strong>:
-            scrivi nella casella messaggio <strong>"ISCRIZIONE"</strong><br/>e riceverai delle credenziali d'accesso temporanee via email.
+            In questa pagina puoi contattare lo staff di <abbr title="Bed and Breakfast" lang="en">B&amp;B&rsquo;s</abbr> <abbr title="Giulia 		    Erik Giacomo">GEG</abbr>. Per qualunque informazione puoi lasciare un messaggio nell'apposito spazio e verrai ricontattato 		    entro qualche ora. <strong>Puoi utilizzare questo form anche per registrarti al nostro sito</strong>: scrivi nella casella messaggio
+	    &ldquo;<strong>ISCRIZIONE</strong>&rdquo; e riceverai delle credenziali d'accesso temporanee via email.
         </p>
         <?php include("formvalid.php"); ?>
 
         <form id="contact" method="post" name="datiUtenti">
 				<div class="input_rule">
-					<label class="label-cont" for="nome">Nome<span class="important">*</span> </label>
+					<label class="label-cont" for="nome">Nome <span class="important">*</span> </label>
 					<input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_name?></div>
 				</div>
 				<div class="input_rule">
@@ -52,7 +51,7 @@
 					<input class="input_text" type="text" id="email" name="email"><div class="error"><?php echo $val_email?></div>
 				</div>
 				<div class="input_rule">
-					<label class="label-cont" for="telefono">Telefono</label>
+					<label class="label-cont" for="telefono">Telefono </label>
 					<input class="input_text" type="text" id="telefono" name="telefono">
 				</div>
 				<div class="input_rule">

@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
         <title>B&amp;B La Corte</title>
-        <link rel="icon" href="img/logoLacorte.png"/>
+        <link rel="icon" href="img/lacorteLogo.png"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -13,14 +13,14 @@
     <body id="LaCorte">
         <div id="header">
             <div id="logo">
-                <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div id="testologo">
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div id="testologo">
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
@@ -33,9 +33,8 @@
 
 
         <div class="tutto">
-
-            <img id="imgBeB" src="img/lacorte.png" alt="Immagine La Corte B&amp;B"/>
-            <img id="logoBeB" src="img/logolacorte.png" alt="logo La Corte B&amp;B"/>
+            <img id="imgBeB" src="img/lacorte.jpg" alt="La Corte B&amp;B"/>
+            <img id="logoBeB" src="img/lacorteLogo.png" alt="logo La Corte B&amp;B"/>
             <ul id="info">
                 <li>Telefono: +39 0000 000000</li>
                 <li>Indirizzo: Via Bassafonda 46, 45010 Rosolina (RO)</li>
@@ -57,8 +56,8 @@
             </p>
 
             <div id="imgCamere">
-                <img class="camera" src="img/rosolinaCamera1.jpg" alt="Camera" width="350" height="250"/>
-                <img class="camera" src="img/rosolinaCamera2.jpg" alt="Camera" width="350" height="250"/>
+                <img class="camera" src="img/lacorteCamera1.jpg" alt="Camera" width="350" height="250"/>
+                <img class="camera" src="img/lacorteCamera2.jpg" alt="Camera" width="350" height="250"/>
             </div>
 
         </div>

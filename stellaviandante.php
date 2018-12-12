@@ -3,6 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
         <title>B&amp;B La Stella del Viandante</title>
+	<link rel="icon" href="img/lastelladelviandanteLogo.png"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -12,19 +13,19 @@
     <body id="StellaViandate">
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div id="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
-                <div id="testologo">
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
-            <h1 id="titolo">
-               <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> Stella del Viandante
+            <h1 class="titolo">
+               <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> La Stella del Viandante
             </h1>
         </div>
 
@@ -32,13 +33,18 @@
         <?php include("menu.php"); ?>
 
         <div class="tutto">
-            <img id="imgBeB" src="img/B&B_Falcade.jpg" alt="B&amp;B Falcade"/>  <!--IMMAGINE B&B-->
-            <img id="logoBeB" src="img/logoB&B_Falcade.jpg" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
+<<<<<<< HEAD
+            <img id="imgBeB" src="img/lastelladelviandante.png" alt="B&amp;B Stella del Viandante"/>  <!--IMMAGINE B&B-->
+            <img id="logoBeB" src="img/logoLastelladelviandante.png" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
+=======
+            <img id="imgBeB" src="img/lastelladelviandante.png" alt="B&amp;B Falcade"/>  <!--IMMAGINE B&B-->
+            <img id="logoBeB" src="img/lastelladelviandanteLogo.png" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
+>>>>>>> d0a7e48f04a3f52cd9afc5e4d8677a46614fc52b
             <ul id="info">
-                <li>Telefono: 00000000 </li>
-                <li>Indirizzo: Via Danilo Busin 7, Falcade </li>
+                <li>Telefono: +39 0000 000000</li>
+                <li>Indirizzo: Via Danilo Busin 7, 32020 Falcade (BL)</li>
                 <li><a href="https://goo.gl/maps/e6JwcoXmWN12" target="_blank">Vedi sulla mappa</a></li>
-                <li><a href="prenotazioni.php">Prenota o richiendi maggiori informazioni</a></li>
+                <li><a href="prenotazioni.php">Prenota o richiedi maggiori informazioni</a></li>
             </ul>
 
             <p class="testo" style="clear:left">
@@ -49,8 +55,8 @@
             </p>
 
             <div id="imgCamere">
-                <img class="camera" src="img/camera_Falcade.jpg" alt="Camera"/>
-                <img class="camera" src="img/camera_Falcade2.jpg" alt="Camera"/>
+                <img class="camera" src="img/lastelladelviandanteCamera1.jpg" alt="Camera"/>
+                <img class="camera" src="img/lastelladelviandanteCamera2.jpg" alt="Camera"/>
             </div>
 
         </div>
