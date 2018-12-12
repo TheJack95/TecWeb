@@ -54,8 +54,8 @@
 
 
         <div id="imgCamere">
-            <img class="camera" src="img/camera_Nevegal.jpg" alt="Camera"/>
-            <img class="camera" src="img/camera_Nevegal2.jpg" alt="Camera"/>
+            <img class="camera" src="img/boscoverdeCamera1.jpg" alt="Camera"/>
+            <img class="camera" src="img/boscoverdeCamera2.jpg" alt="Camera"/>
         </div>
 
       </div>
