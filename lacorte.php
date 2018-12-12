@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
@@ -34,7 +34,7 @@
 
         <div class="tutto">
 
-            <img id="imgBeB" src="img/.jpg" alt="Immagine La Corte B&amp;B"/>
+            <img id="imgBeB" src="img/Rosolina1.jpg" alt="La Corte B&amp;B"/>
             <img id="logoBeB" src="img/logolacorte.png" alt="logo La Corte B&amp;B"/>
             <ul id="info">
                 <li>Telefono: +39 0000 000000</li>

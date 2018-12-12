@@ -10,7 +10,7 @@
             <a href="boscoverde.php" class="BoscoVerde">B&amp;B Boscoverde</a>
             <a href="cadorehaus.php" class="CadoreHause">B&amp;B Cadore Haus</a>
             <a href="lacorte.php" class="LaCorte">B&amp;B La Corte</a>
-            <a href="stellaviandante.php" class="StellaViandante">B&amp;B Stella del Viandante</a>
+            <a href="stellaviandante.php" class="StellaViandante">B&amp;B La Stella del Viandante</a>
         </div>
     </div>
     <a class="contatti" href="contatti.php">Contatti</a>

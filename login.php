@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	<head>
 		<title>Area Personale</title>
@@ -12,13 +12,13 @@
 	<body id="AP">
 		<div id="header">
 			<div id="logo">
-				<img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+				<img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
 				<div id="testologo">
 					Bed &amp; Breakfast&rsquo;s
 				</div>
 			</div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div id="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
@@ -33,7 +33,7 @@
 		<form id="login" action="areaPrivata.php" method="post">
 			
 			<div class="nome">
-                <label for="user">Username<span class="error">*</span></label><br/>
+                <label for="user">Username <span class="error">*</span></label><br/>
                 <input class="cella" type="text" id="user" name="user" ><?php echo $_GET['err'] ?></div><br/>
 			</div>
 			

@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
@@ -12,19 +12,19 @@
     <body id="StellaViandate">
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div id="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div id="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <h1 id="titolo">
-               <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> Stella del Viandante
+               <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> La Stella del Viandante
             </h1>
         </div>
 
@@ -32,13 +32,13 @@
         <?php include("menu.php"); ?>
 
         <div class="tutto">
-            <img id="imgBeB" src="img/B&B_Falcade.jpg" alt="B&amp;B Falcade"/>  <!--IMMAGINE B&B-->
-            <img id="logoBeB" src="img/logoB&B_Falcade.jpg" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
+            <img id="imgBeB" src="img/BeB_Falcade.jpg" alt="B&amp;B Falcade"/>  <!--IMMAGINE B&B-->
+            <img id="logoBeB" src="img/logoBeB_Falcade.jpg" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
             <ul id="info">
-                <li>Telefono: 00000000 </li>
-                <li>Indirizzo: Via Danilo Busin 7, Falcade </li>
+                <li>Telefono: +39 0000 000000</li>
+                <li>Indirizzo: Via Danilo Busin 7, 32020 Falcade (BL)</li>
                 <li><a href="https://goo.gl/maps/e6JwcoXmWN12" target="_blank">Vedi sulla mappa</a></li>
-                <li><a href="prenotazioni.php">Prenota o richiendi maggiori informazioni</a></li>
+                <li><a href="prenotazioni.php">Prenota o richiedi maggiori informazioni</a></li>
             </ul>
 
             <p class="testo" style="clear:left">

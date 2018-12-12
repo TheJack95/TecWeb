@@ -11,12 +11,14 @@ Pagine valiate:
 	- footer
 	- il borgo
 	- index
+	- lacorte
+	- login (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
 	- menu
 	- prenotazioni (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
-	- 
+	- stelladelviandante
 
 Controllare id:
-	-testologo
+	-testologo è presente più di una volta (LO CAMBIAMO IN class COSÌ RISOLVIAMO?)
 
 Eliminare link circolari da menù FATTO
 
@@ -25,8 +27,9 @@ Aggiungere Javascript
 Migliorare form (meglio usare PHP)
 
 VALIDARE CSS
+sistemare css titolo (vedi b&b la stella del viandante)
 Eliminare pixel FATTO(??)
 CSS mobile NON VA (DOVREBBE ANDARE)
 CSS stampa da fare
 
-RELAZIONE piu' dettagliata
+RELAZIONE piu' dettagliata (me ne occupo io, Giulia)
