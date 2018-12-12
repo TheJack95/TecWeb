@@ -1,7 +1,8 @@
-<!DOCTYPE HTML>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="it" lang="it">
     <head>
         <title>Bed &amp; Breakfast&rsquo;s GEG</title>
+	<link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" media="screen" href="fogliocss.css" />
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -11,14 +12,14 @@
     <body id="home">
         <div id="header">
             <div id="logo">
-                <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
 
             <div id="logo2">
-                <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
