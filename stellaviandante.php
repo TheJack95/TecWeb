@@ -3,6 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
         <title>B&amp;B La Stella del Viandante</title>
+	<link rel="icon" href="img/lastelladelviandanteLogo.png"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -32,8 +33,13 @@
         <?php include("menu.php"); ?>
 
         <div class="tutto">
+<<<<<<< HEAD
             <img id="imgBeB" src="img/lastelladelviandante.png" alt="B&amp;B Stella del Viandante"/>  <!--IMMAGINE B&B-->
             <img id="logoBeB" src="img/logoLastelladelviandante.png" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
+=======
+            <img id="imgBeB" src="img/lastelladelviandante.png" alt="B&amp;B Falcade"/>  <!--IMMAGINE B&B-->
+            <img id="logoBeB" src="img/lastelladelviandanteLogo.png" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
+>>>>>>> d0a7e48f04a3f52cd9afc5e4d8677a46614fc52b
             <ul id="info">
                 <li>Telefono: +39 0000 000000</li>
                 <li>Indirizzo: Via Danilo Busin 7, 32020 Falcade (BL)</li>
@@ -49,8 +55,8 @@
             </p>
 
             <div id="imgCamere">
-                <img class="camera" src="img/camera_Falcade.jpg" alt="Camera"/>
-                <img class="camera" src="img/camera_Falcade2.jpg" alt="Camera"/>
+                <img class="camera" src="img/lastelladelviandanteCamera1.jpg" alt="Camera"/>
+                <img class="camera" src="img/lastelladelviandanteCamera2.jpg" alt="Camera"/>
             </div>
 
         </div>

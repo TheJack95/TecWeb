@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Contatti</title>
+	<link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="contatti.css" media="screen"/>

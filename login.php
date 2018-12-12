@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	<head>
 		<title>Area Personale</title>
+		<link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="login.css" />
 		<link rel="stylesheet" type="text/css" href="fogliocss.css"/>
 		<link rel="stylesheet" type="text/css" href="menu.css" />

@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
         <title>B&B Al Borgo</title>
-        <link rel="icon" href="img/logoAlborgo.png"/>
+        <link rel="icon" href="img/alborgoLogo.png"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -13,13 +13,13 @@
     <body id="Borgo">
         <div id="header">
             <div id="logo">
-                <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div id="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
@@ -34,7 +34,7 @@
         <div class="tutto">
 
             <img id="imgBeB" src="img/alborgo.png" alt="Al Borgo"/>
-            <img id="logoBeB" src="img/logoAlborgo.png" alt="Al Borgo Logo"/>
+            <img id="logoBeB" src="img/alborgoLogo.png" alt="Al Borgo Logo"/>
 
             <ul id="info">
                 <li>Telefono: +39 0000 000000</li>
