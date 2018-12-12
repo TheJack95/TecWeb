@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
-        <title>B&amp;B Al Borgo</title>
+        <title>B&B Al Borgo</title>
         <link rel="icon" href="img/logoAlborgo.png"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
@@ -52,9 +52,9 @@
 	  </p>
 	  <p class="testo">
                 Avete con voi i vostri bambini? Nessun problema, Al Borgo abbiamo sia le attrezzature (e i giochi) che il
-                servizio di <span lang="en">babysitting</span>, oltre chiaramente alle culle e al letto apposito (su richiesta).
+                servizio di <span lang="en">baby&ndash;sitting</span>, oltre chiaramente alle culle e al letto apposito (su richiesta).
                 Il gestore vive nella casa, ha una buona conoscenza della zona e potr&agrave; aiutarvi ad organizzare il vostro
-                tempo per non perdere nessuna delle opportunit&agrave; offerte da Arqu&agrave; Petrarca e limitrofi.
+                tempo per non perdere nessuna delle opportunit&agrave; offerte da Arqu&agrave; Petrarca e zone limitrof.
             </p>
 
             <div id="imgCamere">

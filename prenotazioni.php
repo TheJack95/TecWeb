@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <title>Prenotazioni</title>
@@ -12,13 +12,13 @@
     <body id="pren">
         <div id="header">
             <div id="logo">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div id="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
                 <div id="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
@@ -32,36 +32,25 @@
         <?php include("menu.php"); ?>
 
         <p class="testo">
-            In questa pagina puoi prenotare la tua stanza presso uno dei nostri B&amp;B. Entro qualche ora ti verrà inviata
-            una mail di conferma dell'avvenuta prenotazione. Per qualunque informazione puoi lasciare un messaggio nell'apposito
-            spazio, verrai contattato il prima possibile.
-	</p>
-	<p class="testo">
-	    <strong>Ricordati di iscriverti <a rel="login" href="contatti.php">qui</a> prima di effettuare una prenotazione.</strong>
-	</p>
-	<p class="testo">
-	     Buona permanenza da tutto lo staff!
+            In questa pagina puoi prenotare la tua stanza presso uno dei nostri B&amp;B&rsquo;s. Entro qualche ora dall&rsquo;invio della 		    richiesta, ti verrà inviata una mail di conferma dell&rsquo;avvenuta prenotazione. Per qualunque informazione puoi lasciare un 		    messaggio nell&rsquo;apposito spazio e verrai contattato il prima possibile. <strong>Ricorda di iscriverti <a class="contatti" 		    href="contatti.php">qui</a></strong> prima di proseguire con la compilazione della prenotazione. Buona permanenza da tutto lo staff!
         </p>
 
         <?php include("formvalid.php"); ?>
 
-
-
-        <form  method="post" action="" name="datiUtenti">
-
+        <form method="post" action="" name="datiUtenti">
             <div class="sel">
                 <select class="boh" name="BeB">
-                    <option value="" disabled selected>Seleziona il Bed &amp; Breakfast</option>
-                    <option value="AlBorgo">Al Borgo</option>
-                    <option value="CadoreHaus">Cadore Hause</option>
-                    <option value="StelladelViandante">Stella del Viandante</option>
-                    <option value="Boscoverde">Boscoverde</option>
-                    <option value="LaCorte">La Corte</option>
+                    <option value="" disabled selected>Seleziona il Bed &amp; Breakfast </option>
+                    <option value="AlBorgo">B&amp;B Al Borgo</option>
+                    <option value="Boscoverde">B&amp;B Boscoverde</option>
+                    <option value="CadoreHaus">B&amp;B Cadore Haus</option>
+                    <option value="LaCorte">B&amp;B La Corte</option>
+                    <option value="StelladelViandante">B&amp;B La Stella del Viandante</option>
                 </select>
                 <input class="boh" type="txt" name="Checkin" placeholder="Check-in" onfocus="(this.type='date')" id="Check"/>
                 <input class="boh"type="txt" name="Checkout" placeholder="Check-out" onfocus="(this.type='date')" id="Check"/>
                 <select class="boh" id="sel1" name="Persone">
-                    <option>Seleziona il numero di persone</option>
+                    <option>Seleziona il numero di ospiti </option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -70,7 +59,7 @@
             </div>
             <div id="contact">
 		<div class="input_rule">
-                    <label class="label-cont" for="username">Username<span class="important">*</span> </label>
+                    <label class="label-cont" for="username">Username <span class="important">*</span> </label>
                     <input class="input_text" type="text" id="username" name="username"><div class="error"><?php echo $val_name?></div>
                 </div>
 

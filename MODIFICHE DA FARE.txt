@@ -7,7 +7,17 @@ Pagine valiate:
 	- B&B
 	- boscoverde
 	- cadorehaus
-Controllare id
+	- contatti (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
+	- footer
+	- il borgo
+	- index
+	- menu
+	- prenotazioni (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
+	- 
+
+Controllare id:
+	-testologo
+
 Eliminare link circolari da menù FATTO
 
 MIGLIORARE accessibilita'

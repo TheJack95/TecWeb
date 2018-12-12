@@ -1,7 +1,7 @@
 <div class="menu" id="myTopnav">
     <a href="index.php" class="home">Home</a>
     <div class="dropdown">
-        <button class="dropbtn">Bed&amp;Breakfast&rsquo;s
+        <button class="dropbtn">Bed &amp; Breakfast&rsquo;s
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
