@@ -49,7 +49,7 @@
                     <option value="StelladelViandante">B&amp;B La Stella del Viandante</option>
                 </select>
                 <input class="boh" type="txt" name="Checkin" placeholder="Check-in" onfocus="(this.type='date')" id="Check"/>
-                <input class="boh"type="txt" name="Checkout" placeholder="Check-out" onfocus="(this.type='date')" id="Check"/>
+                <input class="boh" type="txt" name="Checkout" placeholder="Check-out" onfocus="(this.type='date')" id="Check"/>
                 <select class="boh" id="sel1" name="Persone">
                     <option>Seleziona il numero di ospiti </option>
                     <option>1</option>

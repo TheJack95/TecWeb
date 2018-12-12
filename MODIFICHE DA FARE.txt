@@ -1,7 +1,5 @@
-PER GIACOMO - puoi cancellare la cartella img-new? io non ho i permessi
-
 VALIDARE HTML
-Pagine valiate: 
+Pagine valiate: TUTTE
 	- areaPrivata
 	- areaUtente
 	- B&B
@@ -17,8 +15,7 @@ Pagine valiate:
 	- prenotazioni (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
 	- stelladelviandante
 
-Controllare id:
-	-testologo è presente più di una volta (LO CAMBIAMO IN class COSÌ RISOLVIAMO?)
+Controllare id FATTO
 
 Eliminare link circolari da menù FATTO
 
@@ -28,8 +25,9 @@ Migliorare form (meglio usare PHP)
 
 VALIDARE CSS
 sistemare css titolo (vedi b&b la stella del viandante)
-Eliminare pixel FATTO(??)
-CSS mobile NON VA (DOVREBBE ANDARE)
+Eliminare pixel
 CSS stampa da fare
+
+MENU' MOBILE
 
 RELAZIONE piu' dettagliata (me ne occupo io, Giulia)
