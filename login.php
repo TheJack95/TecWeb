@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
 		<link rel="stylesheet" type="text/css" href="menu.css" />
 		<link rel="stylesheet" type="text/css" href="footer.css"/>
-        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
+        	<link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css"/>
 	</head>
 	
 	<body id="AP">
@@ -19,21 +19,19 @@
 					Bed &amp; Breakfast&rsquo;s
 				</div>
 			</div>
-            <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
-                <div class="testologo">
-                    Bed &amp; Breakfast&rsquo;s
-                </div>
-            </div>
+			<div id="logo2">
+	                	<img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
+	                	<div class="testologo">
+					Bed &amp; Breakfast&rsquo;s
+				</div>
+			</div>
+
 			<h1 id="titolo">
 				<span xml:lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
 			</h1>
 		</div>
 		
 		<?php error_reporting(0); include("menu.php"); ?>
-		<p class="testo">
-			Questa &egrave; la pagina per l&rsquo;accesso al profilo personale. Inserisci i tuoi dati per accedere.
-		</p>
 		
 		<form id="login" action="areaPrivata.php" method="post">			
 			<div class="nome">
