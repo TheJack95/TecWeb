@@ -34,7 +34,7 @@
 
         <div class="tutto">
 
-            <img id="imgBeB" src="img/.jpg" alt="Immagine La Corte B&amp;B"/>
+            <img id="imgBeB" src="img/lacorte.png" alt="Immagine La Corte B&amp;B"/>
             <img id="logoBeB" src="img/logolacorte.png" alt="logo La Corte B&amp;B"/>
             <ul id="info">
                 <li>Telefono: +39 0000 000000</li>
