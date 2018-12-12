@@ -33,7 +33,6 @@
 
 
         <div class="tutto">
-
             <img id="imgBeB" src="img/lacorte.jpg" alt="La Corte B&amp;B"/>
             <img id="logoBeB" src="img/lacorteLogo.png" alt="logo La Corte B&amp;B"/>
             <ul id="info">
