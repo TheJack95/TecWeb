@@ -4,13 +4,8 @@
         <meta charset="utf-8"/>
 		<title>Area Personale</title>
 		<link rel="icon" href="img/logogeg.jpg"/>
-<<<<<<< HEAD
         	<link rel="stylesheet" type="text/css" href="login.css" />
-		<link rel="stylesheet" type="text/css" href="fogliocss.css"/>
-=======
-        <link rel="stylesheet" type="text/css" href="login.css" />
 		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
->>>>>>> b748e756cbc1f98bee5f814b150b885ac6fe7b82
 		<link rel="stylesheet" type="text/css" href="menu.css" />
 		<link rel="stylesheet" type="text/css" href="footer.css"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
@@ -36,7 +31,6 @@
 		</div>
 		
 		<?php error_reporting(0); include("menu.php"); ?>
-		
 		<p class="testo">
 			Questa &egrave; la pagina per l&rsquo;accesso al profilo personale. Inserisci i tuoi dati per accedere.
 		</p>
