@@ -3,8 +3,8 @@
 	<head>
         	<meta charset="utf-8"/>
 		<title>Bed &amp; Breakfast&rsquo;s</title>
-		<link rel="icon" href="img/logogeg.jpg"/>
-        	<link rel="stylesheet" type="text/css" href="fogliocss.css" media="handheld, screen" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="fogliocss.css" media="handheld, screen" />
 		<link rel="stylesheet" type="text/css" href="B&B_style.css" media="handheld, screen"/>
 		<link rel="stylesheet" type="text/css" href="menu.css" media="handheld, screen"/>
 		<link rel="stylesheet" type="text/css" href="footer.css" media="handheld, screen"/>
