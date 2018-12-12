@@ -1,10 +1,11 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="it" lang="it">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
         <title>Bed &amp; Breakfast&rsquo;s GEG</title>
-	    <link rel="icon" href="img/logogeg.jpg"/>
-        <link rel="stylesheet" media="screen" href="fogliocss.css" />
+        <link rel="icon" href="img/logogeg.jpg"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" media="screen" href="fogliocss.css" />
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
@@ -14,14 +15,14 @@
         <div id="header">
             <div id="logo">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div id="testologo">
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
 
             <div id="logo2">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div id="testologo">
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
