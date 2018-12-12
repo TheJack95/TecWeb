@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html xml:lang="it" lang="it">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bed &amp; Breakfast&rsquo;s GEG</title>
         <link rel="stylesheet" media="screen" href="fogliocss.css" />
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />

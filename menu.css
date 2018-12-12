@@ -36,7 +36,7 @@
     overflow: hidden;
 }
 
-.menu a:hover {
+.menu a:hover, button:hover {
     background-color: #525252;
 }
 
@@ -108,8 +108,6 @@
     .menu.responsive {position: relative;}
     .menu.responsive .icon {
         position: absolute;
-        right: 0;
-        top: 0;
     }
     .menu.responsive a {
         float: none;

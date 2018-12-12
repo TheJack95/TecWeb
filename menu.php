@@ -1,9 +1,7 @@
 <div class="menu" id="myTopnav">
     <a href="index.php" class="home">Home</a>
     <div class="dropdown">
-        <button class="dropbtn">Bed &amp; Breakfast&rsquo;s
-            <i class="fa fa-caret-down"></i>
-        </button>
+        <button class="dropbtn">Bed &amp; Breakfast&rsquo;s</button>
         <div class="dropdown-content">
             <a href="B&B.php" class="BandB">Panoramica B&amp;B&rsquo;s</a>
             <a href="ilBorgo.php" class="Borgo">B&amp;B Al Borgo</a>

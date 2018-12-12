@@ -32,8 +32,8 @@
         <?php include("menu.php"); ?>
 
         <div class="tutto">
-            <img id="imgBeB" src="img/BeB_Falcade.jpg" alt="B&amp;B Falcade"/>  <!--IMMAGINE B&B-->
-            <img id="logoBeB" src="img/logoBeB_Falcade.jpg" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
+            <img id="imgBeB" src="img/lastelladelviandante.png" alt="B&amp;B Stella del Viandante"/>  <!--IMMAGINE B&B-->
+            <img id="logoBeB" src="img/logoLastelladelviandante.png" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
             <ul id="info">
                 <li>Telefono: +39 0000 000000</li>
                 <li>Indirizzo: Via Danilo Busin 7, 32020 Falcade (BL)</li>
