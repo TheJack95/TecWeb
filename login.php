@@ -3,7 +3,7 @@
 	<head>
 		<title>Area Personale</title>
 		<link rel="icon" href="img/logogeg.jpg"/>
-        <link rel="stylesheet" type="text/css" href="login.css" />
+        	<link rel="stylesheet" type="text/css" href="login.css" />
 		<link rel="stylesheet" type="text/css" href="fogliocss.css"/>
 		<link rel="stylesheet" type="text/css" href="menu.css" />
 		<link rel="stylesheet" type="text/css" href="footer.css"/>
@@ -24,23 +24,26 @@
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
-			<h1  id="titolo">
+			<h1 id="titolo">
 				<span xml:lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
 			</h1>
 		</div>
 		
 		<?php error_reporting(0); include("menu.php"); ?>
 		
-		<form id="login" action="areaPrivata.php" method="post">
-			
+		<p class="testo">
+			Questa &egrave; la pagina per l&rsquo;accesso al profilo personale. Inserisci i tuoi dati per accedere.
+		</p>
+		
+		<form id="login" action="areaPrivata.php" method="post">			
 			<div class="nome">
-                <label for="user">Username <span class="error">*</span></label><br/>
-                <input class="cella" type="text" id="user" name="user" ><?php echo $_GET['err'] ?></div><br/>
+                		<label for="user">Username <span class="error">*</span></label><br/>
+                		<input class="cella" type="text" id="user" name="user" ><?php echo $_GET['err'] ?></div><br/>
 			</div>
 			
 			<div class="nome">
-                <label for="pass">Password <span class="error">*</span></label><br/>
-                <input class="cella" type="text" id="pass" name="pass"><?php echo $_GET['err'] ?></div><br/>
+		                <label for="pass">Password <span class="error">*</span></label><br/>
+                		<input class="cella" type="text" id="pass" name="pass"><?php echo $_GET['err'] ?></div><br/>
 			</div>
 			
 			<button class="go" type="submit">Login</button>
