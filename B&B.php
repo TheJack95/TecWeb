@@ -1,26 +1,27 @@
-<!DOCTYPE HTML>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	<head>
-        <meta charset="utf-8"/>
+        	<meta charset="utf-8"/>
 		<title>Bed &amp; Breakfast&rsquo;s</title>
-        <link rel="stylesheet" type="text/css" href="fogliocss.css" media="handheld, screen" />
+		<link rel="icon" href="img/logogeg.jpg"/>
+        	<link rel="stylesheet" type="text/css" href="fogliocss.css" media="handheld, screen" />
 		<link rel="stylesheet" type="text/css" href="B&B_style.css" media="handheld, screen"/>
 		<link rel="stylesheet" type="text/css" href="menu.css" media="handheld, screen"/>
 		<link rel="stylesheet" type="text/css" href="footer.css" media="handheld, screen"/>
-        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
+		<link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
 	</head>
 	
 	<body id="BandB">
         <div id="header">
             <div id="logo">
-                <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
 
             <div id="logo2">
-                <img src="img/logo.png" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
+                <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
                 <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
@@ -88,7 +89,7 @@
         <div class="container">
             <div class="desc">
                 <h1>B&amp;B La Corte</h1>
-                <img src="img/lacorte.png" alt="B&amp;B La Corte"/>
+                <img src="img/lacorte.jpg" alt="B&amp;B La Corte"/>
                 <p>
                     Le camere sono climatizzate e includono arredi in stile classico e moderno e un bagno privato.
                     Ogni mattina viene servita una colazione dolce a base di prodotti da forno, marmellate e bevande
