@@ -11,7 +11,7 @@ CSS stampa
 
 Mobile per alcune pagine fa cagare
 
-
+il database non funziona, nonostante lo abbia settato
 
 
 
