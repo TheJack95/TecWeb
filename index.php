@@ -60,7 +60,6 @@
                     <li>Possibilit&agrave; di ricarica per <span xml:lang="en">E&ndash;bike</span></li>
                     <li>Connessione <span xml:lang="en">Wi&ndash;Fi</span> nelle camere</li>
                 </ul>
-
                 <ul class="lista2">
                     <li><h3>I servizi disponibili a pagamento:</h3></li>
                     <li>Pranzo al sacco </li>
@@ -74,10 +73,8 @@
                 <img class="camera" src="img/borgo.png" alt="foto di un borgo" />
                 <img class="camera" src="img/dolomiti.png" alt="foto panoramica della Dolomiti" />
             </div>
-
         </div> <!-- fine class tutto -->
 
         <?php include("footer.php"); ?>
-
     </body>
 </html>

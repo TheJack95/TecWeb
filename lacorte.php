@@ -56,12 +56,13 @@
             </p>
 
             <div id="imgCamere">
-                <img class="camera" src="img/lacorteCamera1.jpg" alt="Camera" width="350" height="250"/>
-                <img class="camera" src="img/lacorteCamera2.jpg" alt="Camera" width="350" height="250"/>
+                <img class="camera" src="img/lacorteCamera1.jpg" alt="Camera"/>
+                <img class="camera" src="img/lacorteCamera2.jpg" alt="Camera"/>
             </div>
 
         </div>
-    <?php include("footer.php"); ?>
+
+        <?php include("footer.php"); ?>
     </body>
 
 </html>
