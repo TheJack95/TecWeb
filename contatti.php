@@ -25,7 +25,7 @@
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
-            <h1  id="titolo">
+            <h1 class="titolo">
                 <span lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
             </h1>
         </div>

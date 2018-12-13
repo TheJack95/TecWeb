@@ -24,7 +24,7 @@
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
-            <h1 id="titolo">
+            <h1 class="titolo">
                 <abbr title="Bed and Breakfast" lang="en">B&amp;B</abbr> Boscoverde
             </h1>
         </div>
