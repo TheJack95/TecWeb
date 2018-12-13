@@ -1,3 +1,21 @@
+COSA MANCA
+
+MIGLIORARE accessibilita'
+Aggiungere Javascript
+Migliorare form (meglio usare PHP)
+
+VALIDARE CSS
+sistemare css titolo (vedi b&b la stella del viandante)
+Eliminare pixel (???)
+CSS stampa
+
+Mobile per alcune pagine fa cagare
+
+
+
+
+
+
 VALIDARE HTML
 Pagine valiate: TUTTE
 	- areaPrivata
@@ -19,15 +37,6 @@ Controllare id FATTO
 
 Eliminare link circolari da menù FATTO
 
-MIGLIORARE accessibilita'
-Aggiungere Javascript
-Migliorare form (meglio usare PHP)
-
-VALIDARE CSS
-sistemare css titolo (vedi b&b la stella del viandante)
-Eliminare pixel
-CSS stampa da fare
-
-MENU' MOBILE
+MENU' Mobile FATTO
 
 RELAZIONE piu' dettagliata (me ne occupo io, Giulia)
