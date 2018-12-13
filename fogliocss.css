@@ -31,6 +31,15 @@ body {
     background-color: white;
 }
 
+.titolo {
+    text-align: center;
+    color: #BD091B;
+    font-size: 3.3em;
+    font-weight: bolder;
+    margin: 0.5em;
+    display: block;
+}
+
 /* PARTE  HEADER  */
 #logo {
     float: left;
@@ -61,16 +70,6 @@ body {
     width: 10em;
     padding: 4em;
 }
-
-#titolo {
-    color: #BD091B;
-    font-size: 3.3em;
-    font-weight: bolder;
-    margin: 0.5em;
-    display: block;
-    text-align: center;
-}
-
 
 /* FINE PARTE  HEADER  */
 

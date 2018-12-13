@@ -13,7 +13,7 @@ Mobile per alcune pagine fa cagare
 
 il database non funziona, nonostante lo abbia settato
 
-
+RELAZIONE piu' dettagliata (GIULIA)
 
 
 VALIDARE HTML
@@ -39,4 +39,3 @@ Eliminare link circolari da menù FATTO
 
 MENU' Mobile FATTO
 
-RELAZIONE piu' dettagliata (me ne occupo io, Giulia)
