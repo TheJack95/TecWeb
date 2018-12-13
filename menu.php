@@ -5,7 +5,7 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="B&B.php" class="BandB">Panoramica B&amp;B&rsquo;s</a>
+            <a href="BandB.php" class="BandB">Panoramica B&amp;B&rsquo;s</a>
             <a href="ilBorgo.php" class="Borgo">B&amp;B Al Borgo</a>
             <a href="boscoverde.php" class="BoscoVerde">B&amp;B Boscoverde</a>
             <a href="cadorehaus.php" class="CadoreHause">B&amp;B Cadore Haus</a>
