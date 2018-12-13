@@ -33,13 +33,8 @@
         <?php include("menu.php"); ?>
 
         <div class="tutto">
-<<<<<<< HEAD
-            <img id="imgBeB" src="img/lastelladelviandante.png" alt="B&amp;B Stella del Viandante"/>  <!--IMMAGINE B&B-->
-            <img id="logoBeB" src="img/logoLastelladelviandante.png" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
-=======
-            <img id="imgBeB" src="img/lastelladelviandante.png" alt="B&amp;B Falcade"/>  <!--IMMAGINE B&B-->
-            <img id="logoBeB" src="img/lastelladelviandanteLogo.png" alt="Logo Stella del Viandante"/>	<!--LOGO B&B-->
->>>>>>> d0a7e48f04a3f52cd9afc5e4d8677a46614fc52b
+            <img id="imgBeB" src="img/lastelladelviandante.png" alt="B&amp;B La Stella del Viandante"/>
+            <img id="logoBeB" src="img/lastelladelviandanteLogo.png" alt="Logo La Stella del Viandante"/>
             <ul id="info">
                 <li>Telefono: +39 0000 000000</li>
                 <li>Indirizzo: Via Danilo Busin 7, 32020 Falcade (BL)</li>
