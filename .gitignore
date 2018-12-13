@@ -3,4 +3,5 @@
 invioContatto.php
 invioPrenotazione.php
 leggiDatabase.php
-.idea/
+
+/.idea
