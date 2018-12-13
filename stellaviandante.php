@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
         <title>B&amp;B La Stella del Viandante</title>
-	<link rel="icon" href="img/lastelladelviandanteLogo.png"/>
+	    <link rel="icon" href="img/lastelladelviandanteLogo.png"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
@@ -14,7 +14,7 @@
         <div id="header">
             <div id="logo">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
-                <div id="testologo">
+                <div class="testologo">
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
@@ -24,7 +24,7 @@
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
-            <h1 class="titolo">
+            <h1 id="titolo">
                <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> La Stella del Viandante
             </h1>
         </div>
