@@ -1,7 +1,9 @@
-<div class="menu" id="myTopnav">
+<div class="menu" id="mymenu">
     <a href="index.php" class="home">Home</a>
     <div class="dropdown">
-        <button class="dropbtn">Bed &amp; Breakfast&rsquo;s</button>
+        <button class="dropbtn">Bed &amp; Breakfast&rsquo;s
+            <i class="fa fa-caret-down"></i>
+        </button>
         <div class="dropdown-content">
             <a href="B&B.php" class="BandB">Panoramica B&amp;B&rsquo;s</a>
             <a href="ilBorgo.php" class="Borgo">B&amp;B Al Borgo</a>
@@ -13,4 +15,17 @@
     </div>
     <a class="contatti" href="contatti.php">Contatti</a>
     <a class="AP" href="login.php">Area Personale</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("mymenu");
+        if (x.className === "menu") {
+            x.className += " responsive";
+        } else {
+            x.className = "menu";
+        }
+    }
+</script>
