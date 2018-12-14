@@ -78,11 +78,9 @@
     background-color: #0066ff;
 }
 
-
 .menu a:nth-last-child(2):hover {
-    background-color: #0000ff;
+    background-color: #525252;
 }
-
 
 .dropdown-content a:nth-last-child(2) {
     background-color: #272727;

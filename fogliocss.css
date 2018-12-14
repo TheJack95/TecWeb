@@ -61,7 +61,7 @@ body {
 }
 
 .testologo {
-    font-family: Verdana;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     font-style: italic;
     text-align: center;
