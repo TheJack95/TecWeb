@@ -28,7 +28,7 @@
                 </div>
 
                 <h1 class="titolo">
-                    <span lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
+                    <span lang="en">Bed &amp; Breakfast&rsquo;s</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
                 </h1>
 
             </div>
