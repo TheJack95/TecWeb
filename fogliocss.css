@@ -102,6 +102,35 @@ abbr {
     padding-right: 3.5em;
 }
 
+#imgtxt  {
+    display: table;
+    clear: both;
+}
+
+#homerosolina {
+    float: left;
+    width: 25%;
+    height: 20%;
+    padding-right: 1.5%;
+}
+
+.testohome {
+    width: 40%;
+    float: left;
+    text-align: justify;
+    padding: 1.5%;
+    font-size: 15%;
+    clear: both;
+}
+
+.testohome a {
+    text-decoration: none;
+}
+
+.testohome a:hover {
+    text-decoration: underline;
+}
+
 .testo {
     text-align: justify;
     padding: 1.5em;
@@ -127,15 +156,6 @@ text-decoration: underline;
     margin: 1.5em;
     width: 25em;
     height: 18.75em;
-}
-
-
-
-#homerosolina {
-    float:left;
-    width: 18.75em;
-    height: 12.5em;
-    margin-right: 1em;
 }
 
 /* FINE PARTE  BODY  */
