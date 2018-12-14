@@ -91,7 +91,3 @@ else
 
 // chiusura della connessione
 $conn->close();
-
-
-
-
