@@ -23,6 +23,11 @@ font-size: 1.2em;
 margin-bottom: 15%;
 }
 
+.go:hover {
+text-decoration: underline;
+background-color: white;
+}
+
 .error {
 color: #BD091B;
 }
