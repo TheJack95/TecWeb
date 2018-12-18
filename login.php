@@ -4,11 +4,11 @@
         <meta charset="utf-8"/>
 		<title>Area Personale</title>
 		<link rel="icon" href="img/logogeg.jpg"/>
-        	<link rel="stylesheet" type="text/css" href="login.css" />
+        <link rel="stylesheet" type="text/css" href="login.css" />
 		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
 		<link rel="stylesheet" type="text/css" href="menu.css" />
 		<link rel="stylesheet" type="text/css" href="footer.css"/>
-        	<link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css"/>
+        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css"/>
 	</head>
 	
 	<body id="AP">
@@ -27,7 +27,7 @@
 			</div>
 
 			<h1 class="titolo">
-				<span xml:lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
+				<span xml:lang="en">Bed &amp; Breakfast&rsquo;s</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
 			</h1>
 		</div>
 		

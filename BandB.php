@@ -29,7 +29,7 @@
             </div>
 
             <h1 class="titolo">
-                <span lang="en">BED &amp; BREAKFAST&rsquo;S</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
+                <span lang="en">Bed &amp; Breakfast&rsquo;s</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
             </h1>
 
         </div>
@@ -41,15 +41,18 @@
                 <h1>B&amp;B Al Borgo</h1>
                 <img src="img/alborgo.png" alt="B&amp;B Al Borgo"/>
                 <p>
-                    Abbiamo tre camere, di cui due con bagno privato interno, la terza con bagno privato esterno alla stanza;
-                    ogni camera ha l&apos;impianto di riscaldamento e di climatizzazione.<br/>
+                    Abbiamo tre camere, di cui due con bagno privato interno, la terza con bagno privato esterno alla stanza.
+                    Ogni camera ha l&apos;impianto di riscaldamento e di climatizzazione.
+                </p>
+                <p>
                     <a href="ilBorgo.php">Maggiori informazioni</a>
                 </p>
             </div>
             <ul>
-                <li>Telefono: +39 0000 000000</li>
-                <li>Indirizzo: Via Ventolone, 435032 Arqu&agrave; Petrarca (PD)</li>
-                <li><a href="https://goo.gl/maps/9VnRUVpRX7C2" target="_blank">Vedi sulla mappa</a></li>
+                <li>+39 0000 000000</li>
+                <li>Via Ventolone, 14</li>
+                <li>435032 Arqu&agrave; Petrarca (PD)</li>
+                <li><a href="https://goo.gl/maps/9VnRUVpRX7C2" target="_blank">Guarda nella mappa</a></li>
             </ul>
         </div>
 
@@ -58,16 +61,19 @@
                 <h1>B&amp;B Boscoverde</h1>
                 <img src="img/boscoverde.png" alt="B&amp;B Boscoverde"/>
                 <p>
-                    Nel nostro B&amp;B ogni camera &egrave; dotata di arredamento completo: letti (possibilità a scelta di letto matrimoniale o
-                    di due letti separati), comodini, divano, set di biancheria da camera completo, televisore, fornitura di energia
-                    elettrica, riscaldamento, aria condizionata e servizio di pulizie quotidiane.<br/>
+                    Nel nostro B&amp;B ogni camera &egrave; dotata di arredamento completo: letti con possibilità a scelta di letto matrimoniale o
+                    di due letti singoli, comodini, divano, set di biancheria da camera completo, televisore, fornitura di energia
+                    elettrica, riscaldamento, aria condizionata e servizio di pulizie quotidiane.
+                </p>
+                <p>
                     <a href="boscoverde.php">Maggiori informazioni</a>
                 </p>
             </div>
             <ul>
-                <li>Telefono: +39 0000 000000</li>
-                <li>Indirizzo: Via Visome 211, 32100 Belluno</li>
-                <li><a href="https://goo.gl/maps/zkUznEEVUAo" target="_blank">Vedi sulla mappa</a></li>
+                <li>+39 0000 000000</li>
+                <li>Via Visome, 211</li>
+                <li>32100 Belluno</li>
+                <li><a href="https://goo.gl/maps/zkUznEEVUAo" target="_blank">Guarda nella mappa</a></li>
             </ul>
         </div>
 
@@ -78,14 +84,17 @@
                 <p>
                     Nel cuore delle Dolomiti, la Cadore Haus offre momenti di assoluto relax a contatto con la natura.
                     La casa vanta stanze accoglienti e curate. La costruzione si trova nel centro del paese, a pochi
-                    passi dalla chiesa di San Lucano, nella frazione di Villapiccola.<br/>
-                    <a href="cadorehaus.php" target="_blank">Maggiori informazioni</a>
+                    passi dalla chiesa di San Lucano, nella frazione di Villapiccola.
+                </p>
+                <p>
+                   <a href="cadorehaus.php" target="_blank">Maggiori informazioni</a>
                 </p>
             </div>
             <ul>
-                <li>Telefono: +39 0000 000000</li>
-                <li>Indirizzo: Via Saletta, 30, 32041 Auronzo di Cadore (BL)</li>
-                <li><a href="https://goo.gl/maps/c191iWXgCq32" target="_blank">Vedi sulla mappa</a></li>
+                <li>+39 0000 000000</li>
+                <li>Via Saletta, 30</li>
+                <li>32041 Auronzo di Cadore (BL)</li>
+                <li><a href="https://goo.gl/maps/c191iWXgCq32" target="_blank">Guarda nella mappa</a></li>
             </ul>
         </div>
 
@@ -96,14 +105,17 @@
                 <p>
                     Le camere sono climatizzate e includono arredi in stile classico e moderno e un bagno privato.
                     Ogni mattina viene servita una colazione dolce a base di prodotti da forno, marmellate e bevande
-                    calde e fredde.<br/>
+                    calde e fredde.
+                </p>
+                <p>
                     <a href="lacorte.php">Maggiori informazioni</a>
                 </p>
             </div>
             <ul>
-                <li>Telefono: +39 0000 000000</li>
-                <li>Indirizzo: Via Bassafonda 46, 45010 Rosolina (RO)</li>
-                <li><a href="https://goo.gl/maps/R8aMwSJQsUs" target="_blank">Vedi sulla mappa</a></li>
+                <li>+39 0000 000000</li>
+                <li>Via Bassafonda, 46</li>
+                <li>45010 Rosolina (RO)</li>
+                <li><a href="https://goo.gl/maps/R8aMwSJQsUs" target="_blank">Guarda nella mappa</a></li>
             </ul>
         </div>
 
@@ -113,14 +125,17 @@
                 <img src="img/lastelladelviandante.png" alt="B&amp;B La Stella del Viandante"/>
                 <p>
                     Situato a Caviola, a 7 minuti dal impianto di risalita del comprensorio sciistico San Pellegrino,
-                    la Stella del Viandante offre connessione Wi&ndash;Fi e parcheggio privato gratuiti.<br/>
+                    la Stella del Viandante offre connessione Wi&ndash;Fi e parcheggio privato gratuiti.
+                </p>
+                <p>
                     <a href="stellaviandante.php" target="_blank">Maggiori informazioni</a>
                 </p>
             </div>
             <ul>
-                <li>Telefono: +39 0000 000000</li>
-                <li>Indirizzo: Via Danilo Busin 7, 32020 Falcade (BL)</li>
-                <li><a href="https://goo.gl/maps/WKHxmnzboQG2" target="_blank">Vedi sulla mappa</a></li>
+                <li>+39 0000 000000</li>
+                <li>Via Danilo Busin, 7</li>
+                <li>32020 Falcade (BL)</li>
+                <li><a href="https://goo.gl/maps/WKHxmnzboQG2" target="_blank">Guarda nella mappa</a></li>
             </ul>
         </div>
 

@@ -28,7 +28,7 @@
 .container p {
     margin:1rem;
     line-height:1.875em;
-    font-family: Arial;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
     font-size:1em;
     text-align:justify;
 }
@@ -47,5 +47,6 @@
 
 .desc h1 {
     text-align:center;
+    color: #BD091B;
+    display: block;
 }
-
