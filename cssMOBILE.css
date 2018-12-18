@@ -2,7 +2,7 @@
     display: none;
 }
 
-#titolo {
+.titolo {
     color: #BD091B;
     font-size: 2.7em;
     display: block;
@@ -37,3 +37,16 @@
 #footer ul li {
     font-size: 0.5em;
 }
+
+
+/*   PAGINA BandB   */
+
+.container {
+    box-shadow: none;
+    background: none;
+    background: white;
+}
+
+ .container p {
+     display: contents;
+ }
