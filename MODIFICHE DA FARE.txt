@@ -7,6 +7,7 @@ Migliorare form (meglio usare PHP)
 VALIDARE CSS
 Eliminare pixel (???)
 CSS stampa
+CSS mobile per pagine contatto.php, areaPrivata.php e login.php da sistemare
 
 Dimensione immgini in % al posto di em
 
