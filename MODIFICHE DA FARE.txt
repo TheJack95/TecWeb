@@ -5,18 +5,21 @@ Aggiungere Javascript
 Migliorare form (meglio usare PHP)
 
 VALIDARE CSS
-sistemare css titolo (vedi b&b la stella del viandante)
 Eliminare pixel (???)
 CSS stampa
 
-Mobile per alcune pagine fa cagare
+Dimensione immgini in % al posto di em
 
-il database non funziona, nonostante lo abbia settato
+il database non funziona, nonostante lo abbia settato (DC)
+
+
 
 RELAZIONE piu' dettagliata (GIULIA)
 
 
-VALIDARE HTML
+
+
+VALIDARE HTML FATTO
 Pagine valiate: TUTTE
 	- areaPrivata
 	- areaUtente

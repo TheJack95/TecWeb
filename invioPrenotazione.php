@@ -7,10 +7,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // nome di host
             $host = "localhost";
             // username dell'utente in connessione
-            $user = "";
+            $user = "root";
             // password dell'utente
-            $password = "";
-            $dbname = "";
+            $password = "giacomo";
+            $dbname = "sito";
 
 
 

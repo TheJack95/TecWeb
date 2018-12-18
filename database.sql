@@ -5,7 +5,7 @@ CREATE TABLE if NOT EXISTS  Utente(
 
 CREATE TABLE IF NOT EXISTS Prenotazione(
   Id int AUTO_INCREMENT PRIMARY KEY,
-  Username varchar(10),
+  Username varchar(10) NOT NULL,
   Nome varchar(30) NOT NULL,
   Cognome varchar(30) NOT NULL,
   Telefono varchar(13) DEFAULT NULL,
