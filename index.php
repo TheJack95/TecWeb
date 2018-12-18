@@ -35,8 +35,8 @@
         <?php include("menu.php"); ?>
 
         <div class="tutto">
+            <img id="homerosolina" src="img/mare.png" alt="foto del mare" />
             <p class="testo">
-                <img id="homerosolina" src="img/mare.png" alt="foto del mare" />
                 <span xml:lang="en">Bed &amp; Breakfast&rsquo;s</span>  <abbr title="Giulia Erik Giacomo">G.E.G.</abbr> nasce nel 2017
                 dall&rsquo;idea di tre giovani imprenditori con l&rsquo;intenzione di valorizzare delle strutture gi&agrave; esistenti, ma
                 troppo piccole per essere competitive singolarmente, creando una catena, senza per&ograve; uniformarle. L&rsquo;idea &egrave;

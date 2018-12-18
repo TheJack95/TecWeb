@@ -1,10 +1,21 @@
-#home img, #logo, #logo2 {
+.camera {
+    display: none;
+}
+
+#homerosolina {
+    float: none;
+    display: block;
+    width: 70%;
+    margin-top: 1em;
+}
+
+#logo, #logo2 {
     display: none;
 }
 
 .titolo {
     color: #BD091B;
-    font-size: 2.7em;
+    font-size: 2em;
     display: block;
     text-align: center;
 
@@ -47,6 +58,27 @@
     background: white;
 }
 
- .container p {
-     display: contents;
- }
+
+.desc img {
+    width: 80%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: auto;
+}
+
+.container li {
+    display: block;
+}
+
+
+/*  PAGINA CONTATTI  */
+
+
+/*  FOOTER */
+
+#footer ul li {
+    font-size: 1em;
+    display: inline-block;
+    margin: auto;
+}

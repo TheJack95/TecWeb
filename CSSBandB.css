@@ -4,7 +4,6 @@
     background-repeat:no-repeat;
     background-size:cover;
     width: 80%;
-    margin:auto;
     margin-bottom: 2em;
     box-shadow: 10px 10px 10px lightgray;
     clear:both;
@@ -18,14 +17,14 @@
 }
 
 .desc img {
-    width:30em;
-    height:18em;
+    width: 50%;
+    height:auto;
     margin:1em;
     float:left;
     box-shadow: 10px 10px 10px gray;
 }
 
-.container p {
+.desc p {
     margin:1rem;
     line-height:1.875em;
     font-family: Arial, Verdana, Helvetica, sans-serif;
@@ -34,7 +33,7 @@
 }
 
 .container ul {
-    font-size:1.1em;
+    font-size:1em;
     list-style: none;
     text-align: center;
     padding: 0;

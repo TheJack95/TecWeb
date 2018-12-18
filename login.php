@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
 		<link rel="stylesheet" type="text/css" href="menu.css" />
 		<link rel="stylesheet" type="text/css" href="footer.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css"/>
 	</head>
 	

@@ -114,23 +114,6 @@ abbr {
     padding-right: 1.5%;
 }
 
-.testohome {
-    width: 40%;
-    float: left;
-    text-align: justify;
-    padding: 1.5%;
-    font-size: 15%;
-    clear: both;
-}
-
-.testohome a {
-    text-decoration: none;
-}
-
-.testohome a:hover {
-    text-decoration: underline;
-}
-
 .testo {
     text-align: justify;
     padding: 1.5em;

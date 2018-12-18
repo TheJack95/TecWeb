@@ -71,17 +71,3 @@
 #button_rule {
     text-align: center;
 }
-
-@media screen and (max-width: 600px) {
-    #contact {
-        width: inherit;
-        clear:both;
-        overflow: hidden;
-    }
-    .input_rule {
-        text-align: center;
-    }
-    #button_rule {
-        text-align: center;
-    }
-}
