@@ -70,8 +70,8 @@ body {
 
 #logoBeB {
     float: right;
-    width: 10%;
-    padding: 1.5%;
+    width: 15%;
+    padding: 5%;
 }
 
 /* FINE PARTE  HEADER  */
@@ -85,21 +85,19 @@ abbr {
 #imgBeB {
     float: left;
     width: 30%;
-    padding: 1.5%;
+    padding: 3%;
 }
 
 #info {
     list-style: none;
     text-align: left;
-    padding: 2%;
+    padding: 3%;
     font-size: 110%;
 }
 
 #logoBeB {
     float: right;
     width: 15%;
-    padding-top: 1.5%;
-    padding-right: 3.5%;
 }
 
 #homerosolina {
@@ -133,7 +131,7 @@ text-decoration: underline;
 .camera {
     margin: 1.5%;
     width: 40%;
-    height: 30%;
+    height: auto;
 }
 
 /* FINE PARTE  BODY  */

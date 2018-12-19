@@ -47,16 +47,12 @@
 
             <p class="testo">
                 <strong>Siamo aperti tutto l&apos;anno!</strong>
-            </p>
-            <p class="testo">
                 Abbiamo tre camere, di cui due con bagno privato interno, la terza con bagno privato esterno alla stanza. Ogni
                 camera ha l&apos;impianto di condizionamento e climatizzazione. In ogni camera &egrave; naturalmente disponibile la 			televisione. In tutta la struttura &egrave; possibile utilizzare il collegamento ad Internet; &egrave; inoltre presente uno 			spazio comune a disposizione dei nostri ospiti. Tutti i giorni viene eseguito il servizio di pulizia delle camere e dei locali. 		Non dovete preoccuparvi per gli orari o per il parcheggio, &egrave; possibile rientrare a qualsiasi ora (anche della notte) ed 			il parcheggio &egrave; a disposizione degli ospiti. La struttura &egrave; una dimora storica, ovviamente assicurata, con 			posizione panoramica e tranquilla. Il giardino e la terrazza permettono agli ospiti di trascorrere piacevoli momenti di relax, 			all&apos;aria aperta ed in completa tranquillit&agrave;.
-            </p>
-            <p class="testo">
                 Avete con voi i vostri bambini? Nessun problema, Al Borgo abbiamo sia le attrezzature (e i giochi) che il
                 servizio di <span lang="en">baby&ndash;sitting</span>, oltre chiaramente alle culle e al letto apposito (su richiesta).
                 Il gestore vive nella casa, ha una buona conoscenza della zona e potr&agrave; aiutarvi ad organizzare il vostro
-                tempo per non perdere nessuna delle opportunit&agrave; offerte da Arqu&agrave; Petrarca e zone limitrof.
+                tempo per non perdere nessuna delle opportunit&agrave; offerte da Arqu&agrave; Petrarca e zone limitrofe.
             </p>
 
             <div id="imgCamere">
