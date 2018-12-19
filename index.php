@@ -34,8 +34,8 @@
         <?php include("menu.php"); ?>
 
         <div class="tutto">
-            <img id="homerosolina" src="img/mare.png" alt="foto del mare" />
             <p class="testo">
+                <img id="homerosolina" src="img/mare.png" alt="foto del mare" />
                 <span xml:lang="en">Bed &amp; Breakfast&rsquo;s</span>  <abbr title="Giulia Erik Giacomo">G.E.G.</abbr> nasce nel 2017
                 dall&rsquo;idea di tre giovani imprenditori con l&rsquo;intenzione di valorizzare delle strutture gi&agrave; esistenti, ma
                 troppo piccole per essere competitive singolarmente, creando una catena, senza per&ograve; uniformarle. L&rsquo;idea &egrave;
@@ -52,7 +52,7 @@
 
             <div id="servizi">
                 <ul class="lista">
-                    <li><h3>I servizi compresi:</h3></li>
+                    <li><strong>I servizi compresi:</strong></li>
                     <li><span xml:lang="en">Check&ndash;in</span> e <span xml:lang="en">check&ndash;out</span> alle 8 alle 20</li>
                     <li>Colazione internazionale a <span xml:lang="fr">buffet</span></li>
                     <li>Posto auto e/o posto bici</li>
@@ -60,7 +60,7 @@
                     <li>Connessione <span xml:lang="en">Wi&ndash;Fi</span> nelle camere</li>
                 </ul>
                 <ul class="lista2">
-                    <li><h3>I servizi disponibili a pagamento:</h3></li>
+                    <li><strong>I servizi disponibili a pagamento:</strong></li>
                     <li>Pranzo al sacco </li>
                     <li>Noleggio biciclette</li>
                     <li>Noleggio sci e scarponi (solo nelle strutture bellunesi)</li>

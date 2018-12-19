@@ -25,7 +25,7 @@
                     Bed &amp; Breakfast&rsquo;s
                 </div>
             </div>
-            <h1 id="titolo">
+            <h1 class="titolo">
                <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> La Stella del Viandante
             </h1>
         </div>
