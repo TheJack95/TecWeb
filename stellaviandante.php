@@ -37,13 +37,14 @@
             <img id="imgBeB" src="img/lastelladelviandante.png" alt="B&amp;B La Stella del Viandante"/>
             <img id="logoBeB" src="img/lastelladelviandanteLogo.png" alt="Logo La Stella del Viandante"/>
             <ul id="info">
-                <li>Telefono: +39 0000 000000</li>
-                <li>Indirizzo: Via Danilo Busin 7, 32020 Falcade (BL)</li>
-                <li><a href="https://goo.gl/maps/e6JwcoXmWN12" target="_blank">Vedi sulla mappa</a></li>
-                <li><a href="prenotazioni.php">Prenota o richiedi maggiori informazioni</a></li>
+                <li>+39 0000 000000</li>
+                <li>Via Danilo Busin, 7</li>
+                <li>32020 Falcade (BL)</li>
+                <li><a href="https://goo.gl/maps/e6JwcoXmWN12" target="_blank">Guarda nella mappa</a></li>
+                <li><a href="prenotazioni.php">Prenota</a> o <a href="contatti.php">richiedi</a> maggiori informazioni</li>
             </ul>
 
-            <p class="testo" style="clear:left">
+            <p class="testo">
                 Situato a Caviola, a 7 minuti dal impianto di risalita del comprensorio sciistico San Pellegrino
                 il Boscoverde offre connessione Wi&ndash;Fi e parcheggio privato gratuiti. Arredate in stile alpino,
                 tutte le camere sono dotate di bagno privato fornito di doccia e set cortesia, TV a schermo piatto,

@@ -50,7 +50,7 @@
             </div>
             <ul>
                 <li>+39 0000 000000</li>
-                <li>Via Ventolone, 14</li>
+                <li>Via Ventolone, 4</li>
                 <li>435032 Arqu&agrave; Petrarca (PD)</li>
                 <li><a href="https://goo.gl/maps/9VnRUVpRX7C2" target="_blank">Guarda nella mappa</a></li>
             </ul>

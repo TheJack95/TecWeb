@@ -37,22 +37,22 @@
             <img id="logoBeB" src="img/boscoverdeLogo.png" alt="Logo Boscoverde"/>	<!--LOGO B&B-->
 
             <ul id="info">
-                <li>Telefono: +39 0000 000000</li>
-                <li>Indirizzo: via Visome 211, 32100 Belluno</li>
-                <li><a href= "https://goo.gl/maps/zkUznEEVUAo" target="_blank">Vedi sulla mappa</a></li>
-                <li><a href="prenotazioni.php">Prenota o richiedi maggiori informazioni</a></li>
+                <li>+39 0000 000000</li>
+                <li>via Visome, 211</li>
+                <li>32100 Belluno</li>
+                <li><a href= "https://goo.gl/maps/zkUznEEVUAo" target="_blank">Guarda nella mappa</a></li>
+                <li><a href="prenotazioni.php">Prenota</a> o <a href="contatti.php">richiedi</a> maggiori informazioni</li>
             </ul>
 
             <p class="testo">
                 Nel nostro B&amp;B ogni camera &egrave; dotata di arredamento completo: letti (possibilità a scelta di letto matrimoniale
                 o di due letti separati), comodini, un comodo divano, set di biancheria da camera completo, televisore,
                 fornitura di energia elettrica, riscaldamento, aria condizionata e servizio di pulizie quotidiane.
-                Situato sul colle del Monte Nevegal, una delle più affascinanti località del bellunese,
-                meta adatta sia per chi vuole rilassarsi sia a chi preferisce una vacanza più movimentata, divertimento ed
+                Situato sul colle del Monte Nevegal, una delle più affascinanti località del bellunese, meta adatta sia
+                per chi vuole rilassarsi sia a chi preferisce una vacanza più movimentata, divertimento ed
                 esplorazione infatti non mancheranno grazie a sentieri di montagna immersi nella natura,
                 pareti di roccia per gli amanti delle scalate, piste da sci e molto altro ancora!
             </p>
-
 
         <div id="imgCamere">
             <img class="camera" src="img/boscoverdeCamera1.jpg" alt="Camera"/>
