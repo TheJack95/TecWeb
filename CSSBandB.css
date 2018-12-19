@@ -1,51 +1,51 @@
 .container {
     overflow: hidden;
-    background-image:url(img/background.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 80%;
-    margin-bottom: 2em;
+    margin-bottom: 5%;
     box-shadow: 10px 10px 10px lightgray;
-    clear:both;
+    clear: both;
 }
 
 .desc {
     overflow: hidden;
-    float:left;
-    padding:0.8rem;
-    margin-top: 1rem;
+    float: left;
+    padding: 2%;
+    margin-top: 2%;
 }
 
 .desc img {
-    width: 50%;
-    height:auto;
-    margin:1em;
-    float:left;
+    width: 40%;
+    height: auto;
+    margin: 2%;
+    float: left;
     box-shadow: 10px 10px 10px gray;
 }
 
 .desc p {
-    margin:1rem;
-    line-height:1.875em;
+    margin: 2%;
+    line-height: 150%;
     font-family: Arial, Verdana, Helvetica, sans-serif;
-    font-size:1em;
-    text-align:justify;
+    font-size: 110%;
+    text-align: justify;
 }
 
 .container ul {
-    font-size:1em;
+    font-size: 110%;
     list-style: none;
     text-align: center;
     padding: 0;
 }
 
 .container li {
-    display:inline;
-    margin: 1em;
+    display: inline;
+    margin: 2%;
 }
 
 .desc h1 {
-    text-align:center;
+    text-align: center;
     color: #BD091B;
     display: block;
 }
