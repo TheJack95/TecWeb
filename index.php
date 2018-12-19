@@ -8,6 +8,7 @@
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
+        <script type="text/javascript" src="scrollback.js"></script>
     </head>
 
     <body id="home">
@@ -73,7 +74,7 @@
                 <img class="camera" src="img/dolomiti.png" alt="foto panoramica della Dolomiti" />
             </div>
         </div> <!-- fine class tutto -->
-
+        <button type="button" id="top-button" onclick="topFunction()">TOP</button>
         <?php include("footer.php"); ?>
     </body>
 </html>

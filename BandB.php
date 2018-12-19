@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="menu.css" media="handheld, screen"/>
 		<link rel="stylesheet" type="text/css" href="footer.css" media="handheld, screen"/>
 		<link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
+        <script type="text/javascript" src="scrollback.js"></script>
 	</head>
 	
 	<body id="BandB">
@@ -138,7 +139,7 @@
                 <li><a href="https://goo.gl/maps/WKHxmnzboQG2" target="_blank">Guarda nella mappa</a></li>
             </ul>
         </div>
-
+        <button type="button" id="top-button" onclick="topFunction()">TOP</button>
         <?php include("footer.php"); ?>
     </body>
 </html>

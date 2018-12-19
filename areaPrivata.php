@@ -10,6 +10,8 @@
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="areaPrivata.css" media="screen"/>
+        <script type="text/javascript" src="scrollback.js"></script>
+
     </head>
 
     <body id="AP">
@@ -38,7 +40,7 @@
         <div class="tutto">
             <?php include("leggiDatabase.php"); ?>
         </div>
-
+        <button type="button" id="top-button" onclick="topFunction()">TOP</button>
         <?php include("footer.php"); ?>
     </body>
 </html>

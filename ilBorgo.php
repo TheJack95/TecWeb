@@ -9,6 +9,7 @@
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
+        <script type="text/javascript" src="scrollback.js"></script>
     </head>
 
     <body id="Borgo">
@@ -60,7 +61,7 @@
                 <img class="camera" src="img/alborgoCamera2.jpg" alt="Camera"/>
             </div>
         </div>
-
+        <button type="button" id="top-button" onclick="topFunction()">TOP</button>
         <?php include("footer.php"); ?>
     </body>
 
