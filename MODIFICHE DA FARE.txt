@@ -5,11 +5,8 @@ Aggiungere Javascript
 Migliorare form (meglio usare PHP)
 
 VALIDARE CSS
-Eliminare pixel (???)
 CSS stampa
 CSS mobile per pagine contatto.php, areaPrivata.php e login.php da sistemare
-
-Dimensione immgini in % al posto di em
 
 il database non funziona, nonostante lo abbia settato (DC)
 
@@ -43,3 +40,4 @@ Eliminare link circolari da menù FATTO
 
 MENU' Mobile FATTO
 
+Eliminare px e mettere la dimensione delle immagini in % FATTO
