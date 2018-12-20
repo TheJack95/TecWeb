@@ -163,15 +163,15 @@ text-decoration: underline;
     z-index: 99;
     border: none;
     outline: none;
-    background-color: red;
-    color: black;
+    background-color: #BD091B;
+    color: white;
     cursor: pointer;
     padding: 0.8%;
-    border-radius: 10%;
+    border-radius: 30%;
     font-size: 100%;
     font-weight: bolder;
 }
 
 #top-button:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #525252; /*Add a dark-grey background on hover*/
 }
