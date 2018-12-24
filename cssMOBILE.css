@@ -76,10 +76,17 @@
 
 #imgBeB {
     float: none;
+    display: block;
+    width: 70%;
 }
 #logoBeB {
     display: none;
 }
+
+#info {
+    text-align: center;
+}
+
 
 /*  PAGINA CONTATTI  */
 
