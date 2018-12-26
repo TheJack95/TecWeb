@@ -37,12 +37,12 @@
 		<form id="login" action="areaPrivata.php" method="post">			
 			<div class="nome">
                 		<label for="user">Username <span class="error">*</span></label><br/>
-                		<input class="cella" type="text" id="user" name="user" ><?php echo $_GET['err'] ?></div><br/>
+                		<input class="cella" type="text" id="user" name="user" ><?php echo $_GET['err'] ?>
 			</div>
 			
 			<div class="nome">
 		                <label for="pass">Password <span class="error">*</span></label><br/>
-                		<input class="cella" type="text" id="pass" name="pass"><?php echo $_GET['err'] ?></div><br/>
+                		<input class="cella" type="text" id="pass" name="pass"><?php echo $_GET['err'] ?>
 			</div>
 			
 			<button class="go" type="submit">Login</button>

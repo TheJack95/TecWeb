@@ -72,7 +72,7 @@
 }
 
 
-/*  PAGINE BeB*/
+/*  PAGINE dei BeB*/
 
 #imgBeB {
     float: none;
@@ -90,6 +90,28 @@
 
 /*  PAGINA CONTATTI  */
 
+#contact {
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.input_text {
+    margin-top: 1%;
+    width: 100%;
+    height: 1.5em;
+}
+
+.input_rule {
+    width: auto;
+}
+
+.submit_button {
+    padding: 0.2em;
+    float: none;
+}
 
 /*  FOOTER */
 

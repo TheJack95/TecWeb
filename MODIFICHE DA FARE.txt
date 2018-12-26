@@ -6,11 +6,12 @@ Migliorare form (meglio usare PHP)
 
 VALIDARE CSS
 CSS stampa
-CSS mobile per pagine contatto.php, areaPrivata.php e login.php da sistemare
+CSS mobile per pagina prenotazioni.php da sistemare
 
 il database non funziona, nonostante lo abbia settato (DC)
 
-
+C'è un pixel di troppo nel menù mobile per colpa dell'icona
+Il bottone top va posizionato diversamente per il mobile
 
 RELAZIONE piu' dettagliata (GIULIA)
 

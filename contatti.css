@@ -6,7 +6,7 @@
 
 .input_rule{
     width:100%;
-    margin:0.625rem;
+    margin:0.625em;
     position: relative;
     display: inline-block;
 }
@@ -18,16 +18,14 @@
 }
 
 .input_text {
-    width: 25em;
+    width: 70%;
     height: 1.5em;
     float:right;
     font-size:1.2em;
 }
 
-.txt {
-    width: 35.9em;
+#messaggio {
     height: 8em;
-    float: right;
 }
 
 #action {
@@ -48,8 +46,9 @@
 
 .submit_button{
     color: blue;
-    padding: 0.9em 3.4em;
-    font-size: 1.2em
+    padding: 0.5em 2.5em;
+    font-size: 1.2em;
+    float: left;
 }
 
 .submit_button:hover {

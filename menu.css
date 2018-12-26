@@ -96,13 +96,16 @@
 @media screen and (max-width: 600px) {
     .menu a:not(:first-child), .dropdown .dropbtn {
         display: none;
+        height: auto;
     }
 
     .menu a.icon {
         float: right;
         display: block;
+        padding: 0.7em 1em;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .menu.responsive { position: relative; }
@@ -111,6 +114,7 @@
         position: absolute;
         right: 0;
         top: 0;
+        padding: 0.7em 1em;
     }
 
     .menu.responsive a {

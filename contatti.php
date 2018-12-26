@@ -5,9 +5,9 @@
         <title>Contatti</title>
 	    <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="contatti.css" media="screen"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
-        <link rel="stylesheet" type="text/css" href="contatti.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
         <script type="text/javascript" src="scrollback.js"></script>
@@ -58,8 +58,7 @@
 				</div>
 				<div class="input_rule">
 					<label class="label-cont" for="messaggio">Messaggio <span class="important">*</span></label>
-					<textarea class="txt" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
-					<div class="error"><?php echo $val_mex?></div>
+					<textarea class="input_text" id="messaggio" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
 				</div>
 				<div id="button_rule">
 					<input class="submit_button" type="submit" name="submit" value="Invia la tua richiesta"> 
