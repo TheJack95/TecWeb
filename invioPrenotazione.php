@@ -5,12 +5,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if($all_values_ok)
         {
             // nome di host
-            $host = "localhost";
+            $host = "localhost:8081";
             // username dell'utente in connessione
             $user = "root";
             // password dell'utente
-            $password = "giacomo";
-            $dbname = "sito";
+            $password = "";
+            $dbname = "tecweb";
 
 
 

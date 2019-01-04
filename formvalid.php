@@ -5,7 +5,7 @@ error_reporting(0);
 // define variables and set to empty values
 $val_name = $val_surname = $val_email = $val_mex = "";
 $username = $nome = $cognome  = $email = $telefono = $messaggio = $Checkin = $Checkout = $BeB = $nPers = "";
-$all_values_ok = true;
+$boolname = $boolsurname = $boolemail = $boolmessage = $all_values_ok = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["nome"])) {
@@ -13,6 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $all_values_ok = false;
     } else {
         $nome = test_input($_POST["nome"]);
+        $boolname = true;
     }
 
     if (empty($_POST["cognome"])) {
@@ -20,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $all_values_ok = false;
     } else {
         $cognome= test_input($_POST["cognome"]);
+        $boolsurname = true;
     }
 
     $telefono = $_POST["telefono"];
@@ -33,6 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $emailErr = "Invalid email format";
         }
+        $boolemail = true;
     }
 
     if (empty($_POST["messaggio"])) {
@@ -40,8 +43,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $val_mex = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
     } else {
         $messaggio = test_input($_POST["messaggio"]);
+        $boolmessage = true;
     }
-    
+
+    if($boolemail && $boolmessage && $boolname && $boolsurname)
+        $all_values_ok = true;
 
     $Checkin = $_POST["Checkin"];
     $Checkout = $_POST["Checkout"];

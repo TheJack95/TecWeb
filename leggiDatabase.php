@@ -1,12 +1,12 @@
 <?php
 // nome di host
-$host = "localhost";
+$host = "localhost:8081";
 // username dell'utente in connessione
 $user = "root";
 // password dell'utente
-$password = "giacomo";
+$password = "";
 //nome database da usare
-$dbname = "sito";
+$dbname = "tecweb";
 
 // stringa di connessione al DBMS
 $conn = new mysqli($host, $user, $password, $dbname);
