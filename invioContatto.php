@@ -8,19 +8,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             // CREDENZIALI UNIPD
 
-            // $host = "localhost";
-            // $user = "gfiorese";
-            // $password = "sheelahJie2ieKoi";
-            // $dbname = "gfiorese";
-
-            // nome di host
             $host = "localhost";
-            // username dell'utente in connessione
-            $user = "root";
-            // password dell'utente
-            $password = "";
-            // nome del database
-            $dbname = "tecweb";
+            $user = "gfiorese";
+            $password = "eeNgeeghaiBooqu1";
+            $dbname = "gfiorese";
 
             // stringa di connessione al DBMS
             $connessione = mysqli_connect($host, $user, $password, $dbname);
