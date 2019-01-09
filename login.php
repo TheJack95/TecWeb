@@ -32,21 +32,25 @@
 			</h1>
 		</div>
 		
-		<?php error_reporting(0); include("menu.php"); ?>
-		
+		<?php include("menu.php"); ?>
+
+        <?php include("formvalid.php"); ?>
+
 		<form id="login" action="areaPrivata.php" method="post">			
 			<div class="nome">
                 		<label for="user">Username <span class="error">*</span></label><br/>
-                		<input class="cella" type="text" id="user" name="user" ><?php echo $_GET['err'] ?>
+                		<input class="cella" type="text" id="user" name="user" ><div class="error"><?php echo $val_user?></div>
 			</div>
 			
 			<div class="nome">
 		                <label for="pass">Password <span class="error">*</span></label><br/>
-                		<input class="cella" type="text" id="pass" name="pass"><?php echo $_GET['err'] ?>
+                		<input class="cella" type="text" id="pass" name="pass"><div class="error"><?php echo $val_pass?></div>
 			</div>
 			
 			<button class="go" type="submit">Login</button>
-			
+
+            <?php include("loginCheck.php"); ?>
+
 			<div class="aiuto">
 				<span>Se non sei ancora registrato, <a href="contatti.php">contattaci</a>!</span>
 			</div>

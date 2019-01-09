@@ -3,9 +3,9 @@
 error_reporting(0);
 
 // define variables and set to empty values
-$val_name = $val_surname = $val_email = $val_mex = "";
-$username = $nome = $cognome  = $email = $telefono = $messaggio = $Checkin = $Checkout = $BeB = $nPers = "";
-$boolname = $boolsurname = $boolemail = $boolmessage = $all_values_ok = false;
+$val_name = $val_surname = $val_email = $val_mex = $val_user = $val_pass = "";
+$username = $nome = $cognome  = $email = $telefono = $messaggio = $Checkin = $Checkout = $BeB = $nPers = $user = $pass = "";
+$boolname = $boolsurname = $boolemail = $boolmessage = $booluser = $boolpass = $all_values_ok = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty( trim($_POST["nome"]) )) {
@@ -23,8 +23,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $cognome= test_input($_POST["cognome"]);
         $boolsurname = true;
     }
-
-    $telefono = $_POST["telefono"];
 
     if (empty( trim($_POST["email"]) )) {
         $val_email = "CAMPO OBBLIGATORIO VUOTO  ";
@@ -45,9 +43,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $boolmessage = true;
     }
 
-    if($boolemail && $boolmessage && $boolname && $boolsurname)
+    if (empty( trim($_POST["user"]) )) {
+        $val_user = "CAMPO OBBLIGATORIO VUOTO  ";
+        $all_values_ok = false;
+    } else {
+        $user = test_input($_POST["user"]);
+        $booluser = true;
+    }
+
+    if (empty( trim($_POST["pass"]) )) {
+        $val_pass = "CAMPO OBBLIGATORIO VUOTO  ";
+        $all_values_ok = false;
+    } else {
+        $pass = test_input($_POST["pass"]);
+        $boolpass = true;
+    }
+
+    if($boolemail && $boolmessage && $boolname && $boolsurname && $booluser && $boolpass)
         $all_values_ok = true;
 
+    $telefono = $_POST["telefono"];
     $Checkin = $_POST["Checkin"];
     $Checkout = $_POST["Checkout"];
     $BeB = $_POST["BeB"];
