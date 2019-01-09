@@ -8,16 +8,16 @@ $username = $nome = $cognome  = $email = $telefono = $messaggio = $Checkin = $Ch
 $boolname = $boolsurname = $boolemail = $boolmessage = $all_values_ok = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (empty($_POST["nome"])) {
-        $val_name = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+    if (empty( trim($_POST["nome"]) )) {
+        $val_name = "CAMPO OBBLIGATORIO VUOTO  ";
         $all_values_ok = false;
     } else {
         $nome = test_input($_POST["nome"]);
         $boolname = true;
     }
 
-    if (empty($_POST["cognome"])) {
-        $val_surname = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+    if (empty( trim($_POST["cognome"]) )) {
+        $val_surname = "CAMPO OBBLIGATORIO VUOTO  ";
         $all_values_ok = false;
     } else {
         $cognome= test_input($_POST["cognome"]);
@@ -26,21 +26,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $telefono = $_POST["telefono"];
 
-    if (empty($_POST["email"])) {
-        $val_email = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+    if (empty( trim($_POST["email"]) )) {
+        $val_email = "CAMPO OBBLIGATORIO VUOTO  ";
         $all_values_ok = false;
     } else {
         $email = test_input($_POST["email"]);
-        // controllo su email
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $emailErr = "Invalid email format";
+            $val_email = "FORMATO E-MAIL NON VALIDO  ";
         }
         $boolemail = true;
     }
 
-    if (empty($_POST["messaggio"])) {
+    if (empty( trim($_POST["messaggio"]) )) {
         $all_values_ok = false;
-        $val_mex = "CAMPO/I OBBLIGATORIO/I VUOTO/I ";
+        $val_mex = "CAMPO OBBLIGATORIO VUOTO  ";
     } else {
         $messaggio = test_input($_POST["messaggio"]);
         $boolmessage = true;
