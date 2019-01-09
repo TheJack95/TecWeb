@@ -6,6 +6,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         {
             //$guid = GUID();
 
+            // CREDENZIALI ALTERVISTA
+
+            // $host = "localhost";
+            // $user = "tecwebgeg";
+            // $password = "";
+            // $dbname = "my_tecwebgeg";
+
+
             // CREDENZIALI UNIPD
 
             $host = "localhost";
