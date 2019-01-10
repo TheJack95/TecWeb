@@ -28,7 +28,6 @@
             <h1 class="titolo">
                 <span xml:lang="en">Bed &amp; Breakfast&rsquo;s</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
             </h1>
-
         </div>
 
         <?php include("menu.php"); ?>
@@ -39,7 +38,7 @@
 
         <?php include("formvalid.php"); ?>
 
-        <form method="post" action="" name="datiUtenti">
+        <form method="post" name="datiUtenti">
             <div class="sel">
                 <select class="boh" name="BeB">
                     <option value="" disabled selected>Seleziona il Bed &amp; Breakfast </option>
@@ -60,19 +59,19 @@
                 </select>
             </div>
             <div id="contact">
-		<div class="input_rule">
+		        <div class="input_rule">
                     <label class="label-cont" for="username">Username <span class="important">*</span> </label>
-                    <input class="input_text" type="text" id="username" name="username"><div class="error"><?php echo $val_name?></div>
+                    <input class="input_text" type="text" id="username" name="username">
                 </div>
 
                 <div class="input_rule">
                     <label class="label-cont" for="nome">Nome <span class="important">*</span> </label>
-                    <input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_name?></div>
+                    <input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_nome?></div>
                 </div>
 
                 <div class="input_rule">
                     <label class="label-cont" for="cognome">Cognome <span class="important">*</span></label>
-                    <input class="input_text" type="text" id="cognome" name="cognome"><div class="error"><?php echo $val_surname?></div>
+                    <input class="input_text" type="text" id="cognome" name="cognome"><div class="error"><?php echo $val_cognome?></div>
                 </div>
 
                 <div class="input_rule">
@@ -88,16 +87,15 @@
                 <div class="input_rule">
                     <label class="label-cont" for="messaggio">Messaggio <span class="important">*</span></label>
                     <textarea class="txt" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
-                    <div class="error"><?php echo $val_mex?></div>
+                    <div class="error"><?php echo $val_messaggio?></div>
                 </div>
-
 
                 <div id="button_rule">
-                    <input class="submit_button" type="submit" name="submit" value="Prenotazione">
+                    <input class="submit_button" type="submit" name="submit" value="Invia la tua prenotazione">
                 </div>
             </div>
-
         </form>
+
         <?php include("invioPrenotazione.php"); ?>
 
         <?php include("footer.php"); ?>

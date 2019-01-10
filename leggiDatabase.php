@@ -1,22 +1,16 @@
 <?php
-// nome di host
-$host = "localhost:8081";
-// username dell'utente in connessione
-$user = "root";
-// password dell'utente
-$password = "";
-//nome database da usare
-$dbname = "tecweb";
 
-// stringa di connessione al DBMS
-$conn = new mysqli($host, $user, $password, $dbname);
-//$username=$_POST['username'];
+$host = "localhost";
+$user = "tecwebgeg";
+$password = "4QCvxkNWCZS8";
+$dbname = "my_tecwebgeg";
 
+$conn = mysqli_connect($host, $user, $password, $dbname);
 
 $pass=$_POST['pass'];
+
 if($conn->connect_error)
     die($conn->connect_error);
-
 
 $username=$pss="";
 
@@ -87,7 +81,7 @@ else
     echo "</div>";
 }
 
-
-
-// chiusura della connessione
 $conn->close();
+
+?>
+

@@ -1,3 +1,4 @@
+
 CREATE TABLE if NOT EXISTS  Utente(
   Login varchar(10) PRIMARY KEY,
   Password varchar(20)
@@ -13,20 +14,17 @@ CREATE TABLE IF NOT EXISTS Prenotazione(
   Messaggio text NOT NULL,
   Checkin DATE NOT NULL,
   Checkout DATE NOT NULL,
-  BeB  varchar(40) NOT NULL,
+  BeB varchar(40) NOT NULL,
   Persone int NOT NULL,
   FOREIGN KEY (Username) references Utente(Login) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-
-CREATE TABLE IF NOT EXISTS Contatto (
-  ID int(11) AUTO_INCREMENT, 
+CREATE TABLE IF NOT EXISTS Contatto(
+  Id int(11) AUTO_INCREMENT,
   Nome varchar(30) NOT NULL,
   Cognome varchar(30) NOT NULL,
   Telefono varchar(13) DEFAULT NULL,
   Email varchar(50) NOT NULL,
   Messaggio text NOT NULL,
   PRIMARY KEY(ID)
-  );
-
-
+);

@@ -2,26 +2,25 @@
 
 error_reporting(0);
 
-// define variables and set to empty values
-$val_name = $val_surname = $val_email = $val_mex = "";
-$username = $nome = $cognome  = $email = $telefono = $messaggio = $Checkin = $Checkout = $BeB = $nPers = "";
-$boolname = $boolsurname = $boolemail = $boolmessage = $all_values_ok = false;
+$val_nome = $val_cognome = $val_email = $val_messaggio = "";
+$nome = $cognome  = $email = $telefono = $messaggio = "";
+$boolnome = $boolcognome = $boolemail = $boolmessagio = $all_values_ok = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty( trim($_POST["nome"]) )) {
-        $val_name = "CAMPO OBBLIGATORIO VUOTO  ";
+        $val_nome = "CAMPO OBBLIGATORIO VUOTO  ";
         $all_values_ok = false;
     } else {
         $nome = test_input($_POST["nome"]);
-        $boolname = true;
+        $boolnome = true;
     }
 
     if (empty( trim($_POST["cognome"]) )) {
-        $val_surname = "CAMPO OBBLIGATORIO VUOTO  ";
+        $val_cognome = "CAMPO OBBLIGATORIO VUOTO  ";
         $all_values_ok = false;
     } else {
-        $cognome= test_input($_POST["cognome"]);
-        $boolsurname = true;
+        $cognome = test_input($_POST["cognome"]);
+        $boolcognome = true;
     }
 
     if (empty( trim($_POST["email"]) )) {
@@ -37,21 +36,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (empty( trim($_POST["messaggio"]) )) {
         $all_values_ok = false;
-        $val_mex = "CAMPO OBBLIGATORIO VUOTO  ";
+        $val_messaggio = "CAMPO OBBLIGATORIO VUOTO  ";
     } else {
         $messaggio = test_input($_POST["messaggio"]);
-        $boolmessage = true;
+        $boolmessaggio = true;
     }
 
-    if($boolemail && $boolmessage && $boolname && $boolsurname)
+    if($boolnome && $boolcognome && $boolemail && $boolmessaggio)
         $all_values_ok = true;
 
     $telefono = $_POST["telefono"];
+
+    $username = $_POST["username"];
     $Checkin = $_POST["Checkin"];
     $Checkout = $_POST["Checkout"];
     $BeB = $_POST["BeB"];
-    $nPers = $_POST["Persone"];
-    $username = $_POST["username"];
+    $Persone = $_POST["Persone"];
  }
 
 function test_input($data) {
