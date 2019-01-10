@@ -7,9 +7,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if($all_values_ok) {
 
             $host = "localhost";
-            $user = "tecwebgeg";
-            $password = "4QCvxkNWCZS8";
-            $dbname = "my_tecwebgeg";
+            $user = "gfiorese";
+            $password = "eeNgeeghaiBooqu1";
+            $dbname = "gfiorese";
 
             $connessione = mysqli_connect($host, $user, $password, $dbname);
 

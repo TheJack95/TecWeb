@@ -1,9 +1,9 @@
 <?php
 
 $host = "localhost";
-$user = "tecwebgeg";
-$password = "4QCvxkNWCZS8";
-$dbname = "my_tecwebgeg";
+$user = "gfiorese";
+$password = "eeNgeeghaiBooqu1";
+$dbname = "gfiorese";
 
 $conn = mysqli_connect($host, $user, $password, $dbname);
 
