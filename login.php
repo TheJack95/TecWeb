@@ -35,7 +35,6 @@
 		<?php include("menu.php"); ?>
 
         <?php include("formvalid.php"); ?>
-        <?php include("loginCheck.php"); ?>
 
 		<form id="login" action="areaPrivata.php" method="post">			
 			<div class="nome">
