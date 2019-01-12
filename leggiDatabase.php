@@ -1,9 +1,9 @@
 <?php
 
 $host = "localhost";
-$user = "gfiorese";
-$password = "eeNgeeghaiBooqu1";
-$dbname = "gfiorese";
+$user = "tecwebgeg";
+$password = "4QCvxkNWCZS8";
+$dbname = "my_tecwebgeg";
 
 $conn = mysqli_connect($host, $user, $password, $dbname);
 
@@ -18,7 +18,7 @@ $username=$_POST['user'];
 $pass=$_POST['pass'];
 
 if($username=="" && $pass=="")
- header("location:login.php?err=Campo vuoto o errato");
+    echo "ERRORE: username e/o password non valide";
 elseif($username == 'admin') {
 
     echo "<h2>Prenotazione dei Clienti</h2>";
@@ -82,6 +82,3 @@ else
 }
 
 $conn->close();
-
-?>
-

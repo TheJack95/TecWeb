@@ -1,5 +1,4 @@
 <?php
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (isset($_POST['submit'])) {
@@ -7,9 +6,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if($all_values_ok) {
 
             $host = "localhost";
-            $user = "gfiorese";
-            $password = "eeNgeeghaiBooqu1";
-            $dbname = "gfiorese";
+            $user = "tecwebgeg";
+            $password = "4QCvxkNWCZS8";
+            $dbname = "my_tecwebgeg";
 
             $connessione = mysqli_connect($host, $user, $password, $dbname);
 

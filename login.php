@@ -49,8 +49,6 @@
 			
 			<button class="go" type="submit">Login</button>
 
-            <?php include("loginCheck.php"); ?>
-
 			<div class="aiuto">
 				<span>Se non sei ancora registrato, <a href="contatti.php">contattaci</a>!</span>
 			</div>
