@@ -66,7 +66,7 @@
                 <img class="camera" src="img/cadorehausCamera2.jpg" alt="Camera"/>
             </div>
         </div>
-        <button type="button" id="top-button" onclick="topFunction()">TOP</button>
+        <button type="button" id="top-button" onclick="topFunction()">&#8593</button>
         <!--<button type="button" id="top-button"><a href="#header">TOP</a></button>-->
         <?php include("footer.php"); ?>
 	</body>
