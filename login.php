@@ -35,6 +35,7 @@
 		<?php include("menu.php"); ?>
 
         <?php include("formvalid.php"); ?>
+        <?php include("loginCheck.php"); ?>
 
 		<form id="login" action="areaPrivata.php" method="post">			
 			<div class="nome">
@@ -48,8 +49,6 @@
 			</div>
 			
 			<button class="go" type="submit">Login</button>
-
-            <?php include("loginCheck.php"); ?>
 
 			<div class="aiuto">
 				<span>Se non sei ancora registrato, <a href="contatti.php">contattaci</a>!</span>
