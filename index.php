@@ -3,8 +3,7 @@
     <head>
         <title>Bed &amp; Breakfast&rsquo;s GEG</title>
         <link rel="icon" href="img/logogeg.jpg"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <link rel="stylesheet" media="screen" href="fogliocss.css" />
+        <link rel="stylesheet" media="screen" href="fogliocss.css" />
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
