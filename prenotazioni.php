@@ -86,7 +86,7 @@
 
                 <div class="input_rule">
                     <label class="label-cont" for="messaggio">Messaggio <span class="important">*</span></label>
-                    <textarea class="input_text" id="message" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
+                    <textarea class="input_text" id="messaggio" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
                     <div class="error"><?php echo $val_messaggio?></div>
                 </div>
 
