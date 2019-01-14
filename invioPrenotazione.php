@@ -6,10 +6,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if($all_values_ok) {
 
+            //credenziali unipd
+            $host = "localhost";
+            $user = "gfiorese";
+            $password = "eeNgeeghaiBooqu1";
+            $dbname = "gfiorese";
+
+            /*credenziali altervista
             $host = "localhost";
             $user = "tecwebgeg";
             $password = "4QCvxkNWCZS8";
-            $dbname = "my_tecwebgeg";
+            $dbname = "my_tecwebgeg";*/
 
             $connessione = mysqli_connect($host, $user, $password, $dbname);
 
