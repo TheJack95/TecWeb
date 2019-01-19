@@ -1,6 +1,6 @@
-#pren {
+.pren {
     padding:1.2em;
-    text-align: center;
+    text-align: justify;
 }
 
 h2 {
@@ -10,6 +10,36 @@ h2 {
 }
 
 .btnP {
+    border: 1px solid white;
+    background: gainsboro;
     padding: 0.600em 3.4em;
     font-size: 1.2em;
+}
+
+.prenotazionebutton a {
+    text-decoration: none;
+    color: blue;
+}
+
+.prenotazionebutton a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.prenotazionebutton {
+    text-align: center;
+    margin: 2%;
+}
+
+table{
+    width: 50%;
+}
+
+tr {
+    width: 50%;
+}
+
+td {
+    width: 40%;
+    border-bottom: 1px solid lightgray;
 }

@@ -28,6 +28,13 @@
     background-color: white;
 }
 
+.error_message {
+    padding: 1%;
+    background: #BD091B;
+    color: white;
+    text-align: center;
+}
+
 .error {
     color: #BD091B;
 }
