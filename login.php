@@ -44,7 +44,7 @@
 			
 			<div class="nome">
                 <label for="pass">Password <span class="error">*</span></label><br/>
-                <input class="cella" type="text" id="pass" name="pass"><div class="error"><?php echo $val_pass?></div>
+                <input class="cella" type="password" id="pass" name="pass"><div class="error"><?php echo $val_pass?></div>
 			</div>
 			
 			<button class="go" type="submit">Login</button>
