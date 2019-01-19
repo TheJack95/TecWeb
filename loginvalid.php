@@ -34,7 +34,7 @@ function test_input($data) {
     return $data;
 }
 
-if($login_ok === true) {
+/*if($login_ok === true) {
     $host = "localhost";
     $user = "gfiorese";
     $pass = "eeNgeeghaiBooqu1";
@@ -43,6 +43,6 @@ if($login_ok === true) {
     $connessione = mysqli_connect($host, $user, $pass, $dbname);
 
     $connessione->close();
-}
+}*/
 
 ?>

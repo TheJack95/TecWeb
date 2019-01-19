@@ -3,17 +3,17 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['submit'])) {
         if($all_values_ok) {
-            //credenziali unipd
+            /*credenziali unipd
             $host = "localhost";
             $user = "gfiorese";
             $password = "eeNgeeghaiBooqu1";
-            $dbname = "gfiorese";
+            $dbname = "gfiorese";*/
 
-            /*credenziali altervista
+            //credenziali altervista
             $host = "localhost";
             $user = "tecwebgeg";
             $password = "4QCvxkNWCZS8";
-            $dbname = "my_tecwebgeg";*/
+            $dbname = "my_tecwebgeg";
 
             $connessione = mysqli_connect($host, $user, $password, $dbname);
 
