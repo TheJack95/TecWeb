@@ -14,27 +14,11 @@ $dbname = "my_tecwebgeg";*/
 
 $conn = mysqli_connect($host, $user, $password, $dbname);
 
-$pass=$_POST['pass'];
-
-if($conn->connect_error)
-    die($conn->connect_error);
-
-$username=$pss="";
-
-$username=$_POST['user']; 
-$pass=$_POST['pass'];
-
-if($username=="" && $pass=="")
-    echo "ERRORE: username e/o password non valide";
-elseif($username == 'admin') {
-
+if($username == 'admin') {
     echo "<h2>Prenotazione dei Clienti</h2>";
-
     echo "<div id='pren'>";
-
     $sqlP = "SELECT * FROM Prenotazione ";
     $result = mysqli_query($conn, $sqlP);
-
     while ($row = mysqli_fetch_assoc($result)) {
         echo " - Nome: " . $row["Nome"] . "<br>" .
             " - Cognome: " . $row["Cognome"] . "<br>" .
@@ -47,9 +31,7 @@ elseif($username == 'admin') {
             " - N. Persone: " . $row["Persone"] . "<br>" .
             "<br>" . "</div>";
     }
-
     echo "<h2>Messaggi dai Clienti</h2>";
-
     $sqlC = "SELECT * FROM Contatto ";
     $result = mysqli_query($conn, $sqlC);
     while ($row = mysqli_fetch_assoc($result)) {
@@ -61,12 +43,9 @@ elseif($username == 'admin') {
             "<br>" . "</div>";
     }
 }
-else
-{
+else {
     echo "<h2>La tua prenotazione</h2>";
-
     $sqlP = "SELECT * FROM Prenotazione WHERE Username = '$username' ";
-
     $result = mysqli_query($conn, $sqlP);
     while($row = mysqli_fetch_assoc($result)) {
         echo "<div id='pren'>" . " - Nome: " . $row["Nome"] . "<br>" .
@@ -80,12 +59,10 @@ else
             " - N. Persone: " . $row["Persone"]."<br>" .
             "<br>";
     }
-
     echo "<form action=\"prenotazioni.php\" >
         <button class='btnP' type=\"submit\">Effettua una prenotazione</button>
         </form>";
-
     echo "</div>";
 }
-
 $conn->close();
+?>

@@ -1,11 +1,8 @@
 <?php
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-
     if (isset($_POST['submit'])) {
-
         if($all_values_ok) {
-
             //credenziali unipd
             $host = "localhost";
             $user = "gfiorese";
@@ -29,8 +26,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             else {
                 echo "ERRORE: messaggio non inviato. Riprovare";
             }
-
             $connessione->close();
         }
     }
 }
+?>
+

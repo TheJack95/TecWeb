@@ -34,9 +34,9 @@
 		
 		<?php include("menu.php"); ?>
 
-        <?php include("formvalid.php"); ?>
+        <?php include("loginvalid.php"); ?>
 
-		<form id="login" action="areaPrivata.php" method="post">			
+		<form id="login" action="#" method="post">
 			<div class="nome">
                 		<label for="user">Username <span class="error">*</span></label><br/>
                 		<input class="cella" type="text" id="user" name="user" ><div class="error"><?php echo $val_user?></div>
@@ -53,7 +53,7 @@
 				<span>Se non sei ancora registrato, <a href="contatti.php">contattaci</a>!</span>
 			</div>
 		</form>
-		
+
 		<?php include("footer.php"); ?>
 		
 	</body>
