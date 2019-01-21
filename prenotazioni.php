@@ -58,7 +58,6 @@
                     <option>4</option>
                 </select>
             </div>
-
             <div id="contact">
                 <div class="input_rule">
                     <label class="label-cont" for="username">Username <span class="important">*</span> </label>
