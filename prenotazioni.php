@@ -5,8 +5,8 @@
 	    <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="contatti.css" media="screen"/>
+        <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
     </head>
@@ -48,8 +48,8 @@
                     <option value="LaCorte">B&amp;B La Corte</option>
                     <option value="StelladelViandante">B&amp;B La Stella del Viandante</option>
                 </select>
-                <input class="boh" type="txt" name="Checkin" placeholder="Check-in" onfocus="(this.type='date')" id="Check"/>
-                <input class="boh" type="txt" name="Checkout" placeholder="Check-out" onfocus="(this.type='date')" id="Check"/>
+                <label class="label-cont" for="Checkin">Check-In </label><input class="boh" type="date" id="Checkin" name="Checkin"/>
+                <label class="label-cont" for="Checkout">Check-Out </label><input class="boh" type="date" id="Checkout" name="Checkout"/>
                 <select class="boh" id="sel1" name="Persone">
                     <option>Seleziona il numero di ospiti </option>
                     <option>1</option>
@@ -58,8 +58,9 @@
                     <option>4</option>
                 </select>
             </div>
+
             <div id="contact">
-		        <div class="input_rule">
+                <div class="input_rule">
                     <label class="label-cont" for="username">Username <span class="important">*</span> </label>
                     <input class="input_text" type="text" id="username" name="username">
                 </div>

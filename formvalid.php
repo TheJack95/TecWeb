@@ -10,37 +10,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty( trim($_POST["nome"]) )) {
         $val_nome = "CAMPO OBBLIGATORIO VUOTO  ";
         $all_values_ok = false;
-    } else {
-        $nome = test_input($_POST["nome"]);
-        $boolnome = true;
     }
+    else
+        $boolnome = true;
 
     if (empty( trim($_POST["cognome"]) )) {
-        $val_cognome = "CAMPO OBBLIGATORIO VUOTO  ";
+        $val_cognome = "CAMPO OBBLIGATORIO VUOTO\n";
         $all_values_ok = false;
-    } else {
-        $cognome = test_input($_POST["cognome"]);
-        $boolcognome = true;
     }
+    else
+        $boolcognome = true;
 
     if (empty( trim($_POST["email"]) )) {
-        $val_email = "CAMPO OBBLIGATORIO VUOTO  ";
+        $val_email = "CAMPO OBBLIGATORIO VUOTO\n";
         $all_values_ok = false;
-    } else {
-        $email = test_input($_POST["email"]);
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $val_email = "FORMATO E-MAIL NON VALIDO  ";
-        }
+    }
+    else {
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+            $val_email = "FORMATO E-MAIL NON VALIDO\n";
         $boolemail = true;
     }
 
     if (empty( trim($_POST["messaggio"]) )) {
         $all_values_ok = false;
-        $val_messaggio = "CAMPO OBBLIGATORIO VUOTO  ";
-    } else {
-        $messaggio = test_input($_POST["messaggio"]);
-        $boolmessaggio = true;
+        $val_messaggio = "CAMPO OBBLIGATORIO VUOTO\n";
     }
+    else
+        $boolmessaggio = true;
 
     if($boolnome && $boolcognome && $boolemail && $boolmessaggio)
         $all_values_ok = true;
@@ -53,12 +49,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $BeB = $_POST["BeB"];
     $Persone = $_POST["Persone"];
  }
-
-function test_input($data) {
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
 
 ?>
