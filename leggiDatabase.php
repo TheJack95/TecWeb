@@ -17,7 +17,7 @@ $username = $_GET["name"];
 $conn = mysqli_connect($host, $user, $password, $dbname);
 
 if($username == 'admin') {
-    echo "<h2>Prenotazione dei Clienti</h2>";
+    echo "<h2>Prenotazioni dei clienti</h2>";
     $sqlP = "SELECT * FROM Prenotazione ";
     $result = mysqli_query($conn, $sqlP);
     while ($row = mysqli_fetch_assoc($result)) {
@@ -32,7 +32,7 @@ if($username == 'admin') {
             "<tr><td>N. Persone</td><td> " . $row["Persone"] . "</td></tr>" .
             "</td></tr>" . "</table></div>";
     }
-    echo "<h2>Messaggi dai Clienti</h2>";
+    echo "<h2>Messaggi dai clienti</h2>";
     $sqlC = "SELECT * FROM Contatto ";
     $result = mysqli_query($conn, $sqlC);
     while ($row = mysqli_fetch_assoc($result)) {
@@ -45,7 +45,7 @@ if($username == 'admin') {
     }
 }
 else {
-    echo "<h2>La tua prenotazione</h2>";
+    echo "<h2>Le tue prenotazioni</h2>";
     $sqlP = "SELECT * FROM Prenotazione WHERE Username = '$username' ";
     $result = mysqli_query($conn, $sqlP);
     while($row = mysqli_fetch_assoc($result)) {
