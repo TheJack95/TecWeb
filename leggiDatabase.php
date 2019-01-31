@@ -63,5 +63,7 @@ else {
     echo "<div class=\"prenotazionebutton\"><a href=\"prenotazioni.php\" class='btnP'>Effettua una prenotazione</a></div>";
     echo "</div>";
 }
+
 $conn->close();
+
 ?>
