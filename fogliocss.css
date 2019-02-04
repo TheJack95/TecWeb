@@ -41,6 +41,14 @@ body {
     display: block;
 }
 
+.sTitolo {
+    text-align: center;
+    color: #BD091B;
+    font-weight: bolder;
+    display: block;
+    padding-left: 3%;
+}
+
 /* PARTE  HEADER  */
 #logo {
     float: left;
@@ -101,7 +109,7 @@ abbr {
 }
 
 #homerosolina {
-    float: left;
+    display: block;
     width: 30%;
     height: auto;
     padding: 0 2% 2% 0;
@@ -143,6 +151,7 @@ text-decoration: underline;
 
 /* liste nella home*/
 .lista, .lista2 {
+    margin: 1.5%;
     font-size: 110%;
     margin: 0;
     list-style: none;
@@ -152,6 +161,7 @@ text-decoration: underline;
 
 .lista {
     margin-bottom: 1.5%;
+    text-align: center;
 }
 
 #top-button {
