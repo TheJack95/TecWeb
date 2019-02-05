@@ -1,4 +1,3 @@
-
 CREATE TABLE if NOT EXISTS  Utente(
   Login varchar(10) PRIMARY KEY,
   Password varchar(20)
@@ -28,3 +27,5 @@ CREATE TABLE IF NOT EXISTS Contatto(
   Messaggio text NOT NULL,
   PRIMARY KEY(ID)
 );
+
+INSERT INTO Utente (Login, Password) VALUES ('admin','admin'), ('user','user'), ('user1','user1');
