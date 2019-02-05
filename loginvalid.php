@@ -1,5 +1,4 @@
 <?php
-
 error_reporting(0);
 
 $val_user = $val_pass = "";
@@ -32,7 +31,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$password = "eeNgeeghaiBooqu1";
 		$dbname = "gfiorese";
 		*/
-
 		//credenziali altervista
 		$host = "localhost";
 		$username = "tecwebgeg";
@@ -49,7 +47,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		else {
 				header("location: /areaPrivata.php?name=$user");
 		}
-
 		$connessione->close();
 	}
 }

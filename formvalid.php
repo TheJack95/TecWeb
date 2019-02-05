@@ -1,5 +1,4 @@
 <?php
-
 error_reporting(0);
 
 $val_nome = $val_cognome = $val_email = $val_messaggio = "";
@@ -59,5 +58,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $Persone = $_POST["Persone"];
 }
-
 ?>
