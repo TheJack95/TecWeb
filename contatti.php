@@ -32,43 +32,46 @@
         </div>
 
         <?php include("menu.php"); ?>
-        <p class="testo">
-            In questa pagina puoi contattare lo staff di <abbr title="Bed and Breakfast" lang="en">B&amp;B&rsquo;s</abbr> <abbr title="Giulia 		    Erik Giacomo">GEG</abbr>. Per qualunque informazione puoi lasciare un messaggio nell'apposito spazio e verrai ricontattato 		    entro qualche ora. <strong>Puoi utilizzare questo form anche per registrarti al nostro sito</strong>: scrivi nella casella messaggio &ldquo;<strong>ISCRIZIONE</strong>&rdquo; e riceverai delle credenziali d'accesso temporanee via email.
-        </p>
+        <div class="tutto">
+            <h1 class="titolo">Contatti</h1>
+            <p class="testo">
+                In questa pagina puoi contattare lo staff di <abbr title="Bed and Breakfast" lang="en">B&amp;B&rsquo;s</abbr> <abbr title="Giulia 		    Erik Giacomo">GEG</abbr>. Per qualunque informazione puoi lasciare un messaggio nell'apposito spazio e verrai ricontattato 		    entro qualche ora. <strong>Puoi utilizzare questo form anche per registrarti al nostro sito</strong>: scrivi nella casella messaggio &ldquo;<strong>ISCRIZIONE</strong>&rdquo; e riceverai delle credenziali d'accesso temporanee via email.
+            </p>
 
-        <?php include("formvalid.php"); ?>
+            <?php include("formvalid.php"); ?>
 
-        <form id="contact" method="post" name="datiUtenti">
-				<div class="input_rule">
-					<label class="label-cont" for="nome">Nome <span class="important">*</span> </label>
-					<input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_nome?></div>
-				</div>
-				<div class="input_rule">
-					<label class="label-cont" for="cognome">Cognome <span class="important">*</span></label>
-					<input class="input_text" type="text" id="cognome" name="cognome"><div class="error"><?php echo $val_cognome?></div>
-				</div>
-				<div class="input_rule">
-					<label class="label-cont" for="email">E-Mail <span class="important">*</span></label>
-					<input class="input_text" type="text" id="email" name="email"><div class="error"><?php echo $val_email?></div>
-				</div>
-				<div class="input_rule">
-					<label class="label-cont" for="telefono">Telefono </label>
-					<input class="input_text" type="text" id="telefono" name="telefono">
-				</div>
-				<div class="input_rule">
-					<label class="label-cont" for="messaggio">Messaggio <span class="important">*</span></label>
-					<textarea class="input_text" id="messaggio" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
+            <form id="contact" method="post" name="datiUtenti">
+                <div class="input_rule">
+                    <label class="label-cont" for="nome">Nome <span class="important">*</span> </label>
+                    <input class="input_text" type="text" id="nome" name="nome"><div class="error"><?php echo $val_nome?></div>
+                </div>
+                <div class="input_rule">
+                    <label class="label-cont" for="cognome">Cognome <span class="important">*</span></label>
+                    <input class="input_text" type="text" id="cognome" name="cognome"><div class="error"><?php echo $val_cognome?></div>
+                </div>
+                <div class="input_rule">
+                    <label class="label-cont" for="email">E-Mail <span class="important">*</span></label>
+                    <input class="input_text" type="text" id="email" name="email"><div class="error"><?php echo $val_email?></div>
+                </div>
+                <div class="input_rule">
+                    <label class="label-cont" for="telefono">Telefono </label>
+                    <input class="input_text" type="text" id="telefono" name="telefono">
+                </div>
+                <div class="input_rule">
+                    <label class="label-cont" for="messaggio">Messaggio <span class="important">*</span></label>
+                    <textarea class="input_text" id="messaggio" name="messaggio" placeholder="Scrivi qui la tua richiesta..."></textarea>
                     <div class="error"><?php echo $val_messaggio?></div>
-				</div>
-				<div id="button_rule">
-					<input class="submit_button" type="submit" name="submit" value="Invia la tua richiesta"> 
-				</div>
-        </form>
+                </div>
+                <div id="button_rule">
+                    <input class="submit_button" type="submit" name="submit" value="Invia la tua richiesta">
+                </div>
+            </form>
 
-        <?php include("invioContatto.php"); ?>
+            <?php include("invioContatto.php"); ?>
 
-        <button type="button" id="top-button" onclick="topFunction()">&#8593</button>
-
+            <button type="button" id="top-button" onclick="topFunction()">&#8593</button>
+        </div>
         <?php include("footer.php"); ?>
+
     </body>
 </html>

@@ -35,13 +35,13 @@
 
         <div class="tutto">
             <h1 class="titolo">Chi siamo</h1>
+            <img id="homerosolina" src="img/montagna.png" alt="foto della montagna" />
             <p class="testo">
                 <span xml:lang="en">Bed &amp; Breakfast&rsquo;s</span>  <abbr title="Giulia Erik Giacomo">G.E.G.</abbr> nasce nel 2017
                 dall&rsquo;idea di tre giovani imprenditori con l&rsquo;intenzione di valorizzare delle strutture gi&agrave; esistenti, ma
                 troppo piccole per essere competitive singolarmente, creando una catena, senza per&ograve; uniformarle.
                 L&rsquo;idea &egrave; quella di permettere ai viaggiatori di conoscere le bellezze del luogo in cui si trovano e ci&ograve; &egrave; possibile
                 solamente grazie al nostro impegno costante per la manutenzione delle caratteristiche delle singole strutture.</p>
-            <img id="homerosolina" src="img/mare.png" alt="foto del mare" />
             <h1 class="sTitolo">Dove siamo</h1>
             <p class="testo">
                 Le localit&agrave; dove sono collocati i <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> sono molto diverse tra loro:
