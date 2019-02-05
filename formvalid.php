@@ -31,18 +31,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $all_values_ok = false;
     }
     else {
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $val_email = "FORMATO E-MAIL NON VALIDO\n";
-		}
-		else {
-			$email = $_POST["email"];
-			$boolemail = true;
-		}
+        $email = $_POST["email"];
+        $boolemail = true;
     }
 
     if (empty( trim($_POST["messaggio"]) )) {
-        $all_values_ok = false;
         $val_messaggio = "CAMPO OBBLIGATORIO VUOTO\n";
+        $all_values_ok = false;
     }
     else {
 		$messaggio = $_POST["messaggio"];

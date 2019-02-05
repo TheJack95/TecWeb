@@ -7,6 +7,7 @@ $user = $pass = "";
 $booluser = $boolpass = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
     if (empty( trim($_POST["user"]) )) {
         $val_user = "CAMPO OBBLIGATORIO VUOTO\n";
     }
