@@ -34,7 +34,6 @@
         <?php include("menu.php"); ?>
 
         <div class="tutto">
-<<<<<<< HEAD
             <h1 class="titolo">Chi Siamo</h1>
             <img id="homerosolina" src="img/montagna.png" alt="foto della montagna" />
             <p class="testo">
