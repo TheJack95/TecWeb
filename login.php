@@ -54,6 +54,8 @@
 			</div>
 		</form>
 
+        <button type="button" id="top-button" onclick="topFunction()"> &#8593 </button>
+
 		<?php include("footer.php"); ?>
 		
 	</body>

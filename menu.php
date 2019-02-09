@@ -15,7 +15,7 @@
     </div>
     <a class="contatti" href="contatti.php">Contatti</a>
     <a class="AP" href="login.php">Area Personale</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>     <!- ICONA PER MOBILE ->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> &#9776; </a>     <!- ICONA PER MOBILE ->
 </div>
 
 

@@ -26,7 +26,7 @@ body {
 }
 
 .tutto {
-    clear:both;
+    clear: both;
     border: 1px solid black;
     color: black;
     background-color: white;
@@ -46,7 +46,6 @@ body {
     color: #BD091B;
     font-weight: bolder;
     display: block;
-    padding-left: 3%;
 }
 
 /* PARTE  HEADER  */
@@ -123,11 +122,11 @@ abbr {
 }
 
 .testo a {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .testo a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 #imgCamere {
@@ -142,32 +141,19 @@ text-decoration: underline;
     height: auto;
 }
 
-/* FINE PARTE  BODY  */
-
-#servizi  {
-    display: table;
-    clear: both;
-}
-
 /* liste nella home*/
-.lista, .lista2 {
+.lista {
     margin: 1.5%;
     font-size: 110%;
-    margin: 0;
     list-style: none;
-    float: left;
     alignment: center;
-}
-
-.lista {
-    margin-bottom: 1.5%;
     text-align: center;
 }
 
 #top-button {
     display: none;
     position: fixed;
-    width:3%;
+    width: 3%;
     bottom: 0.5%;
     right: 0.9%;
     z-index: 99;

@@ -67,7 +67,7 @@
 
         <?php include("invioContatto.php"); ?>
 
-        <button type="button" id="top-button" onclick="topFunction()">&#8593</button>
+        <button type="button" id="top-button" onclick="topFunction()"> &#8593 </button>
 
         <?php include("footer.php"); ?>
     </body>

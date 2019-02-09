@@ -98,6 +98,8 @@
 
         <?php include("invioPrenotazione.php"); ?>
 
+        <button type="button" id="top-button" onclick="topFunction()"> &#8593 </button>
+
         <?php include("footer.php"); ?>
     </body>
 </html>
