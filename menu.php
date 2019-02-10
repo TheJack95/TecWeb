@@ -15,10 +15,10 @@
     </div>
     <a class="contatti" href="contatti.php">Contatti</a>
     <a class="AP" href="login.php">Area Personale</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> &#9776; </a>     <!- ICONA PER MOBILE ->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>     <!-- ICONA PER MOBILE -->
 </div>
 
-<!- Gli script sono stati messi qua per comodità al posto di fare un file separato in quanto sono solo per il menù ->
+<!-- Gli script sono stati messi qua per comodità al posto di fare un file separato in quanto sono solo per il menù -->
 <script>
     /* Cambia testo di un link del menù */
     if(document.title === "Area Privata") {

@@ -81,7 +81,7 @@
                 <img class="camera" src="img/dolomiti.png" alt="foto panoramica della Dolomiti" />
             </div>
         </div> <!-- fine class tutto -->
-        <button type="button" id="top-button" onclick="topFunction()">&#8593</button>
+        <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
         <?php include("footer.php"); ?>
     </body>
 </html>

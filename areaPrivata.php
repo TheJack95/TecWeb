@@ -36,7 +36,7 @@
         <div class="tutto">
             <?php include("leggiDatabase.php"); ?>
         </div>
-        <button type="button" id="top-button" onclick="topFunction()">&#8593</button>
+        <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
         <?php include("footer.php"); ?>
     </body>
 </html>

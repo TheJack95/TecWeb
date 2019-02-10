@@ -138,7 +138,7 @@
                 <li><a href="https://goo.gl/maps/WKHxmnzboQG2" target="_blank">Guarda nella mappa</a></li>
             </ul>
         </div>
-        <button type="button" id="top-button" onclick="topFunction()">&#8593</button>
+        <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
         <?php include("footer.php"); ?>
     </body>
 </html>

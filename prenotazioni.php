@@ -48,8 +48,8 @@
                     <option value="LaCorte">B&amp;B La Corte</option>
                     <option value="StelladelViandante">B&amp;B La Stella del Viandante</option>
                 </select>
-                <label class="label-cont" for="Checkin">Check-In </label><input class="boh" type="date" id="Checkin" name="Checkin"/>
-                <label class="label-cont" for="Checkout">Check-Out </label><input class="boh" type="date" id="Checkout" name="Checkout"/>
+                <label class="label-cont" for="Checkin"></label><input class="boh" type="date" id="Checkin" name="Checkin"/>
+                <label class="label-cont" for="Checkout"></label><input class="boh" type="date" id="Checkout" name="Checkout"/>
                 <select class="boh" id="sel1" name="Persone">
                     <option>Seleziona il numero di ospiti </option>
                     <option>1</option>
@@ -98,7 +98,7 @@
 
         <?php include("invioPrenotazione.php"); ?>
 
-        <button type="button" id="top-button" onclick="topFunction()"> &#8593 </button>
+        <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
 
         <?php include("footer.php"); ?>
     </body>

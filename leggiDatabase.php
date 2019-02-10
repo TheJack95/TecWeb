@@ -1,10 +1,12 @@
 <?php
 
-/*credenziali unipd
+/*
+//credenziali unipd
 $host = "localhost";
 $user = "gfiorese";
 $password = "eeNgeeghaiBooqu1";
-$dbname = "gfiorese";*/
+$dbname = "gfiorese";
+*/
 
 //credenziali altervista
 $host = "localhost";
