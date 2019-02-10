@@ -28,4 +28,14 @@ CREATE TABLE IF NOT EXISTS Contatto(
   PRIMARY KEY(ID)
 );
 
+
+CREATE TABLE IF NOT EXISTS BeB(
+  Nome varchar(30) NOT NULL,
+  Telefono varchar(20) DEFAULT NULL,
+  Indirizzo varchar(50) NOT NULL,
+  Citta varchar(50) NOT NULL,
+  Mappa nvarchar(2083) NOT NULL,
+  PRIMARY KEY(Nome)
+);
+
 INSERT INTO Utente (Login, Password) VALUES ('admin','admin'), ('user','user'), ('user1','user1');

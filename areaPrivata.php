@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <meta charset="utf-8"/>
@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="areaPrivata.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="prenotazione.css" media="screen"/>
         <script type="text/javascript" src="scrollback.js"></script>
     </head>
 
@@ -36,7 +37,7 @@
         <div class="tutto">
             <?php include("leggiDatabase.php"); ?>
         </div>
-        <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
+        <button type="button" id="top-button" onclick="topFunction()">&#8593</button>
         <?php include("footer.php"); ?>
     </body>
 </html>

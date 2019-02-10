@@ -1,0 +1,28 @@
+.pren {
+    margin: 0 15% 0 15%;
+    overflow: auto;
+}
+#col1{
+    float: left;
+    width: 45%;
+}
+#col2 {
+    float: right;
+    width: 45%;
+}
+#imgBB {
+    width: 75%;
+}
+
+#info {
+    text-align: center;
+}
+
+table {
+    text-align: justify;
+    width: 100%;
+}
+
+#tabBeb td{
+    border: none;
+}
