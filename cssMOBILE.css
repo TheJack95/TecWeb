@@ -103,12 +103,14 @@
 }
 
 /*Area privata utente*/
+
 #col1 {
     display: none;
 }
 
 #col2 {
     float: none;
+    margin-left: 5%;
 }
 
 
