@@ -1,3 +1,16 @@
+CREATE TABLE `BeB` (
+  `Nome` varchar(30) NOT NULL,
+  `BeB` varchar(50) NOT NULL,
+  `Telefono` varchar(20) DEFAULT NULL,
+  `Indirizzo` varchar(50) NOT NULL,
+  `Citta` varchar(50) NOT NULL,
+  `Mappa` varchar(2083) CHARACTER SET utf8 NOT NULL,
+  PRIMARY KEY (`Nome`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `BeB` VALUES ('alborgo','AlBorgo','+39 0000 000000','Via Ventolone, 4','435032 Arqu&agrave; Petrarca (PD)','https://goo.gl/maps/9VnRUVpRX7C2'),('boscoverde','Boscoverde','+39 0000 000000','Via Visome, 211','32100 Belluno (BL)','https://goo.gl/maps/zkUznEEVUAo'),('cadorehaus','CadoreHaus','+39 0000 000000','Via Saletta, 30','32041 Auronzo di Cadore (BL)','https://goo.gl/maps/RNhypTnWjv92'),('lacorte','LaCorte','+39 0000 000000','Via Bassafonda, 46','45010 Rosolina (RO)','https://goo.gl/maps/R8aMwSJQsUs'),('lastelladelviandante','StelladelViandante','+39 0000 000000','Via Danilo Busin, 7','32020 Falcade (BL)','https://goo.gl/maps/e6JwcoXmWN12');
+
+
 COSA MANCA
 
 MIGLIORARE accessibilita'
