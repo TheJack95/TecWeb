@@ -31,19 +31,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$password = "eeNgeeghaiBooqu1";
 		$dbname = "gfiorese";
 		*/
-		//credenziali altervista
-		$host = "localhost";
-		$username = "root";
-		$password = "giacomo";
-		$dbname = "sito";
+		//credenziali database
+        $host = "localhost";
+        $username = "tecwebgeg";
+        $password = "4QCvxkNWCZS8";
+        $dbname = "my_tecwebgeg";
 
-		$connessione = mysqli_connect($host, $username, $password, $dbname);
+        $connessione = mysqli_connect($host, $username, $password, $dbname);
 		$checkuser = "SELECT * FROM Utente WHERE Login = '$user' && Password = '".$pass."'";
 
 		$result = mysqli_query($connessione, $checkuser);
 
-		if(mysqli_num_rows($result)==0)
-			echo "<div class='error_message'>USERNAME E PASSWORD NON VALIDI</div>";
+		if(mysqli_num_rows($result)==0) {
+            echo "<div class='error_message'>USERNAME E PASSWORD NON VALIDI</div>";
+        }
 		else {
 				header("location: areaPrivata.php?name=$user");
 		}

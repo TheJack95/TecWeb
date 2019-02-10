@@ -6,11 +6,11 @@ $user = "gfiorese";
 $password = "eeNgeeghaiBooqu1";
 $dbname = "gfiorese";*/
 
-//credenziali altervista
+//credenziali database
 $host = "localhost";
-$user = "root";
-$password = "giacomo";
-$dbname = "sito";
+$user = "tecwebgeg";
+$password = "4QCvxkNWCZS8";
+$dbname = "my_tecwebgeg";
 
 $username = $_GET["name"];
 

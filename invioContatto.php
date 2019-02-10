@@ -12,13 +12,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $password = "eeNgeeghaiBooqu1";
             $dbname = "gfiorese";*/
 
-            //credenziali altervista
+            //credenziali database
             $host = "localhost";
-            $user = "root";
-            $password = "giacomo";
-            $dbname = "sito";
+            $username = "tecwebgeg";
+            $password = "4QCvxkNWCZS8";
+            $dbname = "my_tecwebgeg";
 
-            $connessione = mysqli_connect($host, $user, $password, $dbname);
+            $connessione = mysqli_connect($host, $username, $password, $dbname);
 
             $sql = "INSERT INTO Contatto (Id, Nome, Cognome, Telefono, Email, Messaggio) 
                                   VALUES (null,'$nome','$cognome','$telefono','$email', '$messaggio')";
