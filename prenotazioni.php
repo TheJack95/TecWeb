@@ -33,6 +33,8 @@
 
         <?php include("menu.php"); ?>
 
+        <div class="tutto">
+
         <p class="testo">
             In questa pagina puoi prenotare la tua stanza presso uno dei nostri B&amp;B&rsquo;s. Entro qualche ora dall&rsquo;invio della 		    richiesta, ti verrà inviata una mail di conferma dell&rsquo;avvenuta prenotazione. Per qualunque informazione puoi lasciare un 		    messaggio nell&rsquo;apposito spazio e verrai contattato il prima possibile. <strong>Ricorda di iscriverti <a class="contatti" 		    href="contatti.php">qui</a></strong> prima di proseguire con la compilazione della prenotazione. Buona permanenza da tutto lo staff!
         </p>
@@ -98,6 +100,7 @@
         </form>
 
         <?php include("invioPrenotazione.php"); ?>
+        </div>
 
         <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
 

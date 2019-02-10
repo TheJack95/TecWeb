@@ -14,11 +14,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             //credenziali database
             $host = "localhost";
-            $username = "tecwebgeg";
+            $user = "tecwebgeg";
             $password = "4QCvxkNWCZS8";
             $dbname = "my_tecwebgeg";
 
-            $connessione = mysqli_connect($host, $username, $password, $dbname);
+            $connessione = mysqli_connect($host, $user, $password, $dbname);
 
             $sql = "INSERT INTO Prenotazione (Id, Username, Nome, Cognome, Telefono, Email, Messaggio, Checkin, Checkout, BeB, Persone) 
                                       VALUES (null,'$username','$nome','$cognome','$telefono','$email','$messaggio','$Checkin','$Checkout','$BeB','$Persone')";

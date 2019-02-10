@@ -3,10 +3,7 @@
 }
 
 #homerosolina {
-    float: none;
-    display: block;
-    width: 70%;
-    margin-top: 1em;
+    display: none;
 }
 
 #logo, #logo2 {
@@ -32,17 +29,10 @@
     margin-bottom: 5%;
 }
 
-.lista, .lista2 {
-    margin: 0 4em;
-    padding: 0;
-    list-style: none;
-    float: none;
+.lista ul {
+    text-align: left;
+    margin-left: -8%;
 }
-
-.lista {
-    margin-bottom: 1.2em;
-}
-
 
 #footer ul li {
     font-size: 0.5em;
