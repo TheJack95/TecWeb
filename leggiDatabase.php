@@ -46,6 +46,7 @@ if($username == 'admin') {
 }
 else {
     echo "<h2>Le tue prenotazioni</h2>";
+    echo "<div class=\"prenotazionebutton\"><a href=\"prenotazioni.php\" class='btnP'>Effettua una prenotazione</a></div>";
     $sqlP = "SELECT * FROM Prenotazione WHERE Username = '$username' ";
     $result = mysqli_query($conn, $sqlP);
     while($row = mysqli_fetch_assoc($result)) {
@@ -80,7 +81,6 @@ else {
             </div>
             </div><hr size=\"1\" color=\"black\" noshade>";
     }
-    echo "<div class=\"prenotazionebutton\"><a href=\"prenotazioni.php\" class='btnP'>Effettua una prenotazione</a></div>";
     echo "</div>";
 }
 
