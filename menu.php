@@ -14,13 +14,22 @@
         </div>
     </div>
     <a class="contatti" href="contatti.php">Contatti</a>
-    <a class="AP" href="login.php">Area Personale</a>
+    <a class="AP" id="log" href="login.php">Area Personale</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>     <!- ICONA PER MOBILE ->
 </div>
 
 
-<!- SCRIPT PER MOBILE ->
+<!- Gli script sono stati messi qua per comodità al posto di fare un file separato in quanto sono solo per il menù ->
 <script>
+
+    if(document.title === "Area Privata") {
+        document.getElementById("log").innerHTML = "Logout";
+        document.getElementById("log").style.cursor = "pointer";
+        document.getElementById("log").style.pointerEvents = "visible";
+    }
+
+
+    /* SCRIPT PER MOBILE */
     function myFunction() {
         var x = document.getElementById("mymenu");
         if (x.className === "menu") {

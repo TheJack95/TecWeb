@@ -112,6 +112,16 @@
     float: none;
 }
 
+/*Area privata utente*/
+#col1 {
+    display: none;
+}
+
+#col2 {
+    float: none;
+}
+
+
 /*  FOOTER */
 
 #footer ul li {

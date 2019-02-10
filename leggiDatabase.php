@@ -8,9 +8,9 @@ $dbname = "gfiorese";*/
 
 //credenziali altervista
 $host = "localhost";
-$user = "tecwebgeg";
-$password = "4QCvxkNWCZS8";
-$dbname = "my_tecwebgeg";
+$user = "root";
+$password = "giacomo";
+$dbname = "sito";
 
 $username = $_GET["name"];
 
@@ -49,7 +49,24 @@ else {
     $sqlP = "SELECT * FROM Prenotazione WHERE Username = '$username' ";
     $result = mysqli_query($conn, $sqlP);
     while($row = mysqli_fetch_assoc($result)) {
-        echo "<div class='pren'><table><tr><td>" . "Nome</td><td> " . $row["Nome"] . "</td></tr>" .
+        $nameBeB = $row["BeB"];
+        $sqlB = "SELECT * FROM BeB WHERE BeB = '$nameBeB'";
+        $result2 = mysqli_query($conn, $sqlB);
+        $data = mysqli_fetch_assoc($result2);
+        $mappa = $data["Mappa"];
+        $imm = "img/".$data["Nome"].".png";
+        echo "<div class='pren'>
+            <div id=\"col1\"><img id='imgBB' src='$imm' alt='$nameBeB'>" .
+            "<table id='tabBeb'>
+            <tr><td> " . $data["Telefono"]."</td></tr>" .
+            "<tr><td>" . $data["Indirizzo"]."</td></tr>" .
+            "<tr><td> " . $data["Citta"]."</td></tr>" .
+            "<tr><td><a href='$mappa'>Vedi sulla mappa</a></td></tr>
+            </table>".
+            "</div>
+            <div id=\"col2\">
+            <table>
+            <tr><td>" . "Nome</td><td>" . $row["Nome"] . "</td></tr>" .
             "<tr><td>Cognome</td><td> " . $row["Cognome"]."</td></td>" .
             "<tr><td>Telefono</td><td> " . $row["Telefono"]."</td></tr>" .
             "<tr><td>E-mail</td><td> " . $row["Email"]."</td></tr>" .
@@ -58,7 +75,10 @@ else {
             "<tr><td>Check-out</td><td> " . $row["Checkout"]."</td></tr>" .
             "<tr><td>Struttura</td><td> " . $row["BeB"]."</td></tr>" .
             "<tr><td>N. Persone</td><td> " . $row["Persone"]."</td></tr>" .
-            "</td></tr></table></div>";
+            "</td></tr>
+            </table>
+            </div>
+            </div><hr size=\"1\" color=\"black\" noshade>";
     }
     echo "<div class=\"prenotazionebutton\"><a href=\"prenotazioni.php\" class='btnP'>Effettua una prenotazione</a></div>";
     echo "</div>";

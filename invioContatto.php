@@ -14,9 +14,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             //credenziali altervista
             $host = "localhost";
-            $user = "tecwebgeg";
-            $password = "4QCvxkNWCZS8";
-            $dbname = "my_tecwebgeg";
+            $user = "root";
+            $password = "giacomo";
+            $dbname = "sito";
 
             $connessione = mysqli_connect($host, $user, $password, $dbname);
 
