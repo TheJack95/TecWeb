@@ -19,26 +19,23 @@ CREATE TABLE IF NOT EXISTS Prenotazione(
 );
 
 CREATE TABLE IF NOT EXISTS Contatto(
-  Id int(11) AUTO_INCREMENT,
+  Id int(11) AUTO_INCREMENT PRIMARY KEY,
   Nome varchar(30) NOT NULL,
   Cognome varchar(30) NOT NULL,
   Telefono varchar(13) DEFAULT NULL,
   Email varchar(50) NOT NULL,
-  Messaggio text NOT NULL,
-  PRIMARY KEY(ID)
+  Messaggio text NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS BeB(
-  Nome varchar(30) NOT NULL,
+  Nome varchar(30) NOT NULL PRIMARY KEY,
   BeB varchar(50) NOT NULL,
   Telefono varchar(20) DEFAULT NULL,
   Indirizzo varchar(50) NOT NULL,
   Citta varchar(50) NOT NULL,
-  Mappa varchar(2083) CHARACTER SET utf8 NOT NULL,
-  PRIMARY KEY (Nome)
+  Mappa varchar(2083) CHARACTER SET utf8 NOT NULL
 );
-
 
 INSERT INTO Utente (Login, Password) VALUES ('admin','admin'), ('user','user');
 
-INSERT INTO BeB VALUES ('alborgo','AlBorgo','+39 0000 000000','Via Ventolone, 4','435032 Arqu&agrave; Petrarca (PD)','https://goo.gl/maps/9VnRUVpRX7C2'),('boscoverde','Boscoverde','+39 0000 000000','Via Visome, 211','32100 Belluno (BL)','https://goo.gl/maps/zkUznEEVUAo'),('cadorehaus','CadoreHaus','+39 0000 000000','Via Saletta, 30','32041 Auronzo di Cadore (BL)','https://goo.gl/maps/RNhypTnWjv92'),('lacorte','LaCorte','+39 0000 000000','Via Bassafonda, 46','45010 Rosolina (RO)','https://goo.gl/maps/R8aMwSJQsUs'),('lastelladelviandante','StelladelViandante','+39 0000 000000','Via Danilo Busin, 7','32020 Falcade (BL)','https://goo.gl/maps/e6JwcoXmWN12');
+INSERT INTO BeB (Nome, BeB, Telefono, Indirizzo, Citta, Mappa) VALUES ('alborgo','AlBorgo','+39 0000 000000','Via Ventolone, 4','435032 Arqu&agrave; Petrarca (PD)','https://goo.gl/maps/9VnRUVpRX7C2'),('boscoverde','Boscoverde','+39 0000 000000','Via Visome, 211','32100 Belluno (BL)','https://goo.gl/maps/zkUznEEVUAo'),('cadorehaus','CadoreHaus','+39 0000 000000','Via Saletta, 30','32041 Auronzo di Cadore (BL)','https://goo.gl/maps/RNhypTnWjv92'),('lacorte','LaCorte','+39 0000 000000','Via Bassafonda, 46','45010 Rosolina (RO)','https://goo.gl/maps/R8aMwSJQsUs'),('lastelladelviandante','StelladelViandante','+39 0000 000000','Via Danilo Busin, 7','32020 Falcade (BL)','https://goo.gl/maps/e6JwcoXmWN12');
