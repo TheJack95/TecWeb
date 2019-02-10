@@ -18,7 +18,7 @@ RELAZIONE piu' dettagliata (GIULIA)
 
 
 
-VALIDARE HTML FATTO
+VALIDARE html FATTO
 Pagine valiate: TUTTE
 	- areaPrivata
 	- areaUtente

@@ -1,5 +1,5 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xml:lang="it" lang="it">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <title>Bed &amp; Breakfast&rsquo;s GEG</title>
         <link rel="icon" href="img/logogeg.jpg"/>
@@ -84,7 +84,10 @@
                 <img class="camera" src="img/dolomiti.png" alt="foto panoramica della Dolomiti" />
             </div>
         </div> <!-- fine class tutto -->
-        <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
+        <div>
+            <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
+        </div>
         <?php include("footer.php"); ?>
+
     </body>
 </html>
