@@ -1,4 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php
+session_start();
+
+if ( isset( $_SESSION['user_id'] ) )
+{
+    echo <<<EOL
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
         <meta charset="utf-8"/>
@@ -41,3 +48,11 @@
         <?php include("footer.php"); ?>
     </body>
 </html>
+EOL;
+}
+else {
+    // Redirect them to the login page
+    header("Location: /login.php");
+}
+?>
+
