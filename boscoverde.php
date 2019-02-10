@@ -54,10 +54,10 @@
                 pareti di roccia per gli amanti delle scalate, piste da sci e molto altro ancora!
             </p>
 
-        <div id="imgCamere">
-            <img class="camera" src="img/boscoverdeCamera1.jpg" alt="Camera"/>
-            <img class="camera" src="img/boscoverdeCamera2.jpg" alt="Camera"/>
-        </div>
+            <div id="imgCamere">
+                <img class="camera" src="img/boscoverdeCamera1.jpg" alt="Camera"/>
+                <img class="camera" src="img/boscoverdeCamera2.jpg" alt="Camera"/>
+            </div>
 
       </div>
         <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>

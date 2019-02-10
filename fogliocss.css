@@ -142,12 +142,13 @@ abbr {
 }
 
 /* liste nella home*/
-.lista {
+.lista ul{
     margin: 1.5%;
     font-size: 110%;
     list-style: none;
     alignment: center;
     text-align: center;
+    list-style: none;
 }
 
 #top-button {

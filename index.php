@@ -45,37 +45,40 @@
 
             <h1 class="sTitolo">Dove Siamo</h1>
             <p class="testo">
-                Le localit&agrave; dove sono collocati i <abbr title="Bed and Breakfast" xml:lang="en">B&B</abbr> sono molto diverse tra loro:
+                Le localit&agrave; dove sono collocati i <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> sono molto diverse tra loro:
                 Falcade, Nevegal e Auronzo di Cadore (tutte situate in provincia di Belluno) si trovano immerse nelle stupende Dolomiti Venete,
                 mentre le strutture di Arqu&agrave; Petrarca (PD) e Rosolina (RO) si trovano nella Pianura Padana Veneta. Le nostre strutture
                 dispongono tutte di ampie camere con due o quattro posti letto, bagno privato, un piccolo angolo cottura e un tavolo da pranzo.</p>
             <h1 class="sTitolo">I Nostri Prezzi</h1>
             <p class="testo">
                 Le camere sono affittabili da &euro; 15 a &euro; 30 a persona a notte nel periodo di bassa stagione e da &euro; 20 a &euro; 40
-                a persona a notte nel periodo di alta stagione, mentre la tassa varia in base alla localit&agrave;.</br>
+                a persona a notte nel periodo di alta stagione, mentre la tassa varia in base alla localit&agrave;.<br />
                 Se vuoi informazioni pi&ugrave; precise <a class="contatti" href="contatti.php">contattaci</a>, siamo a
                 tua disposizione!
             </p>
 
             <h1 class="sTitolo">I Nostri Servizi</h1>
-            <p>
-                <ul class="lista">
-                    <li><strong>I servizi compresi:</strong></li>
-                    <li><span xml:lang="en">Check&ndash;in</span> e <span xml:lang="en">check&ndash;out</span> alle 8 alle 20</li>
-                    <li>Colazione internazionale a <span xml:lang="fr">buffet</span></li>
-                    <li>Posto auto e/o posto bici</li>
-                    <li>Possibilit&agrave; di ricarica per <span xml:lang="en">E&ndash;bike</span></li>
-                    <li>Connessione <span xml:lang="en">Wi&ndash;Fi</span> nelle camere</li>
-                </ul>
-                </br>
-                <ul class="lista">
-                    <li><strong>I servizi disponibili a pagamento:</strong></li>
-                    <li>Pranzo al sacco </li>
-                    <li>Noleggio biciclette</li>
-                    <li>Noleggio sci e scarponi (solo nelle strutture bellunesi)</li>
-                    <li>Servizio taxi da/per la stazione pi&ugrave; vicina</li>
-                </ul>
-            </p>
+
+                <div class="lista">
+                    <ul>
+                        <li><strong>I servizi compresi:</strong></li>
+                        <li><span xml:lang="en">Check&ndash;in</span> e <span xml:lang="en">check&ndash;out</span> alle 8 alle 20</li>
+                        <li>Colazione internazionale a <span xml:lang="fr">buffet</span></li>
+                        <li>Posto auto e/o posto bici</li>
+                        <li>Possibilit&agrave; di ricarica per <span xml:lang="en">E&ndash;bike</span></li>
+                        <li>Connessione <span xml:lang="en">Wi&ndash;Fi</span> nelle camere</li>
+                    </ul>
+                </div>
+                <div class="lista">
+                    <ul>
+                        <li><strong>I servizi disponibili a pagamento:</strong></li>
+                        <li>Pranzo al sacco </li>
+                        <li>Noleggio biciclette</li>
+                        <li>Noleggio sci e scarponi (solo nelle strutture bellunesi)</li>
+                        <li>Servizio taxi da/per la stazione pi&ugrave; vicina</li>
+                    </ul>
+                </div>
+
             <div id="imgCamere">
                 <img class="camera" src="img/borgo.png" alt="foto di un borgo" />
                 <img class="camera" src="img/dolomiti.png" alt="foto panoramica della Dolomiti" />
