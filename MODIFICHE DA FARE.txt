@@ -1,52 +1,20 @@
-CREATE TABLE `BeB` (
-  `Nome` varchar(30) NOT NULL,
-  `BeB` varchar(50) NOT NULL,
-  `Telefono` varchar(20) DEFAULT NULL,
-  `Indirizzo` varchar(50) NOT NULL,
-  `Citta` varchar(50) NOT NULL,
-  `Mappa` varchar(2083) CHARACTER SET utf8 NOT NULL,
-  PRIMARY KEY (`Nome`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-INSERT INTO `BeB` VALUES ('alborgo','AlBorgo','+39 0000 000000','Via Ventolone, 4','435032 Arqu&agrave; Petrarca (PD)','https://goo.gl/maps/9VnRUVpRX7C2'),('boscoverde','Boscoverde','+39 0000 000000','Via Visome, 211','32100 Belluno (BL)','https://goo.gl/maps/zkUznEEVUAo'),('cadorehaus','CadoreHaus','+39 0000 000000','Via Saletta, 30','32041 Auronzo di Cadore (BL)','https://goo.gl/maps/RNhypTnWjv92'),('lacorte','LaCorte','+39 0000 000000','Via Bassafonda, 46','45010 Rosolina (RO)','https://goo.gl/maps/R8aMwSJQsUs'),('lastelladelviandante','StelladelViandante','+39 0000 000000','Via Danilo Busin, 7','32020 Falcade (BL)','https://goo.gl/maps/e6JwcoXmWN12');
-
-
-COSA MANCA
-
-MIGLIORARE accessibilita'
-Aggiungere Javascript
-Migliorare form (meglio usare PHP)
-
-VALIDARE CSS
-CSS stampa
-CSS mobile per pagina prenotazioni.php da sistemare
-
-il database non funziona, nonostante lo abbia settato (DC)
+COSA MANCA:
+	MIGLIORARE accessibilita'
+	Aggiungere Javascript
+	CSS stampa
 
 C'è un pixel di troppo nel menù mobile per colpa dell'icona
 Il bottone top va posizionato diversamente per il mobile
 
-RELAZIONE piu' dettagliata (GIULIA)
 
+
+	RELAZIONE piu' dettagliata (GIULIA)
 
 
 
 VALIDARE html FATTO
-Pagine valiate: TUTTE
-	- areaPrivata
-	- areaUtente
-	- B&B
-	- boscoverde
-	- cadorehaus
-	- contatti (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
-	- footer
-	- il borgo
-	- index
-	- lacorte
-	- login (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
-	- menu
-	- prenotazioni (mi dà warning per la parte di <form>...</form>, credo sia normale, per il resto ok)
-	- stelladelviandante
+
+VALIDARE css FATTO
 
 Controllare id FATTO
 
@@ -55,3 +23,8 @@ Eliminare link circolari da menù FATTO
 MENU' Mobile FATTO
 
 Eliminare px e mettere la dimensione delle immagini in % FATTO
+
+Migliorare form (meglio usare PHP) FATTO
+
+CSS mobile da sistemare FATTO
+
