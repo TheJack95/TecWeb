@@ -1,3 +1,11 @@
+/*
+credenziali di accesso 
+    host:	localhost
+    username:	gfiorese
+    password:	eeNgeeghaiBooqu1
+    database:	gfiorese
+*/
+
 CREATE TABLE IF NOT EXISTS Utente (
   Login varchar(10) PRIMARY KEY,
   Password varchar(20)
