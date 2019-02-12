@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	
 	<head>
-        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 		<title>B&amp;B Cadore Haus</title>
 		<link rel="icon" href="img/cadorehausLogo.png" />
 		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen" />

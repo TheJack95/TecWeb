@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
-        <title>Prenotazioni</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Prenotazioni</title>
 	    <link rel="icon" href="img/logogeg.jpg" />
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="contatti.css" media="screen" />
@@ -9,6 +10,7 @@
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <link rel="stylesheet" type="text/css" href="menu.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="footer.css" media="screen" />
+	<script type="text/javascript" src="scrollback.js"></script>
     </head>
 
     <body id="pren">
