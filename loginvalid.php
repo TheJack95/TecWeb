@@ -6,7 +6,6 @@ $user = $pass = "";
 $booluser = $boolpass = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
     if (empty( trim($_POST["user"]) )) {
         $val_user = "CAMPO OBBLIGATORIO VUOTO\n";
     }
@@ -14,7 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $user = $_POST["user"];
         $booluser = true;
     }
-
     if (empty( trim($_POST["pass"]) )) {
         $val_pass = "CAMPO OBBLIGATORIO VUOTO\n";
     }
@@ -24,18 +22,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if($booluser && $boolpass) {
-		/*
-		//credenziali unipd
+
+//credenziali database unipd
 		$host = "localhost";
 		$username = "gfiorese";
 		$password = "eeNgeeghaiBooqu1";
 		$dbname = "gfiorese";
-		*/
-		//credenziali database
-        $host = "localhost";
-        $username = "tecwebgeg";
-        $password = "4QCvxkNWCZS8";
-        $dbname = "my_tecwebgeg";
 
         $connessione = mysqli_connect($host, $username, $password, $dbname);
 		$checkuser = "SELECT * FROM Utente WHERE Login = '$user' && Password = '".$pass."'";
