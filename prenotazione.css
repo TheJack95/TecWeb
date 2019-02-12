@@ -2,7 +2,8 @@
     margin: 0 15% 0 15%;
     overflow: auto;
 }
-#col1{
+
+#col1 {
     float: left;
     width: 45%;
 }
@@ -23,6 +24,6 @@ table {
     width: 100%;
 }
 
-#tabBeb td{
+#tabBeb td {
     border: none;
 }

@@ -1,14 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <title>B&amp;B La Corte</title>
-        <link rel="icon" href="img/lacorteLogo.png"/>
-        <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
+        <link rel="icon" href="img/lacorteLogo.png" />
+        <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
-        <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="menu.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="footer.css" media="screen" />
         <script type="text/javascript" src="scrollback.js"></script>
     </head>
 
@@ -16,15 +16,11 @@
         <div id="header">
             <div id="logo">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div class="testologo">
-                    Bed &amp; Breakfast&rsquo;s
-                </div>
+                <div class="testologo">Bed &amp; Breakfast&rsquo;s</div>
             </div>
             <div id="logo2">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div class="testologo">
-                    Bed &amp; Breakfast&rsquo;s
-                </div>
+                <div class="testologo">Bed &amp; Breakfast&rsquo;s</div>
             </div>
             <h1 class="titolo">
                 <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> La Corte
@@ -33,10 +29,10 @@
 
         <?php include("menu.php"); ?>
 
-
         <div class="tutto">
-            <img id="imgBeB" src="img/lacorte.jpg" alt="La Corte B&amp;B"/>
-            <img id="logoBeB" src="img/lacorteLogo.png" alt="logo La Corte B&amp;B"/>
+            <img id="imgBeB" src="img/lacorte.jpg" alt="La Corte B&amp;B" />
+            <img id="logoBeB" src="img/lacorteLogo.png" alt="logo La Corte B&amp;B" />
+
             <ul id="info">
                 <li>+39 0000 000000</li>
                 <li>Via Bassafonda, 46</li>
@@ -59,15 +55,13 @@
             </p>
 
             <div id="imgCamere">
-                <img class="camera" src="img/lacorteCamera1.jpg" alt="Camera"/>
-                <img class="camera" src="img/lacorteCamera2.jpg" alt="Camera"/>
+                <img class="camera" src="img/lacorteCamera1.jpg" alt="Camera" />
+                <img class="camera" src="img/lacorteCamera2.jpg" alt="Camera" />
             </div>
-
         </div>
 
         <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
+
         <?php include("footer.php"); ?>
-
     </body>
-
 </html>

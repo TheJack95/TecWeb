@@ -1,6 +1,6 @@
-#home .home, #contatti .contatti, #BandB .BandB, #AP .AP,
-#BoscoVerde .BoscoVerde, #CadoreHause .CadoreHause, #Borgo .Borgo, #LaCorte .LaCorte, #StellaViandate .StellaViandante
-{
+#home .home, #BandB .BandB, #BandB .dropbtn, #BoscoVerde .BoscoVerde, #BoscoVerde .dropbtn, #CadoreHause .CadoreHause,
+#CadoreHause .dropbtn, #Borgo .Borgo, #Borgo .dropbtn, #LaCorte .LaCorte, #LaCorte .dropbtn, #StellaViandate .StellaViandante,
+#StellaViandate .dropbtn, #contatti .contatti, #AP .AP {
     background-color: #BD091B;
     color: white;
     cursor: not-allowed;
@@ -25,7 +25,9 @@
     font-weight: bold;
 }
 
-.menu .BeB { display: none; }
+.menu .BeB {
+    display: none;
+}
 
 .menu .icon {
     display: none;
@@ -91,8 +93,7 @@
     background-color: #525252;
 }
 
-/*   MENU MOBILE  */
-
+/*   MENU MOBILE   */
 @media screen and (max-width: 600px) {
     .menu a:not(:first-child), .dropdown .dropbtn {
         display: none;
@@ -106,9 +107,10 @@
     }
 }
 
-
 @media screen and (max-width: 600px) {
-    .menu.responsive { position: relative; }
+    .menu.responsive {
+        position: relative;
+    }
 
     .menu.responsive .icon {
         position: absolute;
@@ -123,9 +125,13 @@
         text-align: left;
     }
 
-    .menu.responsive .dropdown { float: none; }
+    .menu.responsive .dropdown {
+        float: none;
+    }
 
-    .menu.responsive .dropdown-content { position: relative; }
+    .menu.responsive .dropdown-content {
+        position: relative;
+    }
 
     .menu.responsive .dropdown .dropbtn {
         display: block;
