@@ -1,15 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="utf-8" />
         <title>Contatti</title>
-	    <link rel="icon" href="img/logogeg.jpg"/>
-        <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="contatti.css" media="screen"/>
+	    <link rel="icon" href="img/logogeg.jpg" />
+        <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="contatti.css" media="screen" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
-        <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="menu.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="footer.css" media="screen" />
         <script type="text/javascript" src="scrollback.js"></script>
     </head>
 
@@ -17,15 +17,11 @@
         <div id="header">
             <div id="logo">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
-                <div class="testologo">
-                    Bed &amp; Breakfast&rsquo;s
-                </div>
+                <div class="testologo">Bed &amp; Breakfast&rsquo;s</div>
             </div>
             <div id="logo2">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast's GEG"/>
-                <div class="testologo">
-                    Bed &amp; Breakfast&rsquo;s
-                </div>
+                <div class="testologo">Bed &amp; Breakfast&rsquo;s</div>
             </div>
             <h1 class="titolo">
                 <span lang="en">Bed &amp; Breakfast&rsquo;s</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
@@ -37,7 +33,11 @@
         <div class="tutto">
             <h1 class="titolo">Contatti</h1>
             <p class="testo">
-                In questa pagina puoi contattare lo staff di <abbr title="Bed and Breakfast" lang="en">B&amp;B&rsquo;s</abbr> <abbr title="Giulia 		    Erik Giacomo">GEG</abbr>. Per qualunque informazione puoi lasciare un messaggio nell'apposito spazio e verrai ricontattato 		    entro qualche ora. <strong>Puoi utilizzare questo form anche per registrarti al nostro sito</strong>: scrivi nella casella messaggio &ldquo;<strong>ISCRIZIONE</strong>&rdquo; e riceverai delle credenziali d'accesso temporanee via email.
+                In questa pagina puoi contattare lo staff di <abbr title="Bed and Breakfast" lang="en">B&amp;B&rsquo;s</abbr>
+                <abbr title="Giulia Erik Giacomo">GEG</abbr>. Per qualunque informazione puoi lasciare un messaggio
+                nell'apposito spazio e verrai ricontattato entro qualche ora. <strong>Puoi utilizzare questo form anche
+                per registrarti al nostro sito</strong>: scrivi nella casella messaggio &ldquo;<strong>ISCRIZIONE</strong>&rdquo; e
+                riceverai delle credenziali d'accesso temporanee via email.
             </p>
 
             <?php include("formvalid.php"); ?>

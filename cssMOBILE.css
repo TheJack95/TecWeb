@@ -38,9 +38,7 @@
     font-size: 0.5em;
 }
 
-
 /*   PAGINA BandB   */
-
 .container {
     box-shadow: none;
     background: none;
@@ -61,8 +59,7 @@
 }
 
 
-/*  PAGINE dei BeB*/
-
+/*  PAGINE dei BeB  */
 #imgBeB {
     float: none;
     display: block;
@@ -76,9 +73,7 @@
     text-align: center;
 }
 
-
 /*  PAGINA CONTATTI  */
-
 #contact {
     width: 100%;
     font-size: 1.2em;
@@ -102,8 +97,7 @@
     float: none;
 }
 
-/*Area privata utente*/
-
+/*  Area privata utente  */
 #col1 {
     display: none;
 }
@@ -113,9 +107,7 @@
     margin-left: 5%;
 }
 
-
-/*  FOOTER */
-
+/*  FOOTER  */
 #footer ul li {
     font-size: 1em;
     display: inline-block;

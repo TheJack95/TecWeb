@@ -5,9 +5,9 @@
 		<title>Bed &amp; Breakfast&rsquo;s</title>
         <link rel="icon" href="img/logogeg.jpg"/>
         <link rel="stylesheet" type="text/css" href="fogliocss.css" media="handheld, screen" />
-		<link rel="stylesheet" type="text/css" href="CSSBandB.css" media="handheld, screen"/>
-		<link rel="stylesheet" type="text/css" href="menu.css" media="handheld, screen"/>
-		<link rel="stylesheet" type="text/css" href="footer.css" media="handheld, screen"/>
+		<link rel="stylesheet" type="text/css" href="CSSBandB.css" media="handheld, screen" />
+		<link rel="stylesheet" type="text/css" href="menu.css" media="handheld, screen" />
+		<link rel="stylesheet" type="text/css" href="footer.css" media="handheld, screen" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
         <script type="text/javascript" src="scrollback.js"></script>
@@ -17,22 +17,17 @@
         <div id="header">
             <div id="logo">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div class="testologo">
-                    Bed &amp; Breakfast&rsquo;s
-                </div>
+                <div class="testologo">Bed &amp; Breakfast&rsquo;s</div>
             </div>
 
             <div id="logo2">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div class="testologo">
-                    Bed &amp; Breakfast&rsquo;s
-                </div>
+                <div class="testologo">Bed &amp; Breakfast&rsquo;s</div>
             </div>
 
             <h1 class="titolo">
                 <span lang="en">Bed &amp; Breakfast&rsquo;s</span> <abbr title="Giulia Erik Giacomo">GEG</abbr>
             </h1>
-
         </div>
 
         <?php include("menu.php"); ?>
@@ -62,9 +57,9 @@
                 <h1>B&amp;B Boscoverde</h1>
                 <img src="img/boscoverde.png" alt="B&amp;B Boscoverde"/>
                 <p>
-                    Nel nostro B&amp;B ogni camera &egrave; dotata di arredamento completo: letti con possibilità a scelta di letto matrimoniale o
-                    di due letti singoli, comodini, divano, set di biancheria da camera completo, televisore, fornitura di energia
-                    elettrica, riscaldamento, aria condizionata e servizio di pulizie quotidiane.
+                    Nel nostro B&amp;B ogni camera &egrave; dotata di arredamento completo: letti con possibilità a scelta di letto
+                    matrimoniale o di due letti singoli, comodini, divano, set di biancheria da camera completo, televisore,
+                    fornitura di energia elettrica, riscaldamento, aria condizionata e servizio di pulizie quotidiane.
                 </p>
                 <p>
                     <a href="boscoverde.php">Maggiori informazioni</a>
@@ -139,7 +134,9 @@
                 <li><a href="https://goo.gl/maps/WKHxmnzboQG2" target="_blank">Guarda nella mappa</a></li>
             </ul>
         </div>
+
         <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
+
         <?php include("footer.php"); ?>
     </body>
 </html>

@@ -2,30 +2,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	
 	<head>
-        <meta charset="utf-8"/>
+        <meta charset="utf-8" />
 		<title>B&amp;B Cadore Haus</title>
-		<link rel="icon" href="img/cadorehausLogo.png"/>
-		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
+		<link rel="icon" href="img/cadorehausLogo.png" />
+		<link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
-		<link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
-		<link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="menu.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="footer.css" media="screen" />
         <script type="text/javascript" src="scrollback.js"></script>
 	</head>
 	
 	<body id="CadoreHause">
 		<div id="header">
 			<div id="logo">
-				<img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
-				<div class="testologo">
-					Bed &amp; Breakfast&rsquo;s
-				</div>
+				<img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG" />
+				<div class="testologo">Bed &amp; Breakfast&rsquo;s</div>
 			</div>
             <div id="logo2">
-                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG"/>
-                <div class="testologo">
-                    Bed &amp; Breakfast&rsquo;s
-                </div>
+                <img src="img/logogeg.jpg" alt="logo Bed & Breakfast's GEG" />
+                <div class="testologo">Bed &amp; Breakfast&rsquo;s</div>
             </div>
 			<h1 class="titolo">
                 <abbr title="Bed and Breakfast" lang="en">B&amp;B</abbr> Cadore Haus
@@ -34,11 +30,9 @@
 
 		<?php include("menu.php"); ?>
 
-
         <div class="tutto">
-
-            <img id="imgBeB" src="img/cadorehaus.png" alt="Ecco come si presenta la Cadore Haus, con i suoi splendidi balconi in legno adornati di fiori."/>
-            <img id="logoBeB" src="img/cadorehausLogo.png" alt="Logo Cadore Haus"/>
+            <img id="imgBeB" src="img/cadorehaus.png" alt="Ecco come si presenta la Cadore Haus" />
+            <img id="logoBeB" src="img/cadorehausLogo.png" alt="Logo Cadore Haus" />
 
             <ul id="info">
                 <li>+39 0000 000000</li>
@@ -61,14 +55,15 @@
                 articola su due piani: al piano terra si trova la reception, una piccola hall e la sala dove viene
                 servita la colazione. Al primo piano si trovano le camere, ciascuna dotata di bagno autonomo.
             </p>
+
             <div id="imgCamere">
-                <img class="camera" src="img/cadorehausCamera1.jpg" alt="Camera"/>
-                <img class="camera" src="img/cadorehausCamera2.jpg" alt="Camera"/>
+                <img class="camera" src="img/cadorehausCamera1.jpg" alt="Camera" />
+                <img class="camera" src="img/cadorehausCamera2.jpg" alt="Camera" />
             </div>
         </div>
+
         <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
 
         <?php include("footer.php"); ?>
 	</body>
-
 </html>

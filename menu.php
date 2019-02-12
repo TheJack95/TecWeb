@@ -20,7 +20,7 @@
 
 <!-- Gli script sono stati messi qua per comodità al posto di fare un file separato in quanto sono solo per il menù -->
 <script type="text/javascript">
-    /* Cambia testo di un link del menù */
+/* Cambia testo di un link del menù */
     if(document.title === "Area Privata") {
         document.getElementById("log").innerHTML = "Logout";
         document.getElementById("log").style.cursor = "pointer";
