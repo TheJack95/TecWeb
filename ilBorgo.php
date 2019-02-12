@@ -1,14 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="utf-8" />
         <title>B&B Al Borgo</title>
-        <link rel="icon" href="img/alborgoLogo.png"/>
-        <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen"/>
+        <link rel="icon" href="img/alborgoLogo.png" />
+        <link rel="stylesheet" type="text/css" href="fogliocss.css" media="screen" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" media="screen and (max-width:600px)" href="cssMOBILE.css" />
-        <link rel="stylesheet" type="text/css" href="menu.css" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="footer.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="menu.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="footer.css" media="screen" />
         <script type="text/javascript" src="scrollback.js"></script>
     </head>
 
@@ -16,15 +16,11 @@
         <div id="header">
             <div id="logo">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div class="testologo">
-                    Bed &amp; Breakfast&rsquo;s
-                </div>
+                <div class="testologo">Bed &amp; Breakfast&rsquo;s</div>
             </div>
             <div id="logo2">
                 <img src="img/logogeg.jpg" alt="logo Bed &amp; Breakfast&rsquo;s GEG"/>
-                <div class="testologo">
-                    Bed &amp; Breakfast&rsquo;s
-                </div>
+                <div class="testologo">Bed &amp; Breakfast&rsquo;s</div>
             </div>
             <h1 class="titolo">
                 <abbr title="Bed and Breakfast" xml:lang="en">B&amp;B</abbr> Al Borgo
@@ -34,9 +30,8 @@
         <?php include("menu.php"); ?>
 
         <div class="tutto">
-
-            <img id="imgBeB" src="img/alborgo.png" alt="Al Borgo"/>
-            <img id="logoBeB" src="img/alborgoLogo.png" alt="Al Borgo Logo"/>
+            <img id="imgBeB" src="img/alborgo.png" alt="Al Borgo" />
+            <img id="logoBeB" src="img/alborgoLogo.png" alt="Al Borgo Logo" />
 
             <ul id="info">
                 <li>+39 0000 000000</li>
@@ -57,12 +52,13 @@
             </p>
 
             <div id="imgCamere">
-                <img class="camera" src="img/alborgoCamera1.jpg" alt="Camera"/>
-                <img class="camera" src="img/alborgoCamera2.jpg" alt="Camera"/>
+                <img class="camera" src="img/alborgoCamera1.jpg" alt="Camera" />
+                <img class="camera" src="img/alborgoCamera2.jpg" alt="Camera" />
             </div>
         </div>
+
         <button type="button" id="top-button" onclick="topFunction()">&#8593;</button>
+
         <?php include("footer.php"); ?>
     </body>
-
 </html>
