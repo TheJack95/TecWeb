@@ -46,6 +46,8 @@ CREATE TABLE IF NOT EXISTS Prenotazione (
 
 
 
+/* popolamento tabelle */
+
 INSERT INTO Utente (Login, Password) VALUES ('admin','admin'),('user','user');
 
 INSERT INTO BeB (Nome, BeB, Telefono, Indirizzo, Citta, Mappa)
