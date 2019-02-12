@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS Prenotazione (
 );
 
 
---- popolamento tabelle ---
+
 INSERT INTO Utente (Login, Password) VALUES ('admin','admin'),('user','user');
 
 INSERT INTO BeB (Nome, BeB, Telefono, Indirizzo, Citta, Mappa)
@@ -52,5 +52,5 @@ VALUES ('1','Giulia','Fiorese','0000000000','giulia.fiorese.1@studenti.unipd.it'
 ('2','Giulia','Fiorese',NULL,'giulia.fiorese.1@studenti.unipd.it','Nelle vostre strutture accettate animali domestici? Grazie. Giulia');
 
 INSERT INTO Prenotazione (Id, Username, Nome, Cognome, Telefono, Email, Messaggio, Checkin, Checkout, BeB, Persone)
-VALUES ('1','user','Giulia','Fiorese','000 0000000','giulia.fiorese.1@studenti.unipd.it','PRENOTAZIONE','2019-02-21','2019-02-23','alborgo','2'),
-('2','user','Giulia','Fiorese','000 0000000','giulia.fiorese.1@studenti.unipd.it','Vorrei prenotare due camere matrimoniali, se possibile. Grazie. Giulia','2019-03-01','2019-03-03','cadorehaus','4');
+VALUES ('1','user','Giulia','Fiorese','000 0000000','giulia.fiorese.1@studenti.unipd.it','PRENOTAZIONE','2019-02-21','2019-02-23','AlBorgo','2'),
+('2','user','Giulia','Fiorese','000 0000000','giulia.fiorese.1@studenti.unipd.it','Vorrei prenotare due camere matrimoniali, se possibile. Grazie. Giulia','2019-03-01','2019-03-03','CadoreHaus','4');
