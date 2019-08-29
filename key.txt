@@ -1,0 +1,30 @@
+url: tecwebgeg.altervista.org
+
+// ACCOUNT
+
+username: tecwebgeg
+password: 4QCvxkNWCZS8
+
+// CONNESSIONE SSH
+
+host: ftp.tecwebgeg.altervista.org
+username: tecwebgeg
+password: 4QCvxkNWCZS8
+porta 21
+modalità passiva
+
+// CREDENZIALI UNIPD
+
+$host = "localhost";
+$user = "gfiorese";
+$password = "eeNgeeghaiBooqu1";
+$dbname = "gfiorese";
+
+
+// CREDENZIALI ALTERVISTA
+
+$host = "localhost";
+$user = "tecwebgeg";
+$password = "4QCvxkNWCZS8";
+$dbname = "my_tecwebgeg";
+
